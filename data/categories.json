@@ -1,0 +1,5 @@
+{
+    "labels": ["Produto Principal (R$127)", "Order Bump 1 (R$6)", "Order Bump 2 (R$7)", "Upsells"],
+    "values": [127, 6, 7, 60],
+    "colors": ["#3498db", "#2ecc71", "#f1c40f", "#9b59b6"]
+}

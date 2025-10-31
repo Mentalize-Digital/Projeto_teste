@@ -1,0 +1,199 @@
+[
+    {
+        "fase": "FASE 1: Otimização Imediata de Tráfego",
+        "prazo": "Semana 1-2",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Auditoria e Limpeza de Campanhas",
+                "responsavel": "Ricardo",
+                "prazo": "3 dias",
+                "metrica": "CPA médio abaixo de R$ 85",
+                "subtarefas": [
+                    "Filtrar últimos 7 dias no Gerenciador de Anúncios",
+                    "Listar campanhas com CPA > R$ 90",
+                    "Identificar anúncios que consomem budget sem resultado",
+                    "Pausar anúncios com performance ruim",
+                    "Documentar métricas de campanhas campeãs"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Implementar Lateralização Diária",
+                "responsavel": "Ricardo",
+                "prazo": "Contínuo",
+                "metrica": "Mínimo 5 campanhas ativas com CPA < R$ 80",
+                "subtarefas": [
+                    "Análise manhã (8h-12h): Resultados 19h-8h",
+                    "Análise tarde (12h-14h): Verificar IC das duplicações",
+                    "Análise noite (18h-20h): Preparar duplicações dia seguinte"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Otimização de CBOs",
+                "responsavel": "Ricardo",
+                "prazo": "5 dias",
+                "metrica": "Redução de 30% no desperdício de orçamento",
+                "subtarefas": [
+                    "Identificar anúncio vencedor em cada CBO",
+                    "Duplicar anúncio vencedor 3-4x no mesmo conjunto",
+                    "Pausar anúncios que não performam",
+                    "Testar orçamentos: R$ 70, 90, 110, 130",
+                    "Criar planilha de controle de performance"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: Estrutura de Base e Automação",
+        "prazo": "Semana 2-4",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Implementar Sistema de Qualificação",
+                "responsavel": "Ricardo + Monitor",
+                "prazo": "7 dias",
+                "metrica": "70% dos novos clientes preenchendo formulário",
+                "subtarefas": [
+                    "Criar formulário de qualificação",
+                    "Integrar com Active Vendor",
+                    "Configurar triggers e tags no CRM",
+                    "Criar segmentações: HOT, WARM, COLD"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Estruturar Processo Comercial",
+                "responsavel": "Ricardo",
+                "prazo": "10 dias",
+                "metrica": "10 conversas comerciais agendadas no primeiro mês",
+                "subtarefas": [
+                    "Criar script de abordagem para leads HOT",
+                    "Definir critérios para contato comercial",
+                    "Estruturar oferta de consultoria/mentoria",
+                    "Criar apresentação de vendas (pitch deck)",
+                    "Treinar abordagem (roleplay)"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Implementar Ferramentas de Automação",
+                "responsavel": "Monitor + Ricardo",
+                "prazo": "14 dias",
+                "metrica": "80% das comunicações automatizadas",
+                "subtarefas": [
+                    "Contratar/configurar Active Campaign",
+                    "Criar sequências de email",
+                    "Integrar com WhatsApp Business API",
+                    "Criar régua de relacionamento automatizada",
+                    "Configurar tags por comportamento"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: Novos Produtos e Monetização",
+        "prazo": "Semana 4-8",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Desenvolver Sistema SaaS",
+                "responsavel": "Ricardo + Programador",
+                "prazo": "30 dias",
+                "metrica": "200 trials ativados no primeiro mês",
+                "subtarefas": [
+                    "Validar MVP do sistema de controle financeiro",
+                    "Definir precificação (R$ 97-147/mês)",
+                    "Criar página de vendas do SaaS",
+                    "Integrar com área de membros",
+                    "Configurar trial de 30 dias",
+                    "Criar sequência de onboarding",
+                    "Integrar cobrança recorrente"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Criar Produto de Ticket Médio",
+                "responsavel": "Ricardo + Monitor",
+                "prazo": "21 dias",
+                "metrica": "50 vendas no primeiro lançamento = R$ 50k",
+                "subtarefas": [
+                    "Definir tema: 'Como economizar R$ 200 mil'",
+                    "Criar conteúdo (módulos, aulas)",
+                    "Gravar material",
+                    "Criar página de vendas",
+                    "Estruturar comunicação (2 meses antes)",
+                    "Criar sequência de emails/WhatsApp"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Estruturar Oferta High Ticket",
+                "responsavel": "Ricardo + Monitor",
+                "prazo": "30 dias",
+                "metrica": "5 clientes no primeiro trimestre",
+                "subtarefas": [
+                    "Definir formato (individual vs. grupo)",
+                    "Precificar: R$ 6.000 - R$ 20.000",
+                    "Criar critérios de qualificação",
+                    "Desenvolver material de vendas",
+                    "Treinar pitch de vendas",
+                    "Criar processo seletivo"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 4: Escala e Sistemização",
+        "prazo": "Semana 8-12",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "4.1",
+                "titulo": "Criar Dashboard de Métricas",
+                "responsavel": "Monitor + Ricardo",
+                "prazo": "7 dias",
+                "metrica": "Visibilidade em tempo real de todas métricas",
+                "subtarefas": [
+                    "Configurar Looker Studio / Power BI",
+                    "Integrar dados do Meta Ads",
+                    "Integrar dados de vendas (checkout)",
+                    "Configurar métricas: CPA, ROI, LTV, etc",
+                    "Criar relatório automático diário"
+                ]
+            },
+            {
+                "id": "4.2",
+                "titulo": "Testar Novos Canais",
+                "responsavel": "Ricardo + Monitor",
+                "prazo": "30 dias",
+                "metrica": "CPA < R$ 90 em novos canais",
+                "subtarefas": [
+                    "Reativar testes no Google Ads",
+                    "Configurar remarketing",
+                    "Testar YouTube Ads",
+                    "Testar Pinterest Ads",
+                    "Testar TikTok Ads"
+                ]
+            },
+            {
+                "id": "4.3",
+                "titulo": "Otimizar Funil de Conversão",
+                "responsavel": "Monitor + Designer",
+                "prazo": "14 dias",
+                "metrica": "Aumentar conversão de 8% para 10-12%",
+                "subtarefas": [
+                    "Análise de conversão da página atual",
+                    "Implementar testes A/B",
+                    "Melhorar velocidade de carregamento",
+                    "Implementar checkout em uma página",
+                    "Adicionar urgência/escassez"
+                ]
+            }
+        ]
+    }
+]

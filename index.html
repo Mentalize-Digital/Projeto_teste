@@ -1,156 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sales Performance Overview - Q3 2024</title>
+    <title>Dashboard Mentoria Ricardo - Viabilizando Sua Construção</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <div class="dashboard">
-        <div class="sidebar">
-            <div class="logo">
-                <img src="https://via.placeholder.com/40" alt="BI Corp Logo">
-                <span>Business Intelligence</span>
+    <header>
+        <h1>Dashboard Mentoria Ricardo</h1>
+        <p class="subtitle">viabilizandosuaconstrucao.com.br</p>
+    </header>
+
+    <main>
+        <!-- Seção de KPIs -->
+        <section class="kpi-section">
+            <div class="kpi-card" id="metrics">
+                <!-- KPIs serão inseridos aqui dinamicamente -->
             </div>
-            
-            <div class="filters">
-                <h3>Filters</h3>
-                <div class="search-box">
-                    <input type="text" placeholder="Search filters...">
-                </div>
-                
-                <div class="filter-section">
-                    <h4>Date Range</h4>
-                    <select>
-                        <option>Last 90 Days</option>
-                    </select>
-                </div>
+        </section>
 
-                <div class="filter-section">
-                    <h4>Region</h4>
-                    <label><input type="checkbox" checked> North America</label>
-                    <label><input type="checkbox" checked> Europe</label>
-                    <label><input type="checkbox" checked> Asia</label>
-                </div>
-
-                <div class="filter-section">
-                    <h4>Customer Segment</h4>
-                    <label><input type="checkbox" checked> Enterprise</label>
-                    <label><input type="checkbox" checked> SMB</label>
-                </div>
-
-                <div class="filter-section">
-                    <h4>Marketing Channel</h4>
-                    <label><input type="checkbox" checked> Organic</label>
-                    <label><input type="checkbox" checked> Direct</label>
-                    <label><input type="checkbox" checked> Referral</label>
-                    <label><input type="checkbox" checked> Paid</label>
-                </div>
-
-                <button class="apply-filters">Apply Filters</button>
-                <button class="reset">Reset</button>
+        <!-- Seção de Gráficos -->
+        <section class="charts-section">
+            <div class="chart-container">
+                <h3>Distribuição de Tráfego</h3>
+                <canvas id="trafficChart"></canvas>
             </div>
-        </div>
-
-        <main class="content">
-            <header>
-                <h1>Sales Performance Overview - Q3 2024</h1>
-                <p class="subtitle">Live data from the last 90 days.</p>
-            </header>
-
-            <div class="metrics-grid">
-                <div class="metric-card" data-aos="fade-up" data-aos-delay="100">
-                    <h3>Total Revenue</h3>
-                    <div class="metric-value" id="revenue-counter">$1.2M</div>
-                    <div class="metric-change positive">+5.2%</div>
-                </div>
-                <div class="metric-card" data-aos="fade-up" data-aos-delay="200">
-                    <h3>New Customers</h3>
-                    <div class="metric-value" id="customers-counter">3,450</div>
-                    <div class="metric-change positive">+8.1%</div>
-                </div>
-                <div class="metric-card" data-aos="fade-up" data-aos-delay="300">
-                    <h3>Average Order Value</h3>
-                    <div class="metric-value" id="avg-order-counter">$349.50</div>
-                    <div class="metric-change negative">-1.5%</div>
-                </div>
-                <div class="metric-card" data-aos="fade-up" data-aos-delay="400">
-                    <h3>Conversion Rate</h3>
-                    <div class="metric-value" id="conversion-counter">4.8%</div>
-                    <div class="metric-change positive">+0.3%</div>
-                </div>
+            <div class="chart-container">
+                <h3>Estrutura de Produtos</h3>
+                <canvas id="categoryChart"></canvas>
             </div>
+            <div class="chart-container">
+                <h3>Performance Semanal (Investimento vs Retorno)</h3>
+                <canvas id="campaignChart"></canvas>
+            </div>
+        </section>
 
-            <div class="charts-grid">
-                <div class="chart revenue-chart" data-aos="fade-right">
-                    <h3>Revenue by Month</h3>
-                    <p class="chart-subtitle">Last 90 Days</p>
-                    <canvas id="revenueChart"></canvas>
-                </div>
-                <div class="chart traffic-chart" data-aos="fade-left">
-                    <h3>Traffic Source Distribution</h3>
-                    <canvas id="trafficChart"></canvas>
-                    <div class="total-visitors">
-                        <span>Total Visitors</span>
-                        <strong id="visitors-counter">150k</strong>
+        <!-- Seção de Checklist -->
+        <section class="checklist-section">
+            <div class="checklist-container">
+                <div class="checklist-header">
+                    <h2>Plano de Ação da Mentoria</h2>
+                    <div class="progress-controls">
+                        <span id="progress-text">0 de 0 concluídas (0%)</span>
+                        <button id="reset-checklist" class="btn-reset" title="Resetar progresso">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                                <path d="M8 3a5 5 0 1 0 4.546 2.914.5.5 0 0 1 .908-.417A6 6 0 1 1 8 2v1z"/>
+                                <path d="M8 4.466V.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384L8.41 4.658A.25.25 0 0 1 8 4.466z"/>
+                            </svg>
+                            Resetar
+                        </button>
                     </div>
                 </div>
-            </div>
-
-            <div class="bottom-grid">
-                <div class="product-categories">
-                    <h3>Sales by Product Category</h3>
-                    <p class="chart-subtitle">Last 90 Days</p>
-                    <canvas id="categoryChart"></canvas>
+                <div class="progress-bar-container">
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+                    </div>
                 </div>
-
-                <div class="campaigns">
-                    <h3>Top Performing Campaigns</h3>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Campaign Name</th>
-                                <th>Spend</th>
-                                <th>Impressions</th>
-                                <th>ROI</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Summer Sale 2024</td>
-                                <td>$5,200</td>
-                                <td>1.2M</td>
-                                <td class="positive">350%</td>
-                            </tr>
-                            <tr>
-                                <td>Back to School Promo</td>
-                                <td>$8,000</td>
-                                <td>2.5M</td>
-                                <td class="positive">420%</td>
-                            </tr>
-                            <tr>
-                                <td>Holiday Season Kickoff</td>
-                                <td>$12,500</td>
-                                <td>3.1M</td>
-                                <td class="positive">280%</td>
-                            </tr>
-                            <tr>
-                                <td>New Product Launch</td>
-                                <td>$3,100</td>
-                                <td>800k</td>
-                                <td class="negative">-15%</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div id="checklist">
+                    <!-- Checklist será inserido aqui dinamicamente -->
                 </div>
             </div>
-        </main>
-    </div>
+        </section>
+
+        <!-- Plano de Execução e Monitoramento -->
+        <section class="execution-plan-section">
+            <div class="section-header">
+                <h2>📋 Plano de Execução e Monitoramento</h2>
+                <div class="phase-filter">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="em-andamento">Em Andamento</button>
+                    <button class="filter-btn" data-filter="pendente">Pendentes</button>
+                </div>
+            </div>
+            <div id="executionPlanContainer" class="execution-plan-container">
+                <!-- Gerado dinamicamente pelo JavaScript -->
+            </div>
+        </section>
+
+        <!-- KPIs de Monitoramento -->
+        <section class="monitoring-section">
+            <h2>📊 Monitoramento de KPIs</h2>
+            <div id="monitoringKPIs" class="monitoring-grid">
+                <!-- Gerado dinamicamente pelo JavaScript -->
+            </div>
+        </section>
+
+        <!-- Ações Prioritárias -->
+        <section class="actions-section">
+            <h2>🎯 Ações Prioritárias por Métrica</h2>
+            <div id="priorityActions" class="actions-container">
+                <!-- Gerado dinamicamente pelo JavaScript -->
+            </div>
+        </section>
+
+        <!-- Timeline de Metas -->
+        <section class="timeline-section">
+            <h2>📅 Timeline de Metas (90 dias)</h2>
+            <div id="timelineMetas" class="timeline-container">
+                <!-- Gerado dinamicamente pelo JavaScript -->
+            </div>
+        </section>
+    </main>
+
     <script src="scripts.js"></script>
 </body>
 </html>

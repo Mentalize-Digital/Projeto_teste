@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Faturamento Mensal",
+        "value": 150000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Novos Clientes/Mês",
+        "value": 650,
+        "type": "number",
+        "change": 8.3
+    },
+    {
+        "label": "ROI Atual",
+        "value": 200,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 200,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "CPA Atual",
+        "value": 90,
+        "type": "currency",
+        "change": -10
+    },
+    {
+        "label": "Base de Clientes",
+        "value": 18000,
+        "type": "number",
+        "change": 15
+    },
+    {
+        "label": "Investimento Diário",
+        "value": 1100,
+        "type": "currency",
+        "change": 10
+    },
+    {
+        "label": "Retorno Diário",
+        "value": 2350,
+        "type": "currency",
+        "change": 15
+    }
+]

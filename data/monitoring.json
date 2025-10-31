@@ -1,0 +1,150 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Tráfego Pago",
+                "indicadores": [
+                    { "nome": "CPA Médio", "meta": "< R$ 80", "atual": "R$ 86,11", "status": "alerta" },
+                    { "nome": "ROI", "meta": "> 200%", "atual": "200%", "status": "ok" },
+                    { "nome": "CTR", "meta": "> 2%", "atual": "1.8%", "status": "alerta" },
+                    { "nome": "CPM", "meta": "< R$ 50", "atual": "R$ 45", "status": "ok" },
+                    { "nome": "Frequência", "meta": "< 3", "atual": "2.4", "status": "ok" }
+                ]
+            },
+            {
+                "categoria": "Conversão e Vendas",
+                "indicadores": [
+                    { "nome": "Taxa de Conversão", "meta": "> 10%", "atual": "8%", "status": "alerta" },
+                    { "nome": "Ticket Médio", "meta": "> R$ 150", "atual": "R$ 127", "status": "alerta" },
+                    { "nome": "Taxa Order Bump", "meta": "> 15%", "atual": "12%", "status": "alerta" },
+                    { "nome": "Taxa Upsell", "meta": "> 20%", "atual": "18%", "status": "alerta" },
+                    { "nome": "Faturamento Mensal", "meta": "> R$ 200k", "atual": "R$ 150k", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Base de Clientes",
+                "indicadores": [
+                    { "nome": "Clientes Ativos", "meta": "> 20k", "atual": "18.240", "status": "alerta" },
+                    { "nome": "Taxa de Cancelamento", "meta": "< 5%", "atual": "3.5%", "status": "ok" },
+                    { "nome": "LTV", "meta": "> R$ 300", "atual": "R$ 274", "status": "alerta" },
+                    { "nome": "NPS", "meta": "> 50", "atual": "65", "status": "excelente" }
+                ]
+            },
+            {
+                "categoria": "Processo Comercial",
+                "indicadores": [
+                    { "nome": "Leads Qualificados/Mês", "meta": "> 50", "atual": "0", "status": "critico" },
+                    { "nome": "Taxa Agendamento", "meta": "> 30%", "atual": "N/A", "status": "critico" },
+                    { "nome": "Taxa Conversão Vendas", "meta": "> 20%", "atual": "N/A", "status": "critico" },
+                    { "nome": "Ticket Médio High Ticket", "meta": "> R$ 10k", "atual": "N/A", "status": "critico" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "CPA Médio (R$ 86,11)",
+                "status": "alerta",
+                "gap": "Meta: < R$ 80 | Atual: R$ 86,11 | Diferença: -R$ 6,11",
+                "acoes": [
+                    "Pausar campanhas com CPA > R$ 90 nos próximos 3 dias",
+                    "Implementar lateralização diária (duplicar campanhas vencedoras)",
+                    "Otimizar CBOs identificando anúncios vencedores",
+                    "Testar novos orçamentos: R$ 70, 90, 110, 130"
+                ]
+            },
+            {
+                "metrica": "Taxa de Conversão (8%)",
+                "status": "alerta",
+                "gap": "Meta: > 10% | Atual: 8% | Diferença: -2%",
+                "acoes": [
+                    "Implementar checkout em uma página",
+                    "Adicionar elementos de urgência/escassez",
+                    "Testar variações de copy e headlines",
+                    "Melhorar velocidade de carregamento da página",
+                    "Implementar provas sociais mais evidentes"
+                ]
+            },
+            {
+                "metrica": "Ticket Médio (R$ 127)",
+                "status": "alerta",
+                "gap": "Meta: > R$ 150 | Atual: R$ 127 | Diferença: -R$ 23",
+                "acoes": [
+                    "Aumentar taxa de order bump de 12% para 20%",
+                    "Aumentar taxa de upsell de 18% para 30%",
+                    "Criar novo order bump de R$ 27-47",
+                    "Testar upsell de R$ 97 (produto complementar)",
+                    "Implementar downsell após rejeição do upsell"
+                ]
+            },
+            {
+                "metrica": "Processo Comercial (Inexistente)",
+                "status": "critico",
+                "gap": "Meta: 50 leads/mês | Atual: 0 | Diferença: -50",
+                "acoes": [
+                    "Implementar formulário de qualificação (70% preenchimento)",
+                    "Criar script de abordagem para leads HOT",
+                    "Estruturar oferta de consultoria/mentoria",
+                    "Agendar 10 conversas comerciais no primeiro mês",
+                    "Criar apresentação de vendas (pitch deck)"
+                ]
+            },
+            {
+                "metrica": "Faturamento (R$ 150k)",
+                "status": "alerta",
+                "gap": "Meta: R$ 300k | Atual: R$ 150k | Diferença: -R$ 150k",
+                "acoes": [
+                    "Reduzir CPA para aumentar volume de vendas (+30%)",
+                    "Aumentar ticket médio de R$ 127 para R$ 150 (+18%)",
+                    "Implementar produto de R$ 497-997 (50 vendas/mês = +R$ 50k)",
+                    "Estruturar high ticket de R$ 10k (5 vendas/trim = +R$ 17k/mês)",
+                    "Lançar SaaS com 200 trials = 100 pagantes x R$ 97 = +R$ 10k/mês"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "mes": "Mês 1 (Dias 1-30)",
+                "objetivo": "Otimização e Base",
+                "metas": [
+                    "CPA reduzido para R$ 80 (saving R$ 18k/mês)",
+                    "Taxa conversão aumentada para 9% (+15% vendas)",
+                    "Sistema de qualificação implementado (70% preenchimento)",
+                    "10 conversas comerciais agendadas",
+                    "Ticket médio aumentado para R$ 135 (+6%)"
+                ],
+                "faturamento_projetado": "R$ 165k (+10%)"
+            },
+            {
+                "mes": "Mês 2 (Dias 31-60)",
+                "objetivo": "Novos Produtos e Automação",
+                "metas": [
+                    "CPA estável em R$ 75 (saving R$ 33k/mês)",
+                    "Taxa conversão de 10% (+25% vendas)",
+                    "Produto R$ 497-997 lançado (30 vendas = R$ 30k)",
+                    "Automações implementadas (80% comunicações)",
+                    "SaaS em beta (50 trials)"
+                ],
+                "faturamento_projetado": "R$ 218k (+45%)"
+            },
+            {
+                "mes": "Mês 3 (Dias 61-90)",
+                "objetivo": "Escala e High Ticket",
+                "metas": [
+                    "CPA otimizado para R$ 70 (saving R$ 48k/mês)",
+                    "Taxa conversão de 11% (+37% vendas)",
+                    "Produto R$ 497-997: 50 vendas/mês (R$ 50k)",
+                    "High ticket: 3 vendas x R$ 10k (R$ 30k)",
+                    "SaaS: 100 pagantes x R$ 97 (R$ 10k/mês)"
+                ],
+                "faturamento_projetado": "R$ 296k (+97%)"
+            }
+        ]
+    }
+}
