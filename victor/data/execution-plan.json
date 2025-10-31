@@ -1,0 +1,187 @@
+[
+    {
+        "fase": "FASE 1: FUNDAÇÃO - Rastreamento e Estrutura",
+        "prazo": "Semana 1-2",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Rastreamento & CRM Completo",
+                "responsavel": "Victor + Suporte Técnico Zoho",
+                "prazo": "10 dias",
+                "metrica": "Saber origem de 100% dos leads",
+                "subtarefas": [
+                    "Configurar rastreamento completo (Analytics + Pixel)",
+                    "Integrar CRM Zoho com WhatsApp (Zap Hub)",
+                    "Criar tags de origem para cada campanha",
+                    "Configurar campo 'Origem do Lead' automático no CRM",
+                    "Treinar comercial para registrar vendas no CRM",
+                    "Configurar conversão voltando para Gerenciador Meta",
+                    "Testar rastreamento com campanhas pequenas"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Pré-Qualificação de Leads",
+                "responsavel": "Igor + Dev Zoho",
+                "prazo": "7 dias",
+                "metrica": "Redução de 30% em leads desqualificados",
+                "subtarefas": [
+                    "Criar chatbot com perguntas: Problema? Perfil? Tempo? Contato?",
+                    "Implementar automação para leads noturnos/finais de semana",
+                    "Configurar mensagem: horário comercial + expectativa resposta",
+                    "Filtrar curiosos antes de chegar no comercial"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Migração de Número Comercial",
+                "responsavel": "Victor",
+                "prazo": "14 dias",
+                "metrica": "Novas campanhas com ROI similar às antigas",
+                "subtarefas": [
+                    "Ativar novo número para comercial",
+                    "NÃO PAUSAR campanhas antigas",
+                    "Criar novas campanhas com novo número (paralelas)",
+                    "Deixar rodar 30 dias para otimizar",
+                    "Comparar performance antiga vs nova",
+                    "Só depois desativar antigas (se nova performar melhor)"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: CONTEÚDO & BASE - Humanização",
+        "prazo": "Semana 3-4",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Reformulação de Conteúdo",
+                "responsavel": "Victor + Igor + Agência 360",
+                "prazo": "21 dias",
+                "metrica": "Churn reduzir de 60% para 40%",
+                "subtarefas": [
+                    "PARAR posts tipo 'folhetão' de designer",
+                    "Começar produção de vídeos humanizados (Victor/Igor falando)",
+                    "Criar calendário: 60% educativo, 30% casos, 10% institucional",
+                    "Postar 1-2 Reels por dia (mínimo)",
+                    "Stories diários mostrando bastidores"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Lateralização - Crescimento de Base",
+                "responsavel": "Victor",
+                "prazo": "14 dias",
+                "metrica": "CPF abaixo de R$ 3, churn abaixo de 50%",
+                "subtarefas": [
+                    "Aumentar investimento: R$ 250 → R$ 500/dia",
+                    "Criar 3-5 variações: medo, autoridade, preventivo, justiça",
+                    "Testar públicos: infoprodutores, e-commerce, criadores",
+                    "Acompanhar custo por seguidor (meta: < R$ 3)"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Aproveitamento Clientes VIP",
+                "responsavel": "Igor (relacionamento) + Victor (produção)",
+                "prazo": "30 dias",
+                "metrica": "3 vídeos de depoimento produzidos",
+                "subtarefas": [
+                    "Contactar Kariane, Paulo Vieira, Toguro",
+                    "Gravar vídeos curtos (30-60s) com eles",
+                    "Criar campanhas usando autoridade deles",
+                    "Usar como prova social em todas comunicações",
+                    "Oferecer desconto/brinde em troca de conteúdo"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: EXPANSÃO - Novos Produtos",
+        "prazo": "Mês 2",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Automação de Follow-up",
+                "responsavel": "Victor + Dev automação",
+                "prazo": "45 dias",
+                "metrica": "10 vendas de leads reativados/mês",
+                "subtarefas": [
+                    "Mapear os 10 mil leads antigos no CRM",
+                    "Criar sequência via API (Manychat/SendFlow)",
+                    "Mensagem 1: 'Ainda precisa de ajuda?'",
+                    "Mensagem 2: 'Novidade: WhatsApp/TikTok'",
+                    "Mensagem 3: 'Promoção exclusiva para clientes antigos'",
+                    "Disparos automáticos 1x/semana"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Quiz de Qualificação",
+                "responsavel": "Igor + Agência",
+                "prazo": "30 dias",
+                "metrica": "100 leads qualificados/mês via quiz",
+                "subtarefas": [
+                    "Criar quiz: 'Sua conta está em risco?'",
+                    "Perguntas sobre práticas de risco",
+                    "Resultado: nível de risco (baixo/médio/alto)",
+                    "CTA: 'Quer proteção? Fale com especialista'",
+                    "Landing page dedicada para o quiz",
+                    "Campanha específica para tráfego frio"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Produtos Lateralizados",
+                "responsavel": "Victor + Igor",
+                "prazo": "60 dias",
+                "metrica": "5-10 contratos/mês de novos produtos",
+                "subtarefas": [
+                    "OnlyFans: Landing + Google Ads + E-book (R$ 2-3k recorrente)",
+                    "Blindagem Preventiva: Pacote mensal R$ 500-1k/mês",
+                    "WhatsApp/TikTok: Campanhas e comunicação específicas"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 4: OTIMIZAÇÃO - Escala Inteligente",
+        "prazo": "Mês 3",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "4.1",
+                "titulo": "Dashboard de Métricas",
+                "responsavel": "Victor",
+                "prazo": "Contínuo",
+                "metrica": "Decisões baseadas em dados, não achismo",
+                "subtarefas": [
+                    "Criar dashboard: Investimento, Leads, Conversão, Ticket, ROI",
+                    "Adicionar: CPF, Churn, Taxa conversão",
+                    "Reunião semanal para análise de números",
+                    "Ajustes baseados em métricas claras"
+                ]
+            },
+            {
+                "id": "4.2",
+                "titulo": "Meta Final 90 Dias",
+                "responsavel": "Victor + Igor",
+                "prazo": "90 dias",
+                "metrica": "Faturamento R$ 200k/mês",
+                "subtarefas": [
+                    "Faturamento: R$ 120k → R$ 200k/mês",
+                    "Contratos: 40 → 70 contratos/mês",
+                    "ROI: Manter 10x ou melhorar",
+                    "Churn: 60% → 30%",
+                    "CPF: R$ 5,30 → R$ 2,50",
+                    "Base Instagram: 16k → 50k",
+                    "Rastreamento: 0% → 100%",
+                    "Produtos ativos: 1 → 3"
+                ]
+            }
+        ]
+    }
+]

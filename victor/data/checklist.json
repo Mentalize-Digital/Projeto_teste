@@ -1,0 +1,42 @@
+[
+    {
+        "task": "🔴 URGENTE - Configurar rastreamento completo (Analytics + Pixel + CRM)",
+        "completed": false
+    },
+    {
+        "task": "🔴 URGENTE - Implementar chatbot de pré-qualificação de leads",
+        "completed": false
+    },
+    {
+        "task": "🔴 URGENTE - Migrar número comercial (campanhas paralelas)",
+        "completed": false
+    },
+    {
+        "task": "🟡 IMPORTANTE - Parar posts tipo 'folhetão', começar vídeos humanizados",
+        "completed": false
+    },
+    {
+        "task": "🟡 IMPORTANTE - Aumentar investimento em crescimento de base (R$250→R$500/dia)",
+        "completed": false
+    },
+    {
+        "task": "🟡 IMPORTANTE - Criar 3 vídeos com clientes VIP (Kariane, Paulo Vieira, Toguro)",
+        "completed": false
+    },
+    {
+        "task": "🟢 DESEJÁVEL - Implementar automação de follow-up (10k leads antigos)",
+        "completed": false
+    },
+    {
+        "task": "🟢 DESEJÁVEL - Criar quiz 'Sua conta está em risco?'",
+        "completed": false
+    },
+    {
+        "task": "🟢 DESEJÁVEL - Lançar assessoria OnlyFans (landing + tráfego Google)",
+        "completed": false
+    },
+    {
+        "task": "🟢 DESEJÁVEL - Criar dashboard de métricas semanais",
+        "completed": false
+    }
+]

@@ -1,0 +1,341 @@
+Material de Apoio - Mentoria TAG Advogados
+📊 RESUMO EXECUTIVO DA MENTORIA
+Contexto da Empresa
+
+Empresa: TAG Advogados (Victor e Igor - sócios)
+Nicho: Recuperação judicial de contas Meta (Instagram/Facebook) e BM
+Faturamento Atual: ~R$ 120k/mês (30-50 contratos/mês)
+Ticket Médio: R$ 2.500 - R$ 3.000
+Investimento em Tráfego: R$ 2.500/semana (~R$ 10k/mês)
+ROI Atual: 10-12x (excelente retorno)
+
+
+🎯 PRINCIPAIS PROBLEMAS IDENTIFICADOS
+1. FALTA DE RASTREAMENTO
+
+Problema crítico: Não sabem de onde vêm as vendas
+Tráfego vai direto para WhatsApp sem métricas
+Impossível identificar qual campanha converte mais
+CRM existe mas não é usado pelo comercial
+Impacto: Investimento às cegas, impossível escalar com segurança
+
+2. PERDA DE LEADS (60%+ DE CHURN)
+
+1.407 seguidores ganhos vs 843 perdidos (últimos 30 dias)
+60%+ de evasão - pessoas entram e saem do perfil
+Custo por seguidor muito caro (~R$ 5,30)
+Feed tipo "folhetão" - não gera engajamento
+Causa: Comunicação impessoal, falta de conexão humana
+
+3. ESTRUTURA DE CAPTAÇÃO LIMITADA
+
+90% do investimento em deslocamento direto (WhatsApp)
+Apenas 10% em crescimento de base
+Base pequena (16k) + muito investimento = alta frequência (6x)
+Mais dinheiro = mesma audiência vendo anúncio repetidamente
+Resultado: Teto de escala atingido
+
+4. COMERCIAL SOBRECARREGADO
+
+Sem pré-qualificação de leads
+Atende curiosos, desqualificados, horário comercial limitado
+Sem chatbot ou automação inicial
+Sem follow-up estruturado de leads antigos
+Perda estimada: 20-30% de conversão por falta de atendimento noturno/automação
+
+5. OPORTUNIDADES NÃO EXPLORADAS
+
+Clientes VIP (Kariane, Paulo Vieira, Toguro) sem aproveitamento em conteúdo
+10 mil+ leads na base sem reativação
+Outros produtos (assessoria OnlyFans, blindagem, WhatsApp/TikTok) sem tráfego
+Perfis pessoais (Victor/Igor) não integrados à estratégia
+
+
+📈 MÉTRICAS E NÚMEROS IMPORTANTES
+MétricaValor AtualObservaçãoInvestimento SemanalR$ 2.500Meta + GoogleInvestimento Mensal~R$ 10.000R$ 400/dia Meta + R$ 1k/mês GoogleContratos/Mês30-50Variação por qualificaçãoTicket MédioR$ 2.500-3.000Pode chegar a R$ 15k (VIPs)Faturamento Mensal~R$ 120.000Baseado em 40 contratos médiosROI10-12xExcelente, mas pode melhorarCusto por Seguidor~R$ 5,30MUITO CARO - precisa reduzirTaxa de Churn60%+Crítico - mais da metade saiBase Instagram16.000Pequena para o investimentoFrequência Anúncios5-6xAlta demais, saturação
+Distribuição Atual de Investimento:
+
+Crescimento de Base: R$ 250/dia (~R$ 7.500/mês)
+Deslocamento WhatsApp: R$ 150/dia (~R$ 4.500/mês)
+Google Ads: R$ 1.000/mês
+
+
+💡 PRINCIPAIS ENSINAMENTOS
+1. Regra de Ouro: Nunca Mexer no Que Dá Dinheiro
+
+"Campanhas que convertem JAMAIS devem ser pausadas. Toda melhoria deve ser LATERALIZADA (criar nova campanha paralela)."
+
+2. Crescimento de Base é Investimento de Longo Prazo
+
+Base maior = menor frequência = menor custo por lead
+Com 200k seguidores, 10% engajados = 20k leads potenciais
+Janela de atribuição: 30-90 dias
+Proporção ideal: 90% base, 10% conversão direta
+
+3. Comunicação Humanizada Vence
+
+"Folhetão" não gera conexão emocional
+Vídeos pessoais > Posts designer
+Stories > Feed estático
+Clientes VIP são ouro para prova social
+
+4. Rastreamento é Inegociável
+
+Sem rastreamento = investimento às cegas
+CRM + Analytics + Pixel devem conversar
+Origem do lead deve ser identificada SEMPRE
+Conversão deve voltar para o Gerenciador de Anúncios
+
+5. Automação Salva Dinheiro
+
+Chatbot para pré-qualificação
+Follow-up automático de leads frios
+Reativação de base antiga (10k leads dormindo)
+API para nurturing sem derrubar número
+
+
+✅ CHECKLIST DE EXECUÇÃO - PRIORIDADES
+🔴 URGENTE (Semana 1-2) - IMPLEMENTAR IMEDIATAMENTE
+1. RASTREAMENTO & CRM
+
+ Configurar rastreamento completo (Analytics + Pixel)
+ Integrar CRM (Zoho) com WhatsApp (já tem Zap Hub)
+ Criar tags de origem para cada campanha
+ Configurar campo "Origem do Lead" no CRM automático
+ Treinar comercial para registrar vendas no CRM
+ Configurar conversão voltando para Gerenciador Meta
+ Testar rastreamento com campanhas pequenas
+ Responsável: Victor + Suporte Técnico Zoho
+ Prazo: 10 dias
+ Validação: Conseguir ver origem de 100% dos leads
+
+2. PRÉ-QUALIFICAÇÃO DE LEADS
+
+ Criar chatbot simples com perguntas básicas:
+
+Qual o problema? (Desativação/Restrição/BM/Outro)
+Perfil pessoal ou comercial?
+Há quanto tempo está com problema?
+Nome e melhor horário para contato
+
+
+ Implementar automação para leads noturnos/finais de semana
+ Mensagem automática: horário comercial + expectativa de resposta
+ Filtrar curiosos antes de chegar no comercial
+ Responsável: Igor + Dev Zoho
+ Prazo: 7 dias
+ Validação: Redução de 30% em leads desqualificados
+
+3. MIGRAÇÃO DE NÚMERO COMERCIAL
+
+ Ativar novo número para comercial
+ NÃO PAUSAR campanhas antigas - criar paralelas
+ Criar novas campanhas com novo número
+ Deixar rodar 30 dias para otimizar
+ Comparar performance antiga vs nova
+ Só depois desativar campanhas antigas (se nova performar melhor)
+ Responsável: Victor
+ Prazo: 14 dias (processo gradual)
+ Validação: Novas campanhas com ROI similar às antigas
+
+
+🟡 IMPORTANTE (Semana 3-4) - PRÓXIMA FASE
+4. REFORMULAÇÃO DE CONTEÚDO
+
+ PARAR posts tipo "folhetão" de designer
+ Começar produção de vídeos humanizados (Victor/Igor falando)
+ Criar calendário de conteúdo:
+
+60% educativo (como evitar bloqueios)
+30% casos de sucesso
+10% institucional
+
+
+ Postar 1-2 Reels por dia (mínimo)
+ Stories diários mostrando bastidores
+ Responsável: Victor + Igor + Agência 360
+ Prazo: 21 dias
+ Validação: Churn reduzir de 60% para 40%
+
+5. LATERALIZAÇÃO DE CAMPANHAS - CRESCIMENTO DE BASE
+
+ Aumentar investimento em base de R$ 250 para R$ 500/dia
+ Criar 3-5 variações de comunicação:
+
+"Sua conta pode ser a próxima" (medo)
+"Recuperamos conta de [NOME VIP]" (autoridade)
+"Evite bloqueios" (preventivo)
+"Meta foi condenada a pagar R$ 15k" (justiça)
+
+
+ Testar públicos diferentes (infoprodutores, e-commerce, criadores)
+ Acompanhar custo por seguidor (meta: abaixo de R$ 3)
+ Responsável: Victor
+ Prazo: 14 dias
+ Validação: CPF abaixo de R$ 3, churn abaixo de 50%
+
+6. APROVEITAMENTO DE CLIENTES VIP
+
+ Contactar Kariane, Paulo Vieira, Toguro para depoimentos
+ Gravar vídeos curtos (30-60s) com eles
+ Criar campanhas específicas usando autoridade deles
+ Usar como prova social em todas as comunicações
+ Oferece desconto/brinde em troca de conteúdo
+ Responsável: Igor (relacionamento) + Victor (produção)
+ Prazo: 30 dias
+ Validação: 3 vídeos de depoimento produzidos
+
+
+🟢 DESEJÁVEL (Mês 2) - EXPANSÃO
+7. AUTOMAÇÃO DE FOLLOW-UP
+
+ Mapear os 10 mil leads antigos no CRM
+ Criar sequência de reativação via API (Manychat/SendFlow):
+
+Mensagem 1: "Ainda precisa de ajuda com sua conta?"
+Mensagem 2: "Novidade: agora recuperamos WhatsApp/TikTok"
+Mensagem 3: "Promoção exclusiva para clientes antigos"
+
+
+ Disparos automáticos 1x/semana
+ Meta: 10-20 contratos/mês de base antiga
+ Responsável: Victor + Dev automação
+ Prazo: 45 dias
+ Validação: 10 vendas de leads reativados/mês
+
+8. QUIZ DE QUALIFICAÇÃO (Ideia do Igor)
+
+ Criar quiz: "Sua conta está em risco?"
+ Perguntas sobre práticas de risco
+ Resultado: nível de risco (baixo/médio/alto)
+ CTA: "Quer proteção? Fale com especialista"
+ Landing page dedicada para o quiz
+ Campanha específica para tráfego frio
+ Responsável: Igor + Agência
+ Prazo: 30 dias
+ Validação: 100 leads qualificados/mês via quiz
+
+9. PRODUTOS LATERALIZADOS
+
+ Assessoria OnlyFans:
+
+Landing page separada
+Tráfego Google Ads (evitar restrição Meta)
+E-book gratuito "Como proteger sua conta OF"
+Ticket: R$ 2-3k recorrente
+
+
+ Blindagem Preventiva:
+
+Pacote mensal de monitoramento
+R$ 500-1k/mês
+Público: infoprodutores, grandes contas
+
+
+ Recuperação WhatsApp/TikTok:
+
+Campanhas separadas
+Comunicação específica por plataforma
+
+
+ Responsável: Victor + Igor
+ Prazo: 60 dias
+ Validação: 5-10 contratos/mês de novos produtos
+
+10. INDICADORES E DASHBOARDS
+
+ Criar dashboard semanal com:
+
+Investimento por campanha
+Leads por origem
+Taxa de conversão por close
+Ticket médio
+ROI por campanha
+Custo por seguidor
+Taxa de churn
+
+
+ Reunião semanal para análise de números
+ Ajustes baseados em dados, não "achismo"
+ Responsável: Victor
+ Prazo: Contínuo
+ Validação: Decisões baseadas em métricas claras
+
+
+🎬 PLANO DE AÇÃO RESUMIDO - PRÓXIMOS 60 DIAS
+Semana 1-2: FUNDAÇÃO
+
+Rastreamento completo funcionando
+Chatbot pré-qualificação ativo
+Novo número comercial em teste paralelo
+Meta: Saber origem de 100% dos leads
+
+Semana 3-4: CONTEÚDO & BASE
+
+Parar folhetão, começar vídeos humanizados
+Dobrar investimento em crescimento de base
+Lateralizar campanhas (não pausar antigas)
+Meta: CPF < R$ 3, churn < 50%
+
+Mês 2: EXPANSÃO
+
+3 vídeos com clientes VIP
+Follow-up automático de 10k leads
+Quiz de qualificação lançado
+Primeiro produto lateralizado testado
+Meta: 60-80 contratos/mês (+50% crescimento)
+
+
+📞 PRÓXIMA REUNIÃO
+Data: Segunda-feira, 14h
+Local: Escritório TAG (presencial)
+Objetivo: Implementação prática de campanhas lateralizadas e rastreamento
+Levar para a reunião:
+
+ Acesso Gerenciador de Anúncios Meta
+ Acesso CRM Zoho
+ Acesso Google Analytics
+ Lista de leads antigos (base de 10k)
+ Vídeos de clientes VIP disponíveis
+ Orçamento aprovado para aumento de investimento
+
+
+💎 FRASES-CHAVE DA MENTORIA
+
+"Não se mexe no que dá dinheiro. Toda melhoria é lateralizada."
+
+
+"Vocês têm um ROI de 10x. O problema não é converter, é ESCALAR sem perder qualidade."
+
+
+"60% de churn é inaceitável. Base pequena + alta frequência = queimar audiência."
+
+
+"Crescimento de base é bola de neve. 200k seguidores hoje = 20k leads qualificados amanhã."
+
+
+"Kariane, Paulo Vieira, Toguro... vocês têm OURO nas mãos e não estão usando."
+
+
+"10 mil leads dormindo na base = no mínimo 10 contratos/mês SEM gastar 1 real em tráfego."
+
+
+"Folhetão não vende. Gente compra de GENTE, não de revista digital."
+
+
+"CRM sem rastreamento é como dirigir vendado. Você chega em algum lugar, mas não sabe onde."
+
+
+🎯 META FINAL (90 DIAS)
+
+Faturamento: R$ 120k → R$ 200k/mês
+Contratos: 40 → 70 contratos/mês
+ROI: Manter 10x ou melhorar
+Churn: 60% → 30%
+CPF: R$ 5,30 → R$ 2,50
+Base Instagram: 16k → 50k
+Rastreamento: 0% → 100%
+Produtos ativos: 1 → 3
+
+
+Vamos escalar forte, mas com INTELIGÊNCIA. 🚀

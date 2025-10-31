@@ -1,0 +1,5 @@
+{
+    "labels": ["Meta Ads (Deslocamento)", "Meta Ads (Base)", "Google Ads", "Orgânico"],
+    "values": [45, 45, 10, 0],
+    "colors": ["#3498db", "#2ecc71", "#e74c3c", "#95a5a6"]
+}

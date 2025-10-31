@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Faturamento Mensal",
+        "value": 120000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Contratos/Mês",
+        "value": 40,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "ROI Atual",
+        "value": 1100,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 2750,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Investimento Mensal",
+        "value": 11000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Base Instagram",
+        "value": 16000,
+        "type": "number",
+        "change": -60
+    },
+    {
+        "label": "Custo por Seguidor",
+        "value": 5.30,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Taxa de Churn",
+        "value": 60,
+        "type": "percentage",
+        "change": 0
+    }
+]

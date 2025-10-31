@@ -1,0 +1,195 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Tráfego Pago",
+                "indicadores": [
+                    { "nome": "Investimento Mensal", "meta": "R$ 10.000", "atual": "R$ 11.000", "status": "alerta" },
+                    { "nome": "ROI", "meta": "> 10x", "atual": "10-12x", "status": "ok" },
+                    { "nome": "CPA", "meta": "< R$ 300", "atual": "R$ 275", "status": "ok" },
+                    { "nome": "Custo por Seguidor", "meta": "< R$ 3", "atual": "R$ 5,30", "status": "critico" },
+                    { "nome": "Taxa de Churn", "meta": "< 30%", "atual": "60%", "status": "critico" }
+                ]
+            },
+            {
+                "categoria": "Conversão e Vendas",
+                "indicadores": [
+                    { "nome": "Contratos/Mês", "meta": "> 60", "atual": "30-50", "status": "alerta" },
+                    { "nome": "Ticket Médio", "meta": "> R$ 3.000", "atual": "R$ 2.500-3.000", "status": "ok" },
+                    { "nome": "Faturamento Mensal", "meta": "> R$ 200k", "atual": "R$ 120k", "status": "alerta" },
+                    { "nome": "Taxa de Conversão", "meta": "> 15%", "atual": "N/A", "status": "critico" },
+                    { "nome": "Rastreamento", "meta": "100%", "atual": "0%", "status": "critico" }
+                ]
+            },
+            {
+                "categoria": "Base e Audiência",
+                "indicadores": [
+                    { "nome": "Seguidores Instagram", "meta": "> 50k", "atual": "16.000", "status": "alerta" },
+                    { "nome": "Frequência Anúncios", "meta": "< 3x", "atual": "5-6x", "status": "critico" },
+                    { "nome": "Leads na Base", "meta": "Reativar", "atual": "10.000 inativos", "status": "critico" },
+                    { "nome": "Engajamento", "meta": "> 3%", "atual": "< 2%", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Produtos e Expansão",
+                "indicadores": [
+                    { "nome": "Produtos Ativos", "meta": "> 3", "atual": "1", "status": "critico" },
+                    { "nome": "OnlyFans (contratos)", "meta": "> 5/mês", "atual": "0", "status": "critico" },
+                    { "nome": "Blindagem (contratos)", "meta": "> 10/mês", "atual": "0", "status": "critico" },
+                    { "nome": "WhatsApp/TikTok", "meta": "> 5/mês", "atual": "0", "status": "critico" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "Rastreamento (0%)",
+                "status": "critico",
+                "gap": "Meta: 100% | Atual: 0% | BLOQUEADOR CRÍTICO",
+                "acoes": [
+                    "🔴 URGENTE: Configurar Analytics + Pixel + CRM nos próximos 10 dias",
+                    "🔴 URGENTE: Integrar Zoho com WhatsApp (Zap Hub)",
+                    "🔴 URGENTE: Criar tags de origem para cada campanha",
+                    "🔴 URGENTE: Treinar comercial para registrar vendas no CRM",
+                    "Meta: Saber origem de 100% dos leads em 10 dias"
+                ]
+            },
+            {
+                "metrica": "Taxa de Churn (60%)",
+                "status": "critico",
+                "gap": "Meta: < 30% | Atual: 60% | Perda: -50% da audiência",
+                "acoes": [
+                    "🔴 PARAR 'folhetão' imediatamente, começar vídeos humanizados",
+                    "🟡 Postar 1-2 Reels/dia com Victor/Igor falando",
+                    "🟡 Stories diários mostrando bastidores",
+                    "🟡 Criar calendário: 60% educativo, 30% casos, 10% institucional",
+                    "Meta: Reduzir churn para 40% em 21 dias, 30% em 60 dias"
+                ]
+            },
+            {
+                "metrica": "Custo por Seguidor (R$ 5,30)",
+                "status": "critico",
+                "gap": "Meta: < R$ 3 | Atual: R$ 5,30 | Diferença: -R$ 2,30",
+                "acoes": [
+                    "🟡 Aumentar investimento em base: R$ 250 → R$ 500/dia",
+                    "🟡 Criar 3-5 variações de comunicação (medo, autoridade, preventivo)",
+                    "🟡 Testar públicos diferentes (infoprodutores, e-commerce)",
+                    "🟡 Lateralizar campanhas vencedoras",
+                    "Meta: CPF < R$ 3 em 14 dias"
+                ]
+            },
+            {
+                "metrica": "Frequência Anúncios (5-6x)",
+                "status": "critico",
+                "gap": "Meta: < 3x | Atual: 5-6x | Saturação de audiência",
+                "acoes": [
+                    "🟡 Base pequena + muito investimento = queimar audiência",
+                    "🟡 Crescer base de 16k → 50k nos próximos 90 dias",
+                    "🟡 Com 50k seguidores, mesma verba = frequência 2x",
+                    "Meta: Reduzir frequência para 3x ou menos"
+                ]
+            },
+            {
+                "metrica": "Leads Inativos (10.000)",
+                "status": "critico",
+                "gap": "Meta: Reativar | Atual: 10.000 dormindo | Ouro escondido",
+                "acoes": [
+                    "🟢 Mapear 10k leads antigos no CRM",
+                    "🟢 Criar sequência via API (Manychat/SendFlow)",
+                    "🟢 Disparos 1x/semana: 'Ainda precisa?', 'Novidades', 'Promoção'",
+                    "🟢 Meta: 10-20 contratos/mês SEM gastar 1 real em tráfego",
+                    "Potencial: 10k leads x 0,1% conversão = 10 vendas x R$ 2,5k = R$ 25k/mês"
+                ]
+            },
+            {
+                "metrica": "Clientes VIP (Não aproveitados)",
+                "status": "critico",
+                "gap": "Kariane, Paulo Vieira, Toguro = OURO nas mãos",
+                "acoes": [
+                    "🟡 Contactar para depoimentos nos próximos 30 dias",
+                    "🟡 Gravar 3 vídeos curtos (30-60s)",
+                    "🟡 Criar campanhas usando autoridade deles",
+                    "🟡 Usar como prova social em todas as comunicações",
+                    "Impacto: Autoridade = +30% conversão"
+                ]
+            },
+            {
+                "metrica": "Produtos Ativos (1)",
+                "status": "critico",
+                "gap": "Meta: 3+ | Atual: 1 | Limite de crescimento",
+                "acoes": [
+                    "🟢 OnlyFans: Landing + Google Ads (R$ 2-3k recorrente)",
+                    "🟢 Blindagem Preventiva: R$ 500-1k/mês (10 clientes = R$ 10k/mês)",
+                    "🟢 WhatsApp/TikTok: Campanhas específicas",
+                    "Meta: 5-10 contratos/mês novos produtos = +R$ 25-50k/mês"
+                ]
+            },
+            {
+                "metrica": "Faturamento (R$ 120k)",
+                "status": "alerta",
+                "gap": "Meta: R$ 200k | Atual: R$ 120k | Diferença: -R$ 80k/mês",
+                "acoes": [
+                    "📊 Crescer de 40 → 70 contratos/mês (+75%)",
+                    "📊 Reduzir CPF = mais leads = mais vendas",
+                    "📊 Reativar 10k leads = +10-20 contratos/mês",
+                    "📊 Novos produtos = +5-10 contratos/mês",
+                    "📊 Total: 40 + 20 (reativação) + 10 (novos produtos) = 70 contratos/mês",
+                    "📊 70 x R$ 2,8k (ticket médio) = R$ 196k/mês"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "mes": "Mês 1 (Dias 1-30): FUNDAÇÃO",
+                "objetivo": "Rastreamento + Estrutura + Conteúdo",
+                "metas": [
+                    "✅ Rastreamento 100% funcionando (origem de todos os leads)",
+                    "✅ Chatbot pré-qualificação implementado (redução 30% desqualificados)",
+                    "✅ Novo número comercial em teste paralelo",
+                    "✅ Parar folhetão, começar vídeos humanizados",
+                    "✅ Dobrar investimento em base (R$ 250 → R$ 500/dia)",
+                    "✅ CPF reduzir de R$ 5,30 → R$ 4,00",
+                    "✅ Churn reduzir de 60% → 50%"
+                ],
+                "faturamento_projetado": "R$ 135k (+12,5%)"
+            },
+            {
+                "mes": "Mês 2 (Dias 31-60): EXPANSÃO",
+                "objetivo": "Automação + VIPs + Novos Produtos",
+                "metas": [
+                    "✅ 3 vídeos com clientes VIP produzidos",
+                    "✅ Follow-up automático implementado (10k leads)",
+                    "✅ 10-15 vendas de reativação/mês",
+                    "✅ Quiz 'Sua conta está em risco?' lançado",
+                    "✅ Primeiro produto lateralizado testado (OnlyFans ou Blindagem)",
+                    "✅ CPF < R$ 3,00",
+                    "✅ Churn < 40%",
+                    "✅ Base Instagram: 16k → 30k"
+                ],
+                "faturamento_projetado": "R$ 165k (+37,5%)"
+            },
+            {
+                "mes": "Mês 3 (Dias 61-90): ESCALA",
+                "objetivo": "Otimização + Múltiplos Produtos + Meta Final",
+                "metas": [
+                    "✅ CPF estável em R$ 2,50",
+                    "✅ Churn < 30%",
+                    "✅ Base Instagram: 30k → 50k",
+                    "✅ 3 produtos ativos gerando receita",
+                    "✅ 20 vendas/mês de reativação",
+                    "✅ 5-10 contratos/mês de novos produtos",
+                    "✅ 70 contratos/mês total",
+                    "✅ ROI mantido em 10x ou melhor",
+                    "✅ Dashboard de métricas semanal funcionando"
+                ],
+                "faturamento_projetado": "R$ 200k (+66,7%)"
+            }
+        ]
+    }
+}

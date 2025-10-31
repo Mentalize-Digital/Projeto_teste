@@ -71,7 +71,7 @@ async function loadCampaignData() {
 async function loadChecklist() {
     try {
         // Tentar carregar do localStorage primeiro
-        const savedChecklist = localStorage.getItem('checklist');
+        const savedChecklist = localStorage.getItem('victor-checklist');
         
         if (savedChecklist) {
             const data = JSON.parse(savedChecklist);
@@ -449,7 +449,7 @@ function showCelebration() {
         // Voltar ao texto normal após 3 segundos
         setTimeout(() => {
             progressText.classList.remove('celebrated');
-            const items = JSON.parse(localStorage.getItem('checklist') || '[]');
+            const items = JSON.parse(localStorage.getItem('victor-checklist') || '[]');
             const completed = items.filter(item => item.completed).length;
             const total = items.length;
             const percentage = Math.round((completed / total) * 100);
@@ -501,12 +501,12 @@ function formatChange(change) {
 // Função de atualização do checklist
 function updateChecklistItem(index, completed) {
     // Carregar do localStorage primeiro
-    const savedChecklist = localStorage.getItem('checklist');
+    const savedChecklist = localStorage.getItem('victor-checklist');
     
     if (savedChecklist) {
         const data = JSON.parse(savedChecklist);
         data[index].completed = completed;
-        localStorage.setItem('checklist', JSON.stringify(data));
+        localStorage.setItem('victor-checklist', JSON.stringify(data));
         
         // Atualizar barra de progresso imediatamente
         updateProgressBar(data);
@@ -516,7 +516,7 @@ function updateChecklistItem(index, completed) {
             .then(response => response.json())
             .then(data => {
                 data[index].completed = completed;
-                localStorage.setItem('checklist', JSON.stringify(data));
+                localStorage.setItem('victor-checklist', JSON.stringify(data));
                 
                 // Atualizar barra de progresso
                 updateProgressBar(data);
@@ -530,7 +530,7 @@ async function resetChecklist() {
     if (confirm('Tem certeza que deseja resetar todo o progresso do checklist?')) {
         try {
             // Limpar localStorage
-            localStorage.removeItem('checklist');
+            localStorage.removeItem('victor-checklist');
             
             // Recarregar checklist do arquivo original
             const response = await fetch('data/checklist.json');

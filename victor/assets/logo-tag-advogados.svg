@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <!-- Background -->
+  <rect width="200" height="80" fill="#1a1a1a" rx="8"/>
+  
+  <!-- TAG text -->
+  <text x="20" y="35" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f4d125">TAG</text>
+  
+  <!-- Advogados text -->
+  <text x="20" y="58" font-family="Arial, sans-serif" font-size="16" font-weight="normal" fill="#ffffff">ADVOGADOS</text>
+  
+  <!-- Decorative scale icon -->
+  <g transform="translate(150, 25)">
+    <path d="M 15 5 L 25 20 L 5 20 Z" fill="#f4d125"/>
+    <line x1="15" y1="20" x2="15" y2="30" stroke="#f4d125" stroke-width="2"/>
+    <circle cx="15" cy="30" r="3" fill="#f4d125"/>
+  </g>
+</svg>
