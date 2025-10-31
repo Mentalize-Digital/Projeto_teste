@@ -3,13 +3,306 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>Sales Performance Overview - Q3 2024</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/2.0.7/countUp.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Maycon Dacaza Lerdão</h1>
-        <p>Welcome to my website</p>
+    <div class="dashboard">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="https://via.placeholder.com/40" alt="BI Corp Logo">
+                <span>Business Intelligence</span>
+            </div>
+            
+            <div class="filters">
+                <h3>Filters</h3>
+                <div class="search-box">
+                    <input type="text" placeholder="Search filters...">
+                </div>
+                
+                <div class="filter-section">
+                    <h4>Date Range</h4>
+                    <select>
+                        <option>Last 90 Days</option>
+                    </select>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Region</h4>
+                    <label><input type="checkbox" checked> North America</label>
+                    <label><input type="checkbox" checked> Europe</label>
+                    <label><input type="checkbox" checked> Asia</label>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Customer Segment</h4>
+                    <label><input type="checkbox" checked> Enterprise</label>
+                    <label><input type="checkbox" checked> SMB</label>
+                </div>
+
+                <div class="filter-section">
+                    <h4>Marketing Channel</h4>
+                    <label><input type="checkbox" checked> Organic</label>
+                    <label><input type="checkbox" checked> Direct</label>
+                    <label><input type="checkbox" checked> Referral</label>
+                    <label><input type="checkbox" checked> Paid</label>
+                </div>
+
+                <button class="apply-filters">Apply Filters</button>
+                <button class="reset">Reset</button>
+            </div>
+        </div>
+
+        <main class="content">
+            <header>
+                <h1>Sales Performance Overview - Q3 2024</h1>
+                <p class="subtitle">Live data from the last 90 days.</p>
+            </header>
+
+            <div class="metrics-grid">
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Total Revenue</h3>
+                    <div class="metric-value" id="revenue-counter">$1.2M</div>
+                    <div class="metric-change positive">+5.2%</div>
+                </div>
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>New Customers</h3>
+                    <div class="metric-value" id="customers-counter">3,450</div>
+                    <div class="metric-change positive">+8.1%</div>
+                </div>
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Average Order Value</h3>
+                    <div class="metric-value" id="avg-order-counter">$349.50</div>
+                    <div class="metric-change negative">-1.5%</div>
+                </div>
+                <div class="metric-card" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Conversion Rate</h3>
+                    <div class="metric-value" id="conversion-counter">4.8%</div>
+                    <div class="metric-change positive">+0.3%</div>
+                </div>
+            </div>
+
+            <div class="charts-grid">
+                <div class="chart revenue-chart" data-aos="fade-right">
+                    <h3>Revenue by Month</h3>
+                    <p class="chart-subtitle">Last 90 Days</p>
+                    <canvas id="revenueChart"></canvas>
+                </div>
+                <div class="chart traffic-chart" data-aos="fade-left">
+                    <h3>Traffic Source Distribution</h3>
+                    <canvas id="trafficChart"></canvas>
+                    <div class="total-visitors">
+                        <span>Total Visitors</span>
+                        <strong id="visitors-counter">150k</strong>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-grid">
+                <div class="product-categories">
+                    <h3>Sales by Product Category</h3>
+                    <p class="chart-subtitle">Last 90 Days</p>
+                    <canvas id="categoryChart"></canvas>
+                </div>
+
+                <div class="campaigns">
+                    <h3>Top Performing Campaigns</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Campaign Name</th>
+                                <th>Spend</th>
+                                <th>Impressions</th>
+                                <th>ROI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Summer Sale 2024</td>
+                                <td>$5,200</td>
+                                <td>1.2M</td>
+                                <td class="positive">350%</td>
+                            </tr>
+                            <tr>
+                                <td>Back to School Promo</td>
+                                <td>$8,000</td>
+                                <td>2.5M</td>
+                                <td class="positive">420%</td>
+                            </tr>
+                            <tr>
+                                <td>Holiday Season Kickoff</td>
+                                <td>$12,500</td>
+                                <td>3.1M</td>
+                                <td class="positive">280%</td>
+                            </tr>
+                            <tr>
+                                <td>New Product Launch</td>
+                                <td>$3,100</td>
+                                <td>800k</td>
+                                <td class="negative">-15%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
     </div>
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Initialize Counters
+        const counterOptions = {
+            duration: 2.5,
+            useEasing: true,
+            useGrouping: true,
+        };
+
+        new CountUp('revenue-counter', 0, 1.2, 1, 2.5, {
+            prefix: '$',
+            suffix: 'M',
+            ...counterOptions
+        }).start();
+        new CountUp('customers-counter', 0, 3450, 0, 2.5, counterOptions).start();
+        new CountUp('avg-order-counter', 0, 349.50, 2, 2.5, {
+            prefix: '$',
+            ...counterOptions
+        }).start();
+        new CountUp('conversion-counter', 0, 4.8, 1, 2.5, {
+            suffix: '%',
+            ...counterOptions
+        }).start();
+        new CountUp('visitors-counter', 0, 150, 0, 2.5, {
+            suffix: 'k',
+            ...counterOptions
+        }).start();
+
+        // Revenue Chart
+        const revenueChart = new Chart(document.getElementById('revenueChart'), {
+            type: 'line',
+            data: {
+                labels: ['Jul', 'Aug', 'Sep'],
+                datasets: [{
+                    label: 'Revenue',
+                    data: [800000, 1100000, 1200000],
+                    borderColor: '#FFD700',
+                    tension: 0.4,
+                    fill: false
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: '#333'
+                        },
+                        ticks: {
+                            color: '#888'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            color: '#333'
+                        },
+                        ticks: {
+                            color: '#888'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Traffic Distribution Chart
+        const trafficChart = new Chart(document.getElementById('trafficChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Paid', 'Organic', 'Direct', 'Referral'],
+                datasets: [{
+                    data: [60, 20, 5, 15],
+                    backgroundColor: ['#FFD700', '#4CAF50', '#2196F3', '#f44336']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#888'
+                        }
+                    }
+                },
+                cutout: '70%'
+            }
+        });
+
+        // Category Chart
+        const categoryChart = new Chart(document.getElementById('categoryChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Apparel', 'Electronics', 'Home Goods', 'Books'],
+                datasets: [{
+                    data: [85, 70, 55, 40],
+                    backgroundColor: '#FFD700'
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                },
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            color: '#333'
+                        },
+                        ticks: {
+                            color: '#888'
+                        }
+                    },
+                    y: {
+                        grid: {
+                            display: false
+                        },
+                        ticks: {
+                            color: '#888'
+                        }
+                    }
+                }
+            }
+        });
+
+        // Add hover effects to metric cards
+        document.querySelectorAll('.metric-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+                this.style.boxShadow = '0 6px 12px rgba(0,0,0,0.2)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+                this.style.boxShadow = 'none';
+            });
+        });
+    </script>
 </body>
 </html>
