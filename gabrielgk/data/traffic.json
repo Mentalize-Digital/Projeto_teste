@@ -1,0 +1,5 @@
+{
+    "labels": ["Meta Ads (Captação)", "Meta Ads (Remarketing)", "Google Ads (Brand)", "Google Ads (PMax)"],
+    "values": [70, 20, 5, 5],
+    "colors": ["#3498db", "#9b59b6", "#e74c3c", "#f39c12"]
+}

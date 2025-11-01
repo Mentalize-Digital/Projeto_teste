@@ -1,0 +1,171 @@
+/* Custom CSS para Chart.js e animações específicas */
+/* O resto do styling é feito com Tailwind CSS */
+
+/* Chart.js Containers */
+.chart-wrapper {
+    position: relative;
+    min-height: 250px;
+    width: 100%;
+    padding: 10px;
+}
+
+.chart-wrapper canvas {
+    max-width: 100%;
+    height: auto !important;
+}
+
+/* Progress Bar Animation */
+@keyframes fillProgress {
+    from { width: 0%; }
+}
+
+#progress-bar-fill {
+    animation: fillProgress 0.8s ease-out;
+}
+
+/* Celebration Animation */
+@keyframes celebrate {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.celebrated {
+    animation: celebrate 0.6s ease-in-out;
+}
+
+/* Hidden Utility */
+.hidden {
+    display: none !important;
+}
+
+/* Phase Card Transitions */
+.phase-card {
+    transition: all 0.3s ease;
+}
+
+.phase-toggle {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.phase-toggle.expanded {
+    transform: rotate(180deg);
+}
+
+/* Timeline Card Gradients */
+.timeline-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Charts */
+@media (max-width: 768px) {
+    .chart-wrapper {
+        min-height: 200px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 640px) {
+    .chart-wrapper {
+        min-height: 180px;
+        padding: 0;
+    }
+}
+
+/* Garantir que textos dos gráficos não vazem */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Logo responsiva */
+header img {
+    transition: all 0.3s ease;
+    max-height: 64px;
+    max-width: 280px;
+}
+
+/* Ajustes do header */
+header {
+    position: relative;
+    overflow-x: hidden;
+}
+
+header .max-w-7xl {
+    position: relative;
+    width: 100%;
+}
+
+/* Garantir que o conteúdo não saia dos limites */
+header h1 {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+header p {
+    max-width: 100%;
+    word-wrap: break-word;
+}
+
+/* Ajuste do espaçamento interno */
+@media (min-width: 768px) {
+    header .max-w-7xl {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    header img {
+        max-height: 56px;
+        max-width: 200px;
+    }
+}
+
+/* Ajustes de texto para evitar overflow */
+.break-words {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Garantir que números não quebrem */
+.whitespace-nowrap {
+    white-space: nowrap !important;
+}
+
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+.text-ellipsis {
+    text-overflow: ellipsis !important;
+}
+
+/* Cards KPI com altura mínima consistente */
+#metrics > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Melhorias de padding responsivo */
+@media (max-width: 640px) {
+    header {
+        padding: 1rem !important;
+    }
+    
+    main {
+        padding: 1rem !important;
+    }
+}

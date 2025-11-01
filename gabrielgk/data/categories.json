@@ -1,0 +1,5 @@
+{
+    "labels": ["Captação Typeform", "Captação LP", "Remarketing 7d", "Remarketing 30d", "Remarketing 180d"],
+    "values": [35, 40, 10, 10, 5],
+    "colors": ["#3498db", "#2ecc71", "#f1c40f", "#9b59b6", "#e67e22"]
+}

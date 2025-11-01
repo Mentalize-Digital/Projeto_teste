@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Verba Diária",
+        "value": 500,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 2000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "CPL Meta (Typeform)",
+        "value": 35,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "CPL Meta (LP)",
+        "value": 50,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Leads/Dia Estimado",
+        "value": 13,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Leads/Mês Estimado",
+        "value": 270,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Vendas/Mês (10%)",
+        "value": 27,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Receita Potencial/Mês",
+        "value": 54000,
+        "type": "currency",
+        "change": 0
+    }
+]

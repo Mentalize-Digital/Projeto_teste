@@ -1,0 +1,50 @@
+[
+    {
+        "task": "Auditoria completa do site prizmamidia.com",
+        "completed": false
+    },
+    {
+        "task": "Criar LP v2 otimizada (acima da dobra, CTA único)",
+        "completed": false
+    },
+    {
+        "task": "Configurar Typeform para captação de leads",
+        "completed": false
+    },
+    {
+        "task": "Estruturar ActiveCampaign (tags, scoring, automações)",
+        "completed": false
+    },
+    {
+        "task": "Integrar Clint (CRM/conector) com pipeline de vendas",
+        "completed": false
+    },
+    {
+        "task": "Criar campanhas de Captação (Typeform + LP)",
+        "completed": false
+    },
+    {
+        "task": "Configurar campanhas de Remarketing (7/30/180 dias)",
+        "completed": false
+    },
+    {
+        "task": "Documentar e assinar modelo de comissão do Closer",
+        "completed": false
+    },
+    {
+        "task": "Publicar vaga de Designer (R$ 1.700-3.000/mês)",
+        "completed": false
+    },
+    {
+        "task": "Agendar call com Warley (alinhamento agência)",
+        "completed": false
+    },
+    {
+        "task": "Contatar Zaquim/Willy (galera de milhas)",
+        "completed": false
+    },
+    {
+        "task": "Configurar GA4 + UTMs para tracking completo",
+        "completed": false
+    }
+]

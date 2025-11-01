@@ -1,0 +1,299 @@
+[
+    {
+        "fase": "FASE 1: Fundação Digital (0-7 dias)",
+        "prazo": "Dias 1-7",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Auditoria e LP v2",
+                "responsavel": "Gabriel GK + Time",
+                "prazo": "3 dias",
+                "metrica": "LP com LCP < 2.5s, CTA único, provas sociais",
+                "subtarefas": [
+                    "Auditar prizmamidia.com (acima da dobra, CTA, provas, velocidade)",
+                    "Criar título direto: 'Crescimento e aquisição feitos por especialistas'",
+                    "Adicionar subtítulo sobre DFY (Done For You)",
+                    "Inserir logos de clientes e depoimentos curtos",
+                    "Otimizar imagens para LCP < 2.5s",
+                    "Definir CTA único: 'Agendar diagnóstico'"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Typeform e Integrações",
+                "responsavel": "Gabriel GK",
+                "prazo": "2 dias",
+                "metrica": "Formulário funcionando com 10 campos + LGPD",
+                "subtarefas": [
+                    "Criar Typeform com 10 perguntas (nome, email, WhatsApp, etc)",
+                    "Configurar lógica condicional e consentimento LGPD",
+                    "Integrar Typeform → ActiveCampaign (webhook/zapier)",
+                    "Testar captura de UTMs em todos os campos",
+                    "Configurar mensagem de sucesso com link de agendamento"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "ActiveCampaign - Estrutura Base",
+                "responsavel": "Gabriel GK + Monitor",
+                "prazo": "3 dias",
+                "metrica": "4 automações ativas + lead scoring configurado",
+                "subtarefas": [
+                    "Criar listas e tags por origem/campanha/etapa",
+                    "Configurar lead scoring: +10 abrir, +15 clique, +40 agenda",
+                    "Automação D0: boas-vindas + link agendamento",
+                    "Automação D1: case rápido + CTA agenda",
+                    "Automação D3: objeção + prova social",
+                    "Automação D7: lembrete + conteúdo útil"
+                ]
+            },
+            {
+                "id": "1.4",
+                "titulo": "Clint (CRM) - Pipeline e Integração",
+                "responsavel": "Gabriel GK",
+                "prazo": "2 dias",
+                "metrica": "Pipeline com 4 etapas + campos mapeados",
+                "subtarefas": [
+                    "Criar pipeline: Novo → Qualificado → Proposta → Fechado",
+                    "Mapear campos: Nome, Email, WhatsApp, UTMs, Faturamento",
+                    "Configurar webhook AC → Clint (criar negócio automático)",
+                    "Definir regra: ≥60 pontos → tarefa para Closer",
+                    "Testar fluxo completo de lead"
+                ]
+            },
+            {
+                "id": "1.5",
+                "titulo": "Campanhas Meta Ads - Captação",
+                "responsavel": "Gabriel GK",
+                "prazo": "2 dias",
+                "metrica": "2 campanhas ativas (Typeform + LP) com UTMs",
+                "subtarefas": [
+                    "Criar conta de anúncio 1617641702002956",
+                    "Campanha 1: Conversões/Leads → Typeform",
+                    "Campanha 2: Conversões/Leads → LP prizmamidia.com",
+                    "Configurar UTMs por criativo",
+                    "Testar 3-4 criativos por rota (dor, DFY, prova social)",
+                    "Budget inicial: R$ 350/dia para captação"
+                ]
+            },
+            {
+                "id": "1.6",
+                "titulo": "Campanhas Meta Ads - Remarketing",
+                "responsavel": "Gabriel GK",
+                "prazo": "2 dias",
+                "metrica": "3 campanhas RMK (7d, 30d, 180d) ativas",
+                "subtarefas": [
+                    "RMK 7 dias: View Content → Lead → WhatsApp",
+                    "RMK 30 dias: Visitantes que não converteram",
+                    "RMK 180 dias: Base histórica",
+                    "Criativos: cases, números, antes/depois",
+                    "Budget: R$ 150/dia para remarketing"
+                ]
+            },
+            {
+                "id": "1.7",
+                "titulo": "Comissão Closer e Processos",
+                "responsavel": "Gabriel GK",
+                "prazo": "2 dias",
+                "metrica": "Documento assinado + SLA definido",
+                "subtarefas": [
+                    "Documentar modelo de comissão (10% sobre receita paga)",
+                    "Definir SLA: 1º contato em 10 min, 4 toques/lead em 72h",
+                    "Criar playbook de follow-up comercial",
+                    "Assinar acordo com Closer",
+                    "Treinar Closer no CRM Clint"
+                ]
+            },
+            {
+                "id": "1.8",
+                "titulo": "Vaga de Designer",
+                "responsavel": "Gabriel GK",
+                "prazo": "3 dias",
+                "metrica": "Vaga publicada + teste técnico preparado",
+                "subtarefas": [
+                    "Criar job post (R$ 1.700-3.000/mês, remoto, PJ)",
+                    "Preparar teste técnico: vídeo 15s com briefing",
+                    "Publicar em plataformas de recrutamento",
+                    "Criar Typeform para candidaturas",
+                    "Definir critérios de avaliação de portfólio"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: Validação e Ajustes (8-21 dias)",
+        "prazo": "Dias 8-21",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Análise e Otimização de Campanhas",
+                "responsavel": "Gabriel GK",
+                "prazo": "Contínuo",
+                "metrica": "CPL ≤ R$ 40, CTR ≥ 1.5%, LP→Lead ≥ 30%",
+                "subtarefas": [
+                    "Monitorar CPM (pausar se > R$ 50)",
+                    "Pausar campanhas com CPL acima da meta",
+                    "Escalar vencedores: +10-20% no início do dia",
+                    "Analisar GA4/Hotjar (mapa de calor, scroll)",
+                    "Ajustar LP baseado em dados"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Ritmo de Produção de Criativos",
+                "responsavel": "Designer + Gabriel GK",
+                "prazo": "Contínuo",
+                "metrica": "6-10 criativos/semana (vídeo + estático)",
+                "subtarefas": [
+                    "Produzir 3-4 vídeos curtos (15-30s) por semana",
+                    "Criar 3-4 estáticos por semana",
+                    "Testar ângulos: dor de tempo, DFY, prova social",
+                    "Criar criativos de RMK com cases/prints",
+                    "Organizar assets e nomenclatura"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Qualificação e Nutrição de Leads",
+                "responsavel": "Gabriel GK + Closer",
+                "prazo": "14 dias",
+                "metrica": "20-35% Lead → Oportunidade",
+                "subtarefas": [
+                    "Monitorar taxa de agendamento",
+                    "Ajustar sequências de email no AC",
+                    "Implementar one-click-booking",
+                    "Criar conteúdo por objeção",
+                    "Treinar Closer em qualificação"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: Previsibilidade e Escala (22-60 dias)",
+        "prazo": "Dias 22-60",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Google Ads - Brand e PMax",
+                "responsavel": "Gabriel GK",
+                "prazo": "7 dias",
+                "metrica": "Campanhas ativas com CPA competitivo",
+                "subtarefas": [
+                    "Criar campanha Brand (nome Prizma Mídia)",
+                    "Configurar PMax com assets otimizados",
+                    "Budget inicial: R$ 50/dia",
+                    "Monitorar e ajustar lances",
+                    "Integrar com GA4 e CRM"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Automação Avançada no ActiveCampaign",
+                "responsavel": "Gabriel GK + Monitor",
+                "prazo": "10 dias",
+                "metrica": "5+ sequências de nutrição ativas",
+                "subtarefas": [
+                    "Criar sequências por caso de uso",
+                    "Automação por comportamento (cliques, aberturas)",
+                    "Integração com WhatsApp Business API",
+                    "Configurar tags avançadas",
+                    "Criar régua de relacionamento"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Playbook Comercial Completo",
+                "responsavel": "Gabriel GK + Closer",
+                "prazo": "14 dias",
+                "metrica": "Playbook documentado + treinamento completo",
+                "subtarefas": [
+                    "Documentar script de abordagem",
+                    "Criar apresentação de vendas (pitch deck)",
+                    "Definir critérios de qualificação HOT/WARM/COLD",
+                    "Estruturar processo de follow-up (2-4 toques)",
+                    "Criar biblioteca de objeções e respostas"
+                ]
+            },
+            {
+                "id": "3.4",
+                "titulo": "Relatórios e Dashboards",
+                "responsavel": "Gabriel GK",
+                "prazo": "7 dias",
+                "metrica": "Dashboard semanal automatizado",
+                "subtarefas": [
+                    "Criar relatório semanal (metas vs. real)",
+                    "Configurar alertas automáticos (CPL, CPM)",
+                    "Documentar aprendizados por ângulo/criativo",
+                    "Criar backlog de testes",
+                    "Definir ritual de revisão semanal"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 4: Maturidade e Expansão (60-90 dias)",
+        "prazo": "Dias 60-90",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "4.1",
+                "titulo": "Análise de Resultados e Ajustes",
+                "responsavel": "Gabriel GK + Mentor",
+                "prazo": "30 dias",
+                "metrica": "ROI estabilizado, processos documentados",
+                "subtarefas": [
+                    "Revisar todos os KPIs (CPL, taxa agenda, close)",
+                    "Calcular ROI real vs. projeção",
+                    "Identificar gargalos no funil",
+                    "Ajustar modelo de comissão se necessário",
+                    "Documentar playbook completo"
+                ]
+            },
+            {
+                "id": "4.2",
+                "titulo": "Testes de Novos Canais",
+                "responsavel": "Gabriel GK",
+                "prazo": "30 dias",
+                "metrica": "2 novos canais testados",
+                "subtarefas": [
+                    "Testar LinkedIn Ads (B2B)",
+                    "Avaliar YouTube Ads",
+                    "Considerar parcerias/afiliados",
+                    "Testar SEO/conteúdo orgânico",
+                    "Documentar custos e resultados"
+                ]
+            },
+            {
+                "id": "4.3",
+                "titulo": "Estruturação de Time",
+                "responsavel": "Gabriel GK",
+                "prazo": "30 dias",
+                "metrica": "Time completo operando",
+                "subtarefas": [
+                    "Designer contratado e produzindo",
+                    "Closer performando (10-25% conversão)",
+                    "Considerar contratação de SDR",
+                    "Avaliar necessidade de Copywriter",
+                    "Definir processos de onboarding"
+                ]
+            },
+            {
+                "id": "4.4",
+                "titulo": "Call com Warley e Contatos",
+                "responsavel": "Gabriel GK",
+                "prazo": "14 dias",
+                "metrica": "Alinhamento completo com parceiros",
+                "subtarefas": [
+                    "Agendar e realizar call com Warley",
+                    "Alinhar frente de agência",
+                    "Contatar Zaquim (galera de milhas)",
+                    "Contatar Willy (galera de milhas)",
+                    "Explorar oportunidades de indicação"
+                ]
+            }
+        ]
+    }
+]

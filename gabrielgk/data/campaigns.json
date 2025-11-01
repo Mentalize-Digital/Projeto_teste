@@ -1,0 +1,19 @@
+{
+    "labels": ["Sem 1", "Sem 2", "Sem 3", "Sem 4"],
+    "datasets": [
+        {
+            "label": "Investimento (R$)",
+            "data": [2500, 3200, 3500, 3800],
+            "borderColor": "#e74c3c",
+            "backgroundColor": "rgba(231, 76, 60, 0.1)",
+            "fill": true
+        },
+        {
+            "label": "Leads Captados",
+            "data": [45, 78, 95, 110],
+            "borderColor": "#2ecc71",
+            "backgroundColor": "rgba(46, 204, 113, 0.1)",
+            "fill": true
+        }
+    ]
+}

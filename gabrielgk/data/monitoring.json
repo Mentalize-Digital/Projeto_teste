@@ -1,0 +1,263 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Tráfego Pago - Captação",
+                "indicadores": [
+                    { "nome": "CTR (link)", "meta": "≥ 1.5%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CPC", "meta": "≤ R$ 1.50", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CPM", "meta": "R$ 20-30", "atual": "N/A", "status": "pendente" },
+                    { "nome": "LPV/Click", "meta": "70-85%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "LP → Lead", "meta": "25-35%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CPL Typeform", "meta": "≤ R$ 35", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CPL LP", "meta": "≤ R$ 50", "atual": "N/A", "status": "pendente" }
+                ]
+            },
+            {
+                "categoria": "Conversão Comercial",
+                "indicadores": [
+                    { "nome": "Lead → Oportunidade", "meta": "20-35%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Oportunidade → Cliente", "meta": "10-25%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Ticket Médio", "meta": "R$ 2.000", "atual": "R$ 2.000", "status": "ok" },
+                    { "nome": "Leads/Dia", "meta": "12-15", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Leads/Mês", "meta": "240-300", "atual": "N/A", "status": "pendente" }
+                ]
+            },
+            {
+                "categoria": "Receita e ROI",
+                "indicadores": [
+                    { "nome": "Vendas/Mês", "meta": "24-30", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Receita Bruta/Mês", "meta": "R$ 48-60k", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Investimento/Mês", "meta": "R$ 15k", "atual": "R$ 15k", "status": "ok" },
+                    { "nome": "ROI", "meta": "> 220%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CAC", "meta": "≤ R$ 500", "atual": "N/A", "status": "pendente" }
+                ]
+            },
+            {
+                "categoria": "Estrutura e Processos",
+                "indicadores": [
+                    { "nome": "LP LCP", "meta": "< 2.5s", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Criativos/Semana", "meta": "6-10", "atual": "0", "status": "critico" },
+                    { "nome": "Taxa Abertura Email", "meta": "> 25%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Taxa Clique Email", "meta": "> 3%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Lead Score Médio", "meta": "≥ 60", "atual": "N/A", "status": "pendente" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "Fundação Digital (Dias 0-7)",
+                "status": "critico",
+                "gap": "Meta: Estrutura completa | Atual: Não iniciado",
+                "acoes": [
+                    "Auditar prizmamidia.com e criar LP v2 otimizada",
+                    "Configurar Typeform com 10 campos + integração AC",
+                    "Estruturar ActiveCampaign (tags, scoring, 4 automações)",
+                    "Integrar Clint (CRM) com pipeline de 4 etapas",
+                    "Criar campanhas de Captação (2 rotas: Typeform + LP)",
+                    "Configurar Remarketing (7d, 30d, 180d)",
+                    "Documentar comissão Closer e SLA comercial",
+                    "Publicar vaga de Designer (R$ 1.700-3.000/mês)"
+                ]
+            },
+            {
+                "metrica": "CPL Meta (R$ 35-50)",
+                "status": "alerta",
+                "gap": "Meta: CPL ≤ R$ 40 médio | Atual: Não medido",
+                "acoes": [
+                    "Testar público amplo com criativos direcionados",
+                    "Criar 3-4 ângulos: dor tempo, DFY, prova social, previsibilidade",
+                    "Implementar UTMs consistentes por criativo",
+                    "Pausar campanhas com CPM > R$ 50",
+                    "Escalar vencedores com +10-20% budget",
+                    "Testar formato vídeo curto vs estático",
+                    "Monitorar janela de 3× CPL ou 7 dias"
+                ]
+            },
+            {
+                "metrica": "Taxa de Conversão LP → Lead (30%)",
+                "status": "alerta",
+                "gap": "Meta: 25-35% | Atual: Não medido",
+                "acoes": [
+                    "Otimizar acima da dobra (título direto + subtítulo DFY)",
+                    "Adicionar provas sociais (logos, números, depoimentos)",
+                    "Implementar CTA único e visível",
+                    "Melhorar velocidade (LCP < 2.5s)",
+                    "Criar seções essenciais: O que entregamos, Como funciona, Casos",
+                    "Implementar Hotjar para análise de comportamento",
+                    "Testar variações de copy e headlines"
+                ]
+            },
+            {
+                "metrica": "Lead → Oportunidade (20-35%)",
+                "status": "alerta",
+                "gap": "Meta: 25-30% | Atual: Estrutura não criada",
+                "acoes": [
+                    "Implementar lead scoring (≥60 pontos = Qualificado)",
+                    "Criar 4 automações no AC (D0, D1, D3, D7)",
+                    "Configurar one-click-booking para agendamento",
+                    "Treinar Closer no SLA (1º contato em 10 min)",
+                    "Criar playbook de follow-up (2-4 toques/lead em 72h)",
+                    "Estruturar sequências por objeção comum",
+                    "Integrar WhatsApp Business API"
+                ]
+            },
+            {
+                "metrica": "Oportunidade → Cliente (10-25%)",
+                "status": "alerta",
+                "gap": "Meta: 15-20% | Atual: Processo não estruturado",
+                "acoes": [
+                    "Criar apresentação de vendas (pitch deck)",
+                    "Estruturar oferta de consultoria/mentoria clara",
+                    "Definir critérios de qualificação HOT/WARM/COLD",
+                    "Criar script de abordagem para leads qualificados",
+                    "Treinar Closer em roleplay e objeções",
+                    "Implementar modelo de comissão 10% sobre receita paga",
+                    "Criar biblioteca de cases e resultados"
+                ]
+            },
+            {
+                "metrica": "Produção de Criativos (6-10/semana)",
+                "status": "critico",
+                "gap": "Meta: 6-10 criativos/semana | Atual: 0 (Designer não contratado)",
+                "acoes": [
+                    "Publicar vaga com teste técnico (vídeo 15s)",
+                    "Definir critérios: Figma/Adobe/CapCut + portfólio",
+                    "Buscar diferenciais: motion, UGC direction",
+                    "Criar briefings claros por ângulo",
+                    "Estabelecer ritmo: 3-4 vídeos + 3-4 estáticos/semana",
+                    "Organizar sistema de assets e nomenclatura",
+                    "Testar formatos 9:16, 1:1 com legenda"
+                ]
+            },
+            {
+                "metrica": "Receita Potencial (R$ 48-60k/mês)",
+                "status": "alerta",
+                "gap": "Meta: R$ 54k/mês | Atual: R$ 0 (não iniciado)",
+                "acoes": [
+                    "Atingir volume de 12-15 leads/dia (270/mês)",
+                    "Manter CPL médio em R$ 40",
+                    "Converter 20-35% Lead → Oportunidade",
+                    "Fechar 10-25% Oportunidade → Cliente",
+                    "Projeção: 27 vendas × R$ 2.000 = R$ 54k/mês",
+                    "Ajustar após 2-3 semanas de dados reais",
+                    "Monitorar CAC e LTV para sustentabilidade"
+                ]
+            },
+            {
+                "metrica": "Parcerias e Network",
+                "status": "pendente",
+                "gap": "Meta: Alinhamentos completos | Atual: Não contatados",
+                "acoes": [
+                    "Agendar call com Warley (frente de agência)",
+                    "Contatar Zaquim (galera de milhas - indicações)",
+                    "Contatar Willy (galera de milhas - indicações)",
+                    "Explorar oportunidades de cross-sell",
+                    "Definir modelo de parceria/afiliação",
+                    "Documentar acordos e expectativas",
+                    "Criar sistema de tracking de indicações"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "periodo": "Dias 1-30",
+                "objetivo": "Fundação e Primeiras Conversões",
+                "metas": [
+                    "Estrutura completa (LP, Typeform, AC, CRM, Campanhas)",
+                    "Designer contratado e produzindo",
+                    "Primeiras 100 leads captados",
+                    "CPL estabilizado em R$ 40-45",
+                    "5-10 primeiras vendas (validação)",
+                    "Closer operando com SLA definido",
+                    "Comissão formalizada e testada"
+                ]
+            },
+            {
+                "periodo": "Dias 31-60",
+                "objetivo": "Otimização e Previsibilidade",
+                "metas": [
+                    "200-250 leads/mês",
+                    "CPL otimizado para R$ 35-40",
+                    "Taxa Lead → Oportunidade em 25-30%",
+                    "Taxa Oportunidade → Cliente em 15-20%",
+                    "15-20 vendas/mês",
+                    "Receita: R$ 30-40k/mês",
+                    "Google Ads ativo (Brand + PMax)",
+                    "Automações AC refinadas",
+                    "Ritmo de 6-10 criativos/semana estável"
+                ]
+            },
+            {
+                "periodo": "Dias 61-90",
+                "objetivo": "Escala e Maturidade",
+                "metas": [
+                    "240-300 leads/mês",
+                    "CPL em R$ 35 ou menos",
+                    "Taxa Lead → Oportunidade em 30-35%",
+                    "Taxa Oportunidade → Cliente em 20-25%",
+                    "24-30 vendas/mês",
+                    "Receita: R$ 48-60k/mês",
+                    "ROI > 220%",
+                    "Processos documentados e escaláveis",
+                    "Time completo operando",
+                    "Testes de novos canais iniciados"
+                ]
+            }
+        ]
+    },
+    "colunas_monitoramento": {
+        "titulo": "Colunas para Salvar no Gerenciador de Anúncios",
+        "colunas": [
+            "Alcance",
+            "Impressões",
+            "Frequência",
+            "Cliques no link",
+            "CTR (link)",
+            "CPC",
+            "LP Views",
+            "LP→Lead (%)",
+            "Leads",
+            "CPL",
+            "CPM",
+            "WhatsApp Click",
+            "Agendamentos",
+            "Propostas",
+            "Fechamentos"
+        ]
+    },
+    "rituais": {
+        "diario": {
+            "titulo": "Ritual Diário (15-20 min)",
+            "horario": "Manhã (8h-9h)",
+            "tarefas": [
+                "Ordenar campanhas por CPL e CPM",
+                "Pausar perdedores (CPM > 50, CPL acima meta)",
+                "Realocar verba em vencedores",
+                "Subir 2-3 novos criativos/semana",
+                "Conferir pipeline no CRM (toques follow-up)",
+                "Registrar aprendizados por ângulo/criativo"
+            ]
+        },
+        "semanal": {
+            "titulo": "Ritual Semanal",
+            "horario": "Segunda-feira (9h-11h)",
+            "tarefas": [
+                "Revisão metas vs. real (CPL, taxa agenda, close)",
+                "Análise de performance de criativos",
+                "Decisões de escala e novos ângulos",
+                "Atualização de backlog de criativos",
+                "Review de esteira comercial",
+                "Atualização de cases e provas sociais",
+                "Planejamento da semana seguinte"
+            ]
+        }
+    }
+}
