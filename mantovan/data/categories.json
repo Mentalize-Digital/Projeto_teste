@@ -1,0 +1,5 @@
+{
+    "labels": ["Gestão de Tráfego", "Sites de Rifa", "Automações N8N", "Mentoria", "Monitoramento BM"],
+    "values": [1800, 2000, 1500, 2000, 1000],
+    "colors": ["#3498db", "#e74c3c", "#f1c40f", "#9b59b6", "#2ecc71"]
+}

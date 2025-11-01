@@ -1,0 +1,5 @@
+{
+    "labels": ["Indicação (100%)", "Tráfego Próprio", "Orgânico", "Outros"],
+    "values": [100, 0, 0, 0],
+    "colors": ["#2ecc71", "#3498db", "#f1c40f", "#95a5a6"]
+}

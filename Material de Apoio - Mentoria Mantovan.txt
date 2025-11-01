@@ -1,0 +1,307 @@
+Material de Apoio - Mentoria Mantovan
+📊 RESUMO EXECUTIVO DA MENTORIA
+Situação Atual da Agência
+Faturamento e Estrutura:
+
+Faturamento mensal: R$ 34.400 (aproximadamente R$ 50k com variações)
+Total de clientes ativos: 24 clientes
+Ticket médio: A partir de R$ 1.000 (campanhas WhatsApp simples: R$ 400)
+Modelo de aquisição: 100% indicação (zero tráfego próprio)
+Equipe: 3 pessoas (Mantovan + 1 gestor + 1 sócio de outra agência)
+
+Serviços Oferecidos:
+
+Tráfego pago (foco principal)
+Sites de rifa (R$ 2.000 + taxa de 2,7% por transação)
+Automações N8N (R$ 1.500 por estruturação)
+Mentoria (R$ 2.000 - 8 encontros + Discord)
+Monitoramento de BM (R$ 1.000/mês - 2 clientes)
+
+Nichos de Atuação:
+
+Rifas (principal - contratos mínimo R$ 3.000)
+Negócios locais (foco em São Paulo)
+ROI médio em rifas: 1,90 a 2,36
+
+Pontos Fortes Identificados
+✅ Network forte - Base sólida de relacionamentos
+✅ Autoridade no mercado - Instagram com público qualificado
+✅ Retenção alta - Último cancelamento há 3 meses
+✅ Relacionamento próximo - Almoça com clientes, atendimento humanizado
+✅ Canal no WhatsApp - Comunicação ativa e transparente
+✅ Estrutura técnica - Domínio de tráfego, N8N, integrações
+Gargalos e Oportunidades
+🔴 Dependência de indicação - 100% dos clientes vêm de indicação
+🔴 Falta de estrutura de captação - Sem SDR, sem closer, sem tráfego próprio
+🔴 Ausência de social selling - Instagram sem movimento estratégico
+🔴 Falta de processos documentados - Empresa depende do Mantovan
+🔴 Sem requalificação de leads - Não há email marketing ou nutrição
+🔴 Gestão básica - Usa Trello (pode evoluir para Click-up)
+Métricas e Projeções
+Investimento Inicial em Tráfego:
+
+Budget semanal: R$ 1.000 (R$ 4.000/mês)
+Sem risco para o caixa atual
+Expectativa: CPL baixo com foco em MQL (leads qualificados)
+
+Meta de Crescimento:
+
+Crescimento mensal esperado: R$ 18.000 a R$ 20.000
+Projeção: De R$ 34k para R$ 52k no primeiro mês
+Objetivo intermediário: R$ 100k/mês (viável com estruturação)
+Casos de sucesso da mentoria: Cliente Gabriel (36k → 87k em 30 dias)
+
+Sazonalidade Identificada:
+
+Novembro/Dezembro: Boom de rifeiros (ano passado: nov R$ 50k, dez R$ 60k)
+Black Friday: Oportunidade de pacotes anuais e upsell
+
+
+🎯 PLANO DE EXECUÇÃO - CHECKLIST DE TRANSFORMAÇÃO
+FASE 1: FUNDAÇÃO (Semanas 1-2)
+1.1 Estruturação de Captação
+✅ Tráfego Pago para Agência
+
+ Definir estratégia: Crescimento de perfil vs Captação de leads
+ Criar campanhas focadas em São Paulo (mercado forte do Mantovan)
+ Configurar funil de captação com N8N
+ Implementar tracking: Google Analytics + Tag Manager + UTMs
+ Budget inicial: R$ 1.000/semana
+
+✅ Automação de Qualificação (N8N)
+
+ Mapear jornada do lead (já existe estrutura básica)
+ Criar fluxo de qualificação automatizado
+ Definir gatilhos para entrada do Mantovan (vendedor)
+ Testar fluxo completo antes de ativar tráfego
+ Documentar processo para escala futura
+
+✅ Formulários e Landing Pages
+
+ Criar landing page de captação (Loveable/Bolt)
+ Formulário de qualificação otimizado
+ Página de agendamento (integrada com calendário)
+ Thank you page com próximos passos
+
+1.2 Posicionamento e Oferta
+✅ Estruturação de Produtos
+
+ Pacote entrada: R$ 1.200 (3 imagens + link de bio + setup inicial)
+ Pacote padrão: R$ 1.500 - R$ 3.000 (gestão mensal)
+ Pacote premium rifas: Mínimo R$ 3.000
+ Pacote Black Friday: 6-12 meses parcelado + N8N de presente
+
+✅ Ofertas Especiais (Novembro/Dezembro)
+
+ Criar oferta Black Friday (20% desconto + N8N grátis)
+ Pacote anual: Dividir em 12x no cartão
+ Bônus: Atendimento 24h durante Black Friday
+ Script de upsell para clientes atuais
+
+1.3 Social Selling e Autoridade
+✅ Instagram Pessoal (@mantovan_)
+
+ Aumentar frequência de posts (mínimo 1x/dia)
+ Conteúdo: Bastidores do escritório + Resultados de clientes
+ Stories diários: Rotina + dicas rápidas
+ Reels semanais: Cases de sucesso
+ Interação: Responder DMs e comentários
+
+✅ Instagram da Agência
+
+ Reativar perfil com estratégia de conteúdo
+ Posts de portfólio e cases
+ Depoimentos em vídeo de clientes
+ Conteúdo educativo sobre tráfego pago
+
+✅ Canal no WhatsApp
+
+ Manter comunicação ativa (já faz bem)
+ Criar calendário de conteúdo: Dicas, atualizações, cases
+ Enviar pesquisa de satisfação mensal
+
+
+FASE 2: ESCALA (Semanas 3-4)
+2.1 Estrutura Comercial
+✅ Processo de Vendas (Mantovan como Closer)
+
+ Criar script de qualificação
+ Desenvolver apresentação de proposta (deck/Notion)
+ Estabelecer SLA de resposta: Máximo 2h
+ Implementar follow-up automatizado (N8N)
+ Documentar objeções comuns e respostas
+
+✅ Requalificação de Leads
+
+ Criar fluxo de email marketing (leads que não fecharam)
+ Sequência de nutrição: 7 emails ao longo de 30 dias
+ Remarketing para visitantes do site
+ Reativar leads antigos com nova oferta
+
+2.2 Gestão e Operação
+✅ Ferramentas de Gestão
+
+ Migrar do Trello para Click-up (ou otimizar Trello)
+ Criar boards por cliente
+ Implementar checklists de onboarding
+ Estabelecer rituais: Reunião semanal com gestor
+ Dashboard de métricas: Faturamento, CAC, LTV, Churn
+
+✅ Retenção de Clientes
+
+ Criar relatório mensal automatizado
+ Implementar NPS trimestral
+ Programa de indicação: Bônus para quem indicar
+ Evento exclusivo para clientes (trimestral)
+
+2.3 Time e Delegação
+✅ Estruturação de Papéis
+
+ Documentar processos executados pelo Mantovan
+ Criar SOPs (procedimentos operacionais) para gestor
+ Definir KPIs para cada membro do time
+ Planejar contratação futura (quando atingir 40+ clientes):
+
+SDR para qualificação
+Closer para auxiliar vendas
+Gestor de tráfego adicional
+
+
+
+
+FASE 3: OTIMIZAÇÃO (Semanas 5-8)
+3.1 Análise e Melhoria Contínua
+✅ Métricas para Acompanhar
+
+ CAC (Custo de Aquisição por Cliente)
+ LTV (Lifetime Value)
+ Taxa de conversão: Lead → Cliente
+ Churn mensal (meta: <5%)
+ ROI do tráfego pago
+ Ticket médio por nicho
+ Tempo médio de fechamento
+
+✅ Otimizações
+
+ A/B test em criativos de tráfego
+ Testar diferentes ofertas de entrada
+ Ajustar qualificação no N8N baseado em dados
+ Refinar ICP (Ideal Customer Profile)
+
+3.2 Expansão de Receita
+✅ Upsell e Cross-sell
+
+ Oferecer N8N para clientes de tráfego
+ Propor planos anuais com desconto
+ Criar pacote "VIP" com atendimento prioritário
+ Estruturar mentoria em grupo (escalar conhecimento)
+
+✅ Novos Produtos/Serviços
+
+ Avaliar demanda por social media (terceirizado)
+ Criar produto de auditoria de tráfego (one-shot R$ 500)
+ Desenvolver curso gravado (renda passiva)
+
+
+📈 ACOMPANHAMENTO E MONITORAMENTO
+Reuniões de Acompanhamento
+Semanal (30 min):
+
+Review de métricas da semana
+Análise de leads gerados
+Vendas fechadas e pipeline
+Blockers e ajustes necessários
+
+Quinzenal (60 min):
+
+Deep dive em campanhas de tráfego
+Análise de custo por lead
+Review de qualidade dos leads
+Ajustes em ofertas e criativos
+
+Mensal (90 min):
+
+Fechamento do mês: Faturamento vs Meta
+Planejamento do próximo mês
+Ajustes estratégicos
+Definição de novas ações
+
+Dashboard de Acompanhamento
+Indicadores Principais:
+
+Faturamento mensal (Meta inicial: R$ 52k)
+Novos clientes adquiridos
+Churn do mês
+Investimento em tráfego vs Retorno
+Leads gerados (total e qualificados)
+Taxa de conversão (Lead → Cliente)
+Ticket médio
+CAC e LTV
+
+Sistema de Alertas
+🔴 Alerta Vermelho: Churn >10% ou faturamento <R$ 30k
+🟡 Alerta Amarelo: CPL acima de R$ 150 ou conversão <5%
+🟢 Zona Verde: Crescimento >R$ 15k/mês e churn <5%
+
+🎓 RECURSOS E FERRAMENTAS
+Stack Tecnológico Atual
+
+Tráfego: Meta Ads, Google Ads
+Automação: N8N (domínio forte)
+Gestão: Trello (considerar Click-up)
+Analytics: Google Analytics, Tag Manager
+Tracking: Meta Gastor (monitoramento de estabilidade)
+Desenvolvimento: Loveable (SaaS), Bolt, Claude, Superbase
+CRM: Implementar solução dedicada
+
+Materiais de Apoio a Criar
+
+ Playbook de vendas
+ Biblioteca de objeções e respostas
+ Templates de propostas
+ Scripts de qualificação
+ Checklist de onboarding de clientes
+ Manual de boas práticas em tráfego
+
+
+💡 INSIGHTS E RECOMENDAÇÕES FINAIS
+O que NÃO mudar:
+
+✅ Relacionamento próximo com clientes (diferencial)
+✅ Network forte (fonte atual de receita)
+✅ Autoridade no mercado de rifas
+✅ Canal no WhatsApp (comunicação transparente)
+
+O que ADICIONAR:
+
+🚀 Estrutura de captação ativa (tráfego + SDR futuro)
+🚀 Processos documentados (reduzir dependência do Mantovan)
+🚀 Social selling estratégico (Instagram)
+🚀 Requalificação e nutrição de leads
+
+Foco Imediato (30 dias):
+
+Ativar tráfego pago para captação (R$ 4k/mês)
+Estruturar automação completa de qualificação
+Criar ofertas para Black Friday/sazonalidade
+Aumentar presença no Instagram pessoal
+Documentar processos críticos
+
+Meta Ousada (90 dias):
+
+Faturamento: R$ 100k/mês
+Base de clientes: 35-40 clientes ativos
+CAC otimizado: <R$ 500 por cliente
+Churn: <5% ao mês
+Time estruturado: 4-5 pessoas
+
+
+Próximos Passos Imediatos:
+
+Revisar este checklist e priorizar ações
+Definir responsáveis para cada tarefa
+Estabelecer prazos realistas
+Agendar primeira reunião de acompanhamento
+Começar execução HOJE
+
+"A estrutura faz faturar. Você faz ela faturar. Agora vamos fazer a estrutura faturar sozinha."

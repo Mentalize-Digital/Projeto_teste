@@ -1,0 +1,275 @@
+[
+    {
+        "fase": "FASE 1: FUNDAÇÃO (Semanas 1-2)",
+        "prazo": "Semana 1-2",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Estruturação de Captação - Tráfego Pago",
+                "responsavel": "Mantovan",
+                "prazo": "7 dias",
+                "metrica": "Campanhas ativas com CPL < R$150",
+                "subtarefas": [
+                    "Definir estratégia: Crescimento de perfil vs Captação de leads",
+                    "Criar campanhas focadas em São Paulo (mercado forte)",
+                    "Configurar funil de captação com N8N",
+                    "Implementar tracking: Google Analytics + Tag Manager + UTMs",
+                    "Budget inicial: R$ 1.000/semana"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Automação de Qualificação (N8N)",
+                "responsavel": "Mantovan",
+                "prazo": "5 dias",
+                "metrica": "70% de preenchimento do formulário",
+                "subtarefas": [
+                    "Mapear jornada do lead (estrutura básica já existe)",
+                    "Criar fluxo de qualificação automatizado",
+                    "Definir gatilhos para entrada do Mantovan (vendedor)",
+                    "Testar fluxo completo antes de ativar tráfego",
+                    "Documentar processo para escala futura"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Formulários e Landing Pages",
+                "responsavel": "Mantovan",
+                "prazo": "5 dias",
+                "metrica": "Landing page com conversão > 15%",
+                "subtarefas": [
+                    "Criar landing page de captação (Loveable/Bolt)",
+                    "Formulário de qualificação otimizado",
+                    "Página de agendamento (integrada com calendário)",
+                    "Thank you page com próximos passos"
+                ]
+            },
+            {
+                "id": "1.4",
+                "titulo": "Estruturação de Produtos e Ofertas",
+                "responsavel": "Mantovan",
+                "prazo": "3 dias",
+                "metrica": "Pacotes definidos e documentados",
+                "subtarefas": [
+                    "Pacote entrada: R$ 1.200 (3 imagens + link de bio + setup)",
+                    "Pacote padrão: R$ 1.500 - R$ 3.000 (gestão mensal)",
+                    "Pacote premium rifas: Mínimo R$ 3.000",
+                    "Pacote Black Friday: 6-12 meses parcelado + N8N de presente"
+                ]
+            },
+            {
+                "id": "1.5",
+                "titulo": "Social Selling e Autoridade - Instagram",
+                "responsavel": "Mantovan",
+                "prazo": "Contínuo",
+                "metrica": "Mínimo 1 post/dia no Instagram pessoal",
+                "subtarefas": [
+                    "Aumentar frequência de posts (@mantovan_)",
+                    "Conteúdo: Bastidores do escritório + Resultados de clientes",
+                    "Stories diários: Rotina + dicas rápidas",
+                    "Reels semanais: Cases de sucesso",
+                    "Interação: Responder DMs e comentários"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: ESCALA (Semanas 3-4)",
+        "prazo": "Semana 3-4",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Processo de Vendas (Mantovan como Closer)",
+                "responsavel": "Mantovan",
+                "prazo": "5 dias",
+                "metrica": "SLA de resposta: Máximo 2h",
+                "subtarefas": [
+                    "Criar script de qualificação",
+                    "Desenvolver apresentação de proposta (deck/Notion)",
+                    "Estabelecer SLA de resposta: Máximo 2h",
+                    "Implementar follow-up automatizado (N8N)",
+                    "Documentar objeções comuns e respostas"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Requalificação de Leads",
+                "responsavel": "Mantovan + Gestor",
+                "prazo": "7 dias",
+                "metrica": "Sequência de 7 emails implementada",
+                "subtarefas": [
+                    "Criar fluxo de email marketing (leads que não fecharam)",
+                    "Sequência de nutrição: 7 emails ao longo de 30 dias",
+                    "Remarketing para visitantes do site",
+                    "Reativar leads antigos com nova oferta"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Ferramentas de Gestão",
+                "responsavel": "Mantovan + Gestor",
+                "prazo": "7 dias",
+                "metrica": "Click-up implementado com todos os clientes",
+                "subtarefas": [
+                    "Migrar do Trello para Click-up (ou otimizar Trello)",
+                    "Criar boards por cliente",
+                    "Implementar checklists de onboarding",
+                    "Estabelecer rituais: Reunião semanal com gestor",
+                    "Dashboard de métricas: Faturamento, CAC, LTV, Churn"
+                ]
+            },
+            {
+                "id": "2.4",
+                "titulo": "Retenção de Clientes",
+                "responsavel": "Gestor",
+                "prazo": "10 dias",
+                "metrica": "NPS trimestral implementado",
+                "subtarefas": [
+                    "Criar relatório mensal automatizado",
+                    "Implementar NPS trimestral",
+                    "Programa de indicação: Bônus para quem indicar",
+                    "Evento exclusivo para clientes (trimestral)"
+                ]
+            },
+            {
+                "id": "2.5",
+                "titulo": "Estruturação de Papéis do Time",
+                "responsavel": "Mantovan",
+                "prazo": "10 dias",
+                "metrica": "SOPs criados para processos principais",
+                "subtarefas": [
+                    "Documentar processos executados pelo Mantovan",
+                    "Criar SOPs (procedimentos operacionais) para gestor",
+                    "Definir KPIs para cada membro do time",
+                    "Planejar contratação futura (quando atingir 40+ clientes)"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: OTIMIZAÇÃO (Semanas 5-8)",
+        "prazo": "Semana 5-8",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Análise e Métricas",
+                "responsavel": "Mantovan + Gestor",
+                "prazo": "5 dias",
+                "metrica": "Dashboard com todas as métricas em tempo real",
+                "subtarefas": [
+                    "Configurar CAC (Custo de Aquisição por Cliente)",
+                    "Configurar LTV (Lifetime Value)",
+                    "Medir taxa de conversão: Lead → Cliente",
+                    "Acompanhar Churn mensal (meta: <5%)",
+                    "Calcular ROI do tráfego pago",
+                    "Monitorar ticket médio por nicho",
+                    "Medir tempo médio de fechamento"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Otimizações de Campanhas",
+                "responsavel": "Mantovan",
+                "prazo": "Contínuo",
+                "metrica": "CPL reduzido em 20%",
+                "subtarefas": [
+                    "A/B test em criativos de tráfego",
+                    "Testar diferentes ofertas de entrada",
+                    "Ajustar qualificação no N8N baseado em dados",
+                    "Refinar ICP (Ideal Customer Profile)"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Upsell e Cross-sell",
+                "responsavel": "Mantovan",
+                "prazo": "14 dias",
+                "metrica": "20% dos clientes com upsell",
+                "subtarefas": [
+                    "Oferecer N8N para clientes de tráfego",
+                    "Propor planos anuais com desconto",
+                    "Criar pacote 'VIP' com atendimento prioritário",
+                    "Estruturar mentoria em grupo (escalar conhecimento)"
+                ]
+            },
+            {
+                "id": "3.4",
+                "titulo": "Novos Produtos/Serviços",
+                "responsavel": "Mantovan + Gestor",
+                "prazo": "21 dias",
+                "metrica": "2 novos produtos validados",
+                "subtarefas": [
+                    "Avaliar demanda por social media (terceirizado)",
+                    "Criar produto de auditoria de tráfego (one-shot R$ 500)",
+                    "Desenvolver curso gravado (renda passiva)"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 4: SAZONALIDADE E EXPANSÃO (Semanas 9-12)",
+        "prazo": "Semana 9-12",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "4.1",
+                "titulo": "Preparação para Alta Temporada",
+                "responsavel": "Mantovan + Time",
+                "prazo": "14 dias",
+                "metrica": "Estrutura pronta para boom Nov/Dez",
+                "subtarefas": [
+                    "Criar pacotes especiais para rifeiros (Black Friday)",
+                    "Estruturar atendimento 24h durante picos",
+                    "Preparar automações para volume alto",
+                    "Criar ofertas anuais com desconto",
+                    "Planejar comunicação antecipada (2 meses antes)"
+                ]
+            },
+            {
+                "id": "4.2",
+                "titulo": "Expansão da Equipe",
+                "responsavel": "Mantovan",
+                "prazo": "30 dias",
+                "metrica": "Novo membro contratado (SDR ou Gestor)",
+                "subtarefas": [
+                    "Definir perfil: SDR para qualificação vs Closer",
+                    "Criar job description",
+                    "Processo seletivo",
+                    "Onboarding e treinamento",
+                    "Documentar processos para treinamento"
+                ]
+            },
+            {
+                "id": "4.3",
+                "titulo": "Network e Parcerias",
+                "responsavel": "Mantovan",
+                "prazo": "Contínuo",
+                "metrica": "2 novas parcerias estratégicas",
+                "subtarefas": [
+                    "Identificar parceiros estratégicos no nicho de rifas",
+                    "Criar programa de afiliados/indicação",
+                    "Participar de eventos do mercado",
+                    "Fortalecer relacionamento com clientes atuais",
+                    "Criar comunidade de clientes"
+                ]
+            },
+            {
+                "id": "4.4",
+                "titulo": "Meta R$ 100k/mês",
+                "responsavel": "Mantovan + Time",
+                "prazo": "90 dias",
+                "metrica": "Faturamento mensal de R$ 100.000",
+                "subtarefas": [
+                    "Reduzir CAC com otimização de campanhas",
+                    "Aumentar base de clientes de 24 para 40+",
+                    "Manter churn abaixo de 5%",
+                    "Implementar upsells e cross-sells",
+                    "Lançar novos produtos (mentoria em grupo, SaaS)"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Faturamento Mensal",
+        "value": 34400,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Novos Clientes/Mês",
+        "value": 0,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "ROI Médio Rifas",
+        "value": 213,
+        "type": "percentage",
+        "change": 6.5
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 1433,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Investimento Tráfego Próprio",
+        "value": 0,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Base de Clientes",
+        "value": 24,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Budget Semanal Planejado",
+        "value": 1000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Meta 90 dias",
+        "value": 100000,
+        "type": "currency",
+        "change": 190
+    }
+]

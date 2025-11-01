@@ -1,0 +1,168 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Captação e Tráfego",
+                "indicadores": [
+                    { "nome": "CPL (Custo por Lead)", "meta": "< R$ 150", "atual": "N/A", "status": "critico" },
+                    { "nome": "Taxa de Conversão Lead→Cliente", "meta": "> 5%", "atual": "N/A", "status": "critico" },
+                    { "nome": "Investimento Mensal Tráfego", "meta": "R$ 4.000", "atual": "R$ 0", "status": "critico" },
+                    { "nome": "Leads Qualificados/Mês", "meta": "> 30", "atual": "0", "status": "critico" },
+                    { "nome": "Taxa Qualificação Formulário", "meta": "> 70%", "atual": "N/A", "status": "critico" }
+                ]
+            },
+            {
+                "categoria": "Faturamento e Clientes",
+                "indicadores": [
+                    { "nome": "Faturamento Mensal", "meta": "> R$ 52k", "atual": "R$ 34.400", "status": "alerta" },
+                    { "nome": "Total de Clientes Ativos", "meta": "> 35", "atual": "24", "status": "alerta" },
+                    { "nome": "Ticket Médio", "meta": "> R$ 1.500", "atual": "R$ 1.433", "status": "alerta" },
+                    { "nome": "Churn Mensal", "meta": "< 5%", "atual": "~0%", "status": "excelente" },
+                    { "nome": "Crescimento Mensal", "meta": "> R$ 18k", "atual": "Variável", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Serviços e Produtos",
+                "indicadores": [
+                    { "nome": "Contratos Rifas (>R$3k)", "meta": "> 10/mês", "atual": "~8-10", "status": "ok" },
+                    { "nome": "ROI Médio Rifas", "meta": "> 200%", "atual": "213%", "status": "excelente" },
+                    { "nome": "Sites de Rifa Vendidos", "meta": "> 3/mês", "atual": "~2", "status": "alerta" },
+                    { "nome": "Automações N8N Vendidas", "meta": "> 3/mês", "atual": "~2", "status": "alerta" },
+                    { "nome": "Mentorias Ativas", "meta": "> 5", "atual": "~3", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Operação e Processos",
+                "indicadores": [
+                    { "nome": "SLA de Resposta", "meta": "< 2h", "atual": "Bom", "status": "ok" },
+                    { "nome": "Processos Documentados", "meta": "100%", "atual": "~30%", "status": "critico" },
+                    { "nome": "CAC (Custo Aquisição Cliente)", "meta": "< R$ 500", "atual": "R$ 0 (indicação)", "status": "ok" },
+                    { "nome": "LTV (Lifetime Value)", "meta": "> R$ 5.000", "atual": "~R$ 4.000", "status": "alerta" },
+                    { "nome": "Taxa de Indicação", "meta": "100%", "atual": "100%", "status": "excelente" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "Captação Ativa (Inexistente)",
+                "status": "critico",
+                "gap": "Meta: 30 leads/mês | Atual: 0 | Diferença: -30",
+                "acoes": [
+                    "Ativar tráfego pago com budget de R$ 1.000/semana IMEDIATAMENTE",
+                    "Criar landing page de captação focada em São Paulo",
+                    "Configurar automação N8N para qualificação de leads",
+                    "Implementar tracking completo (GA + GTM + UTMs)",
+                    "Testar campanhas focadas em rifeiros e negócios locais"
+                ]
+            },
+            {
+                "metrica": "Faturamento (R$ 34.400)",
+                "status": "alerta",
+                "gap": "Meta: R$ 52k | Atual: R$ 34.400 | Diferença: -R$ 17.600",
+                "acoes": [
+                    "Captar 8-10 novos clientes via tráfego pago (R$ 1.200-3.000)",
+                    "Aumentar ticket médio de R$ 1.433 para R$ 1.500+",
+                    "Lançar ofertas Black Friday (6-12 meses parcelado)",
+                    "Criar upsell de N8N para clientes de tráfego atuais",
+                    "Reativar leads antigos com nova oferta"
+                ]
+            },
+            {
+                "metrica": "Processos Documentados (30%)",
+                "status": "critico",
+                "gap": "Meta: 100% | Atual: 30% | Diferença: -70%",
+                "acoes": [
+                    "Documentar processo de onboarding de clientes",
+                    "Criar SOPs para gestão de tráfego de rifas",
+                    "Documentar setup de automações N8N",
+                    "Criar playbook de vendas com objeções comuns",
+                    "Estabelecer rituais e checklists para o gestor"
+                ]
+            },
+            {
+                "metrica": "Social Selling (Instagram Inativo)",
+                "status": "alerta",
+                "gap": "Meta: 1 post/dia | Atual: Inconsistente | Diferença: -70%",
+                "acoes": [
+                    "Criar calendário de conteúdo semanal",
+                    "Postar bastidores e resultados de clientes diariamente",
+                    "Criar 1 reel semanal com cases de sucesso",
+                    "Responder DMs e comentários em até 2h",
+                    "Reativar Instagram da agência com portfólio"
+                ]
+            },
+            {
+                "metrica": "Novos Produtos (Limitado)",
+                "status": "alerta",
+                "gap": "Meta: 3 produtos escaláveis | Atual: 1 | Diferença: -2",
+                "acoes": [
+                    "Estruturar mentoria em grupo (escalar conhecimento)",
+                    "Criar produto de auditoria de tráfego (R$ 500 one-shot)",
+                    "Desenvolver curso gravado sobre tráfego para rifas",
+                    "Criar pacote VIP com atendimento prioritário (R$ 5k+)",
+                    "Avaliar terceirização de social media para clientes"
+                ]
+            },
+            {
+                "metrica": "Sazonalidade (Nov/Dez)",
+                "status": "oportunidade",
+                "gap": "Meta: R$ 60k em Dez | Histórico: R$ 60k | Oportunidade: +74%",
+                "acoes": [
+                    "Preparar ofertas especiais para Black Friday (2 meses antes)",
+                    "Criar pacotes anuais com desconto (dividir em 12x)",
+                    "Estruturar atendimento 24h para período de pico",
+                    "Comunicar ofertas no Canal WhatsApp com antecedência",
+                    "Criar campanha de reativação de leads antigos"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "mes": "Mês 1 (Dias 1-30)",
+                "objetivo": "Fundação e Tráfego",
+                "metas": [
+                    "Tráfego pago ativado (R$ 4k investidos)",
+                    "Landing page e funil de captação implementados",
+                    "Automação N8N de qualificação funcionando",
+                    "30 leads qualificados gerados",
+                    "5-8 novos clientes fechados (R$ 1.200-3.000)",
+                    "Instagram com 1 post/dia"
+                ],
+                "faturamento_projetado": "R$ 45k (+31%)"
+            },
+            {
+                "mes": "Mês 2 (Dias 31-60)",
+                "objetivo": "Escala e Processos",
+                "metas": [
+                    "CPL otimizado para < R$ 150",
+                    "50 leads qualificados gerados",
+                    "10-12 novos clientes fechados",
+                    "Processos documentados (SOPs criados)",
+                    "Click-up implementado",
+                    "Ofertas Black Friday estruturadas"
+                ],
+                "faturamento_projetado": "R$ 58k (+69%)"
+            },
+            {
+                "mes": "Mês 3 (Dias 61-90)",
+                "objetivo": "Meta R$ 100k",
+                "metas": [
+                    "Aproveitamento sazonalidade Nov/Dez",
+                    "Base de 35-40 clientes ativos",
+                    "2 novos produtos lançados",
+                    "Time estruturado com papéis definidos",
+                    "Churn < 5%",
+                    "Programa de indicação ativo"
+                ],
+                "faturamento_projetado": "R$ 100k (+190%)"
+            }
+        ]
+    }
+}
