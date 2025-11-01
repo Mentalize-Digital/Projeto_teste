@@ -1,0 +1,204 @@
+[
+    {
+        "fase": "FASE 1: Foco Total em Tráfego e CTR (0-7 dias)",
+        "prazo": "Semana 1",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Configurar Colunas e Métricas Customizadas",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dia 1",
+                "metrica": "Painel configurado com todas as métricas",
+                "subtarefas": [
+                    "Configurar ordem: Alcance → Impressões → Frequência → Cliques de saída → CTR de saída",
+                    "Adicionar: LP Views → ConectInit → Initiate Checkout → Purchases → Value → ROAS",
+                    "Criar métrica customizada ConectInit (Initiate Checkout / LP Views)",
+                    "Adicionar métricas de vídeo: 3s, 25%, 50%",
+                    "Salvar como Predefinição de Colunas"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Pacote de 20 Criativos - Hook de 3s",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dias 1-3",
+                "metrica": "20 variações produzidas",
+                "subtarefas": [
+                    "Duração: 12-15 segundos cada vídeo",
+                    "CTA/plaquinha obrigatória nos 3 primeiros segundos",
+                    "5 âncoras: benefício forte, prova social, oferta clara, escassez, personagem",
+                    "Legendado e mobile-first (9:16 ou 1:1)",
+                    "Testar 3 scripts: Plaquinha+benefício, Dor→Solução, Prova social"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Bancada de Validação - 1 Criativo/Dia",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Contínuo (dias 1-7)",
+                "metrica": "≥ 3 criativos com CTR ≥ 1,2% | ≥ 1 com CTR ≥ 1,6%",
+                "subtarefas": [
+                    "Subir 1 novo criativo por dia com R$ 60/dia",
+                    "Pausar se CPA > R$ 25 ou CTR < 1,0%",
+                    "Validar winners: CTR ≥ 1,6% + CPA ≤ R$ 25 + ROAS ≥ 2,5x",
+                    "Documentar aprendizados: gancho, copy, ângulo visual",
+                    "Frequência deve estar < 3,5"
+                ]
+            },
+            {
+                "id": "1.4",
+                "titulo": "Ativar Recuperação de Carrinho Mínima",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dias 2-3",
+                "metrica": "3 disparos configurados",
+                "subtarefas": [
+                    "Disparo 1 (até 30 min): WhatsApp/email com botão de retomada",
+                    "Disparo 2 (6-12h): benefício + prova social",
+                    "Disparo 3 (48h): último lembrete",
+                    "Testar mensagens curtas e diretas"
+                ]
+            },
+            {
+                "id": "1.5",
+                "titulo": "Ritual Diário de Otimização (15-20 min)",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Diário",
+                "metrica": "Ritual executado todos os dias",
+                "subtarefas": [
+                    "Filtrar por criativo e ordenar por CTR",
+                    "Pausar o que não bate: CTR < 1,0% ou CPA > R$ 25",
+                    "Escalar winners (pequenos passos) e lateralizar se freq. ≥ 3,5",
+                    "Subir 1 novo criativo da bancada",
+                    "Registrar aprendizados em planilha"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: Escala e Remarketing (8-21 dias)",
+        "prazo": "Semanas 2-3",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Lateralizar Winners",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Contínuo",
+                "metrica": "Duplicar campanhas vencedoras com aumento gradual",
+                "subtarefas": [
+                    "Duplicar campanha de criativo winner",
+                    "Aumentar orçamento à noite/00:01 (passos de 10-20%)",
+                    "Exemplo: R$ 500 → 560 → 700",
+                    "Observar 24h antes de novo aumento",
+                    "Dividir orçamento se fadigar (freq. ↑ e CTR ↓)"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Implementar Remarketing Básico",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dias 8-14",
+                "metrica": "3 canais de remarketing ativos",
+                "subtarefas": [
+                    "Meta: View Content → ATC → Purchase",
+                    "Google: Search/Brand + PMax básicos",
+                    "TikTok: Campanhas de retargeting básicas",
+                    "Configurar pixels e eventos corretamente",
+                    "Orçamento inicial: 15-20% do total"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Escala Controlada",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Contínuo",
+                "metrica": "Manter CPA < R$ 25 durante escala",
+                "subtarefas": [
+                    "Nunca 'dobrar do nada' no meio do dia",
+                    "Preferir agendar aumentos para 00:01",
+                    "Aumentos graduais de 10-20%",
+                    "Checar frequência 2x/semana",
+                    "Lateralizar se necessário para reduzir CPA"
+                ]
+            },
+            {
+                "id": "2.4",
+                "titulo": "Documentar Aprendizados",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Contínuo",
+                "metrica": "Planilha atualizada semanalmente",
+                "subtarefas": [
+                    "Registrar melhores ganchos/hooks",
+                    "Documentar copies que funcionaram",
+                    "Anotar ângulos visuais vencedores",
+                    "Registrar públicos que reagiram melhor",
+                    "Compartilhar insights com o time"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: LTV e Estabilização (22-60 dias)",
+        "prazo": "Semanas 4-8",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Implementar Segundo Pilar: LTV",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dias 22-30",
+                "metrica": "Sistema de LTV ativo",
+                "subtarefas": [
+                    "Criar cupom de 2ª compra (30% OFF)",
+                    "Disparar cupom após entrega (janela de 7 dias)",
+                    "Implementar programa de fidelidade simples",
+                    "Criar gatilhos de recompra ao longo de 12 meses",
+                    "Medir taxa de recompra mensal"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Otimizar Checkout (pós-estabilização CTR)",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Dias 30-45",
+                "metrica": "Connect → Checkout > 25%",
+                "subtarefas": [
+                    "Testar variações de layout",
+                    "Melhorar velocidade de carregamento",
+                    "Adicionar provas sociais",
+                    "Testar diferentes formas de pagamento",
+                    "A/B test de copy e elementos visuais"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Projeção Novembro: Investir R$ 15k para R$ 45k",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Novembro",
+                "metrica": "ROAS 3x no mês",
+                "subtarefas": [
+                    "Escalar gradualmente até R$ 500/dia",
+                    "Manter CPA < R$ 25",
+                    "Atingir CTR médio > 1,6%",
+                    "Lateralizar conforme necessário",
+                    "Preparar reinvestimento para Dezembro"
+                ]
+            },
+            {
+                "id": "3.4",
+                "titulo": "Rotina Semanal de Análise",
+                "responsavel": "Time Eliaquim",
+                "prazo": "Toda semana",
+                "metrica": "Análises realizadas 3x/semana",
+                "subtarefas": [
+                    "Seg/Qua/Sex: checar vídeo 3s / 25% / 50%",
+                    "Ajustar hooks conforme performance",
+                    "Sexta: revisão de ROAS/CPA por campanha",
+                    "Criar quadro de hipóteses da semana seguinte",
+                    "Documentar decisões tomadas"
+                ]
+            }
+        ]
+    }
+]

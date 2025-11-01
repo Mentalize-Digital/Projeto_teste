@@ -1,0 +1,220 @@
+# Material de Apoio — Mentoria Eliaquim (v1)
+
+> **Objetivo deste documento:** consolidar o que foi falado/ensinado na mentoria, destacar as métricas prioritárias e listar um plano executável com checklists de monitoramento para você aplicar já.
+
+---
+
+## 1) Resumo Executivo (o que está acontecendo agora)
+
+* **Oferta atual:** produto de **R$ 49,90** com venda em tráfego direto.
+* **Orçamento e estrutura:** duas campanhas “verticais” ativas com orçamento centralizado (faixa **R$ 650–950/dia** ao longo dos dias). Centralizar ajuda na estabilidade, **mas tende a elevar o CPA**. Lateralizações ajudam a reduzir CPA.
+* **CPA observado vs. meta:** hoje entre **R$ 19–22**; **teto saudável: R$ 20–25**.
+* **ROAS/ROI médio:** ~ **1,8x** no dia a dia.
+* **Ticket médio:** ~ **R$ 80**.
+* **Página:** **carregamento bom**, mas **conversão média** (Connect → Checkout em ~**20%**; mercado varia **20–45%**).
+* **Gargalo nº 1:** **CTR de saída baixo** (muitas variações < **1,0%**; quando chega em **1,2%** já entrega ~2x; **alvo: 1,6–2,0%+** para destravar ROAS **2,5–4x**).
+* **Vídeos:** retenção baixa (muita gente só assiste **2–3 s**). Precisamos de **CTA/“plaquinha” logo nos 3 primeiros segundos**.
+* **Frequência:** ideal **≤ 3,0**; atenção quando **≥ 3,5–4,0** (tende a derrubar CTR).
+
+**Diagnóstico simples:** o funil está “respirando”, porém **o ponteiro que mais mexe no resultado é o CTR**. Prioridade total em **oferta/criativo** (quantidade e qualidade) e **organização das métricas** no Gerenciador para otimização diária.
+
+---
+
+## 2) O que foi ensinado (com passos práticos)
+
+### 2.1 Configuração de Colunas no Meta Ads (ordem sugerida)
+
+1. **Alcance**
+2. **Impressões**
+3. **Frequência**
+4. **Cliques de saída** (Outbound)
+5. **CTR de saída**
+6. **Visualização da página de destino** (Page View/LP View)
+7. **Connect Rate** *(taxas de visualização da página de destino)*
+8. **Initiate Checkout** (Finalizações de compras iniciadas)
+9. **(Métrica customizada) ConectInit = Initiate Checkout / LP Views**
+10. **Compras (volume)**
+11. **Valor de compras**
+12. **ROAS/ROI**
+13. **(Vídeo)** Taxa de reproduções **3 s**, **25%** e **50%**
+
+> Salvar como **Predefinição de Colunas** para usar todo dia.
+
+### 2.2 Métrica customizada (como criar)
+
+* **Nome:** ConectInit
+* **Fórmula:** **Finalizações de compras iniciadas ÷ Visualizações da página de destino**
+* **Formato:** **%**
+
+### 2.3 Leitura dos indicadores (faixas-guia)
+
+* **CTR de saída**:
+
+  * **< 1,0%** → fraco (refazer criativo/oferta)
+  * **≥ 1,2%** → começa a fechar **~2x**
+  * **1,6–2,0%+** → tende a destravar **2,5–4x**
+* **Connect → Checkout** (Initiate Checkout / LP View):
+
+  * **20–45%** é a **faixa de mercado**; **alvo mínimo: 25%**
+* **Frequência**:
+
+  * Bom: **≤ 3,0**
+  * Atenção: **3,5–4,0** (split budget / lateralizar)
+* **Vídeos (≤ 15 s):**
+
+  * As pessoas **saem em 2–3 s**; **coloque CTA/plaquinha** no **início**.
+  * **Benchmark de reprodução** em 15 s costuma girar em torno de **~22–23%**.
+
+### 2.4 Testes & Lateralizações (validação real)
+
+* **Não** agrupe muitos criativos num único conjunto com verba pequena; isso **impede validação**.
+* **Valide por campanha/conjunto separado**, com orçamento diário de **~3× o CPA-alvo** (ex.: CPA 20 → **R$ 60/dia** por criativo).
+* **Critérios de “winner”**:
+
+  * CTR **≥ 1,6%**
+  * CPA **≤ R$ 25**
+  * ROAS **≥ 2,5x**
+  * Frequência **< 3,5**
+  * Vídeo **3 s** **≥ 20%**
+* **Ação com winner:** duplicar para uma **campanha de escala** e **subir orçamento**.
+
+### 2.5 Escala & Orçamento (sem bagunçar o leilão)
+
+* Evite **ligar campanha no fim do dia** (a Meta tenta gastar tudo até 23:59).
+* Prefira **agendar para 00:01** do dia seguinte.
+* **Aumentos graduais**: exemplo de **R$ 500 → 560 → 700…**; observe 24 h.
+* Se performou bem **no meio do dia**, suba **pouco** (ex.: 10–20%), não **2×**.
+
+---
+
+## 3) Prioridades e Cronograma de Execução
+
+### 0–7 dias (foco total em tráfego/CTR)
+
+1. **Configurar colunas** e criar a métrica **ConectInit**.
+2. **Pacote de criativos (20 variações)** do melhor personagem atual:
+
+   * **Duração**: 12–15 s
+   * **CTA/plaquinha nos 3 primeiros segundos**
+   * 5 âncoras: *benefício forte*, *prova social*, *oferta agressiva/clareza*, *escassez*, *personagem*
+3. **Bancada de validação**: subir **1 novo criativo/dia**, **R$ 60/dia** cada; pausar se **CPA > R$ 25**.
+4. **Meta da semana**: ter **≥ 3 criativos** com **CTR ≥ 1,2%** e pelo menos **1** batendo **≥ 1,6%**.
+5. **Ativar apenas** **recuperação de carrinho** (e‑mail/WhatsApp/API).
+6. **Ritual diário** (ver seção 5.2).
+
+### 8–21 dias (escala e remarketing)
+
+1. **Lateralizar winners** (duplicar campanha e subir orçamento).
+2. **Escala controlada** (aumentos noturnos, observar CPA e frequência).
+3. **Remarketing**:
+
+   * Meta: **View Content → ATC → Purchase**
+   * **Google (Search/Brand + PMax)** e **TikTok** básicos
+4. **Documentar aprendizados** (gancho, copy, ângulos visuais, públicos que reagiram).
+
+### 22–60 dias (LTV e estabilização)
+
+1. **Segundo pilar: LTV**
+
+   * **Cupom 2ª compra (ex.: 30%)** disparado **após entrega** (janela de 7 dias).
+   * **Fidelidade simples** e **pós‑venda** (gatilhos de recompras ao longo de 12 meses).
+2. **Checkout** (aprimorar só depois de estabilizar CTR/fluxo).
+3. **Projeção**: Nov: **investir ~R$ 15 mil** para buscar **~R$ 45 mil**; Dez: reinvestir forte.
+
+---
+
+## 4) Playbooks (checklists práticos)
+
+### 4.1 Playbook de Criativo (vídeo curto)
+
+* [ ] **Hook imbatível nos 3 s** (placa/legenda + comando: “Clique abaixo…”).
+* [ ] **Benefício explícito** até 6 s (o que ganho hoje?).
+* [ ] **Prova social** (print, depoimento curto, badge).
+* [ ] **Oferta clara** (R$ 49,90; sem rodeios).
+* [ ] **Escassez** (lotes/tempo limitado se for verdade).
+* [ ] **Encerramento** repetindo **CTA**.
+* [ ] **Legendado** e **mobile‑first** (9:16 ou 1:1 conforme canal).
+
+**3 scripts-relâmpago (modelo 15 s)**
+
+1. **“Plaquinha + benefício”** — *0–3 s:* **[Plaquinha]** “Personalize seu vídeo AGORA — clique abaixo”. *3–6 s:* “Sai por **R$ 49,90** e fica pronto rapidinho.” *6–12 s:* “Pais e filhos estão amando (print rápido).” *12–15 s:* “**Clique agora** e peça o seu.”
+2. **“Dor → Solução”** — *0–3 s:* **[Plaquinha]** “Não sabe o que dar de presente? **Clique abaixo**.” *3–6 s:* “Um vídeo personalizado resolve em minutos.” *6–12 s:* “Entrega simples, sem enrolação, por **R$ 49,90**.” *12–15 s:* “**Clique e garanta hoje.**”
+3. **“Prova social”** — *0–3 s:* **[Plaquinha]** “**+18 mil** famílias já compraram — **clique abaixo**.” *3–6 s:* “Olha a reação 🥹 (corte rápido).” *6–12 s:* “Tudo por **R$ 49,90**.” *12–15 s:* “**Clique** e personalize.”
+
+### 4.2 Playbook de Validação
+
+* **Setup**: 1 criativo/campanha (ou conjunto) com **R$ 60/dia**.
+* **Janela**: até **3× CPA** ou **7 dias**, o que vier primeiro.
+* **KO rules**: CPA > **R$ 25**; CTR < **1,0%**; frequência > **3,5**.
+* **Winner rules**: CTR **≥ 1,6%** + CPA **≤ R$ 25** + ROAS **≥ 2,5x**.
+* **Ação**: duplicar para **campanha de escala**; empilhar mais variações do mesmo ângulo.
+
+### 4.3 Playbook de Escala
+
+* **Aumentar à noite/00:01**; passos de **10–20%**.
+* **Se fadigar** (freq. ↑ e CTR ↓): **dividir orçamento** (lateralizar) e subir **novas ofertas**.
+* **Nunca** “dobrar do nada” no meio do dia (desorganiza a distribuição).
+
+### 4.4 Playbook de Cart Recovery (mínimo viável)
+
+* **Disparo 1 (até 30 min):** WhatsApp/e‑mail curto com botão de retomada.
+* **Disparo 2 (6–12 h):** benefício/clareza + prova social.
+* **Disparo 3 (48 h):** último lembrete (se fizer sentido, cupom leve).
+
+---
+
+## 5) Monitoramento e Rotina
+
+### 5.1 Painel-base (colunas na ordem)
+
+**Alcance → Impressões → Frequência → Cliques de saída → CTR de saída → LP Views → ConectInit (custom) → Initiate Checkout → Purchases → Value → ROAS/ROI → Vídeo 3s/25%/50%**
+
+### 5.2 Ritual diário (15–20 min)
+
+1. **Filtrar por criativo** e ordenar por **CTR**.
+2. **Pausar** o que **não bate**: CTR < 1,0% **ou** CPA > R$ 25.
+3. **Escalar** winners (pequenos passos) e **lateralizar** se frequência ≥ 3,5.
+4. **Subir 1 novo criativo** (bancada de validação).
+5. Registrar aprendizados em planilha (gancho, copy, ângulo visual).
+
+### 5.3 Rotina semanal
+
+* **Seg/Qua/Sex**: checar **vídeo 3 s / 25% / 50%** e ajustar hooks.
+* **Sexta**: revisão de **ROAS/CPA** por campanha e **quadro de hipóteses** da semana seguinte.
+
+---
+
+## 6) Tarefas por responsável
+
+### Para o time (mentorado)
+
+* [ ] Configurar colunas e criar **ConectInit**.
+* [ ] Produzir **20 variações** de criativos (3 s de hook + plaquinha).
+* [ ] Rodar **1 novo criativo/dia** com **R$ 60/dia**.
+* [ ] Ativar **recuperação de carrinho** mínima.
+* [ ] Preencher planilha de aprendizados (diário).
+
+### Para o mentor
+
+* [ ] Validar **predefinição de colunas** e leitura de métricas do time.
+* [ ] Avaliar winners e orientar **lateralizações**/escala.
+* [ ] Checar **frequência** e **fadiga** 2×/semana.
+* [ ] Fechar **plano da semana** (hipóteses e metas de CTR/CPA/ROAS).
+
+---
+
+## 7) Glossário rápido
+
+* **CTR de saída:** % de pessoas que clicam para sair do anúncio e ir para a página.
+* **LP Views (Page View/Visualização da página de destino):** quantos de fato **carregaram** a página.
+* **ConectInit:** *Initiate Checkout / LP Views* (aponta qualidade da página/tráfego).
+* **Frequência:** média de vezes que a mesma pessoa viu o anúncio.
+* **Lateralizar:** **replicar/dividir** orçamento entre campanhas/conjuntos/ângulos para reduzir CPA e combater fadiga.
+
+---
+
+### Anotações finais
+
+* **Prioridade nº 1**: **CTR**. Toda a estratégia gira em torno de **oferta/criativo**.
+* **Simplicidade agora**: cart recovery mínimo e só depois pensar em camadas de LTV/checkout.
+* **Disciplina diária**: 1 criativo novo/dia + leitura das colunas salva.

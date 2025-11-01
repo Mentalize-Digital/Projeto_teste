@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Investimento Diário",
+        "value": 800,
+        "type": "currency",
+        "change": 23.1
+    },
+    {
+        "label": "CPA Atual",
+        "value": 20,
+        "type": "currency",
+        "change": -9.1
+    },
+    {
+        "label": "ROAS Médio",
+        "value": 180,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 80,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "CTR de Saída",
+        "value": 1.0,
+        "type": "percentage",
+        "change": -16.7
+    },
+    {
+        "label": "Frequência",
+        "value": 3.0,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Connect → Checkout",
+        "value": 20,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Meta ROAS 60d",
+        "value": 300,
+        "type": "percentage",
+        "change": 66.7
+    }
+]

@@ -1,0 +1,5 @@
+{
+    "labels": ["Meta Ads (Direto)", "Google Ads", "TikTok", "Remarketing"],
+    "values": [100, 0, 0, 0],
+    "colors": ["#3498db", "#e74c3c", "#2ecc71", "#95a5a6"]
+}

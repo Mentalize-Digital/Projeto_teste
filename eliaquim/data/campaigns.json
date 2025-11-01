@@ -1,0 +1,19 @@
+{
+    "labels": ["Sem 1", "Sem 2", "Sem 3", "Sem 4", "Sem 5", "Sem 6"],
+    "datasets": [
+        {
+            "label": "Investimento (R$)",
+            "data": [4550, 5250, 5600, 5950, 6300, 6650],
+            "borderColor": "#e74c3c",
+            "backgroundColor": "rgba(231, 76, 60, 0.1)",
+            "fill": true
+        },
+        {
+            "label": "Retorno (R$)",
+            "data": [8190, 9450, 10080, 10710, 11340, 11970],
+            "borderColor": "#2ecc71",
+            "backgroundColor": "rgba(46, 204, 113, 0.1)",
+            "fill": true
+        }
+    ]
+}

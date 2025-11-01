@@ -1,0 +1,163 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Tráfego Pago",
+                "indicadores": [
+                    { "nome": "CPA Médio", "meta": "< R$ 25", "atual": "R$ 20", "status": "ok" },
+                    { "nome": "CTR de Saída", "meta": "> 1,6%", "atual": "1,0%", "status": "critico" },
+                    { "nome": "ROAS", "meta": "> 2,5x", "atual": "1,8x", "status": "alerta" },
+                    { "nome": "Frequência", "meta": "< 3,0", "atual": "3,0", "status": "ok" },
+                    { "nome": "Vídeo 3s", "meta": "> 20%", "atual": "15%", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Conversão e Checkout",
+                "indicadores": [
+                    { "nome": "Connect → Checkout", "meta": "> 25%", "atual": "20%", "status": "alerta" },
+                    { "nome": "Ticket Médio", "meta": "> R$ 80", "atual": "R$ 80", "status": "ok" },
+                    { "nome": "Taxa de Conversão LP", "meta": "> 5%", "atual": "4%", "status": "alerta" },
+                    { "nome": "Velocidade Página", "meta": "< 3s", "atual": "Bom", "status": "ok" }
+                ]
+            },
+            {
+                "categoria": "Criativos",
+                "indicadores": [
+                    { "nome": "Winners Ativos", "meta": "> 3", "atual": "0", "status": "critico" },
+                    { "nome": "Criativos CTR > 1,2%", "meta": "> 5", "atual": "2", "status": "alerta" },
+                    { "nome": "Criativos CTR > 1,6%", "meta": "> 2", "atual": "0", "status": "critico" },
+                    { "nome": "Retenção Hook 3s", "meta": "> 22%", "atual": "15%", "status": "critico" }
+                ]
+            },
+            {
+                "categoria": "LTV e Recompra",
+                "indicadores": [
+                    { "nome": "Taxa de Recompra", "meta": "> 10%", "atual": "N/A", "status": "critico" },
+                    { "nome": "Cart Recovery", "meta": "Ativo", "atual": "Não", "status": "critico" },
+                    { "nome": "Cupom 2ª Compra", "meta": "Ativo", "atual": "Não", "status": "critico" },
+                    { "nome": "LTV 12 meses", "meta": "> R$ 150", "atual": "N/A", "status": "critico" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "CTR de Saída (1,0%)",
+                "status": "critico",
+                "gap": "Meta: > 1,6% | Atual: 1,0% | Diferença: -0,6pp | PRIORIDADE MÁXIMA",
+                "acoes": [
+                    "Produzir 20 variações de criativos com HOOK nos 3 primeiros segundos",
+                    "Adicionar plaquinha/CTA claro: 'Clique abaixo agora'",
+                    "Testar 3 scripts: Plaquinha+benefício, Dor→Solução, Prova social",
+                    "Bancada de validação: 1 criativo/dia com R$ 60/dia",
+                    "Pausar imediatamente criativos com CTR < 1,0%",
+                    "Meta da semana: ter 3 criativos com CTR ≥ 1,2% e 1 com ≥ 1,6%"
+                ]
+            },
+            {
+                "metrica": "Retenção de Vídeo 3s (15%)",
+                "status": "critico",
+                "gap": "Meta: > 22% | Atual: 15% | Diferença: -7pp",
+                "acoes": [
+                    "Colocar CTA/plaquinha IMEDIATAMENTE no frame 1",
+                    "Hook deve ser imbatível: 'Personalize seu vídeo AGORA'",
+                    "Benefício explícito até 6 segundos",
+                    "Testar comando direto: 'Clique abaixo'",
+                    "Analisar vídeos 2x/semana (Seg/Qua/Sex)"
+                ]
+            },
+            {
+                "metrica": "Winners Ativos (0)",
+                "status": "critico",
+                "gap": "Meta: > 3 winners | Atual: 0 | Sistema de validação inexistente",
+                "acoes": [
+                    "Implementar playbook de validação: 1 criativo/campanha com R$ 60/dia",
+                    "KO rules: CPA > R$ 25 ou CTR < 1,0% ou freq. > 3,5",
+                    "Winner rules: CTR ≥ 1,6% + CPA ≤ R$ 25 + ROAS ≥ 2,5x",
+                    "Ação com winner: duplicar para campanha de escala",
+                    "Lateralizar winners para reduzir CPA"
+                ]
+            },
+            {
+                "metrica": "Connect → Checkout (20%)",
+                "status": "alerta",
+                "gap": "Meta: > 25% | Atual: 20% | Mercado: 20-45%",
+                "acoes": [
+                    "Página está carregando bem, mas conversão é média",
+                    "PRIORIDADE 2: só otimizar depois de estabilizar CTR",
+                    "Testar variações de copy e layout",
+                    "Adicionar mais provas sociais",
+                    "Melhorar elementos de urgência/escassez"
+                ]
+            },
+            {
+                "metrica": "LTV e Cart Recovery (Inexistentes)",
+                "status": "critico",
+                "gap": "Sistema de recompra e recuperação não implementado",
+                "acoes": [
+                    "FASE 1 (dias 0-7): Ativar cart recovery mínimo (3 disparos)",
+                    "Disparo 1 (30 min): WhatsApp/email com botão",
+                    "Disparo 2 (6-12h): benefício + prova social",
+                    "Disparo 3 (48h): último lembrete",
+                    "FASE 3 (dias 22+): Cupom 2ª compra (30%) após entrega"
+                ]
+            },
+            {
+                "metrica": "ROAS (1,8x)",
+                "status": "alerta",
+                "gap": "Meta: 2,5-4x | Atual: 1,8x | Trava principal: CTR baixo",
+                "acoes": [
+                    "ROAS depende diretamente do CTR - priorizar criativos",
+                    "CTR 1,2% tende a fechar ~2x",
+                    "CTR 1,6-2,0%+ tende a destravar 2,5-4x",
+                    "Escala gradual (10-20%) à noite/00:01",
+                    "Lateralizar quando frequência ≥ 3,5"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "mes": "Novembro 2024",
+                "objetivo": "Estabilizar Tráfego e CTR",
+                "metas": [
+                    "Investir ~R$ 15 mil no mês",
+                    "Alcançar 3+ criativos com CTR ≥ 1,6%",
+                    "Manter CPA < R$ 25",
+                    "Implementar cart recovery básico",
+                    "Lateralizar winners com sucesso"
+                ],
+                "faturamento_projetado": "R$ 45 mil"
+            },
+            {
+                "mes": "Dezembro 2024",
+                "objetivo": "Escala e Remarketing",
+                "metas": [
+                    "Reinvestir forte (~R$ 30-40 mil)",
+                    "Remarketing ativo (Meta + Google + TikTok)",
+                    "ROAS 2,5x+ consistente",
+                    "CTR médio > 1,6%",
+                    "Implementar cupom de 2ª compra"
+                ],
+                "faturamento_projetado": "R$ 100+ mil"
+            },
+            {
+                "mes": "Janeiro-Fevereiro 2025",
+                "objetivo": "LTV e Maturidade",
+                "metas": [
+                    "Sistema de LTV funcionando (12 meses)",
+                    "Taxa de recompra > 10%",
+                    "ROAS 3-4x estável",
+                    "Checkout otimizado (Connect > 30%)",
+                    "Processos documentados e escaláveis"
+                ],
+                "faturamento_projetado": "R$ 150+ mil/mês"
+            }
+        ]
+    }
+}

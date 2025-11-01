@@ -1,0 +1,5 @@
+{
+    "labels": ["Produto Principal (R$49,90)", "Upsells Futuros", "LTV 12 meses", "Recompra"],
+    "values": [49.90, 0, 30, 0],
+    "colors": ["#3498db", "#2ecc71", "#f1c40f", "#9b59b6"]
+}

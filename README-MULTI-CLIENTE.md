@@ -21,12 +21,26 @@ Projeto_teste/
 │       ├── checklist.json
 │       ├── execution-plan.json
 │       └── monitoring.json
-└── victor/                 → Ecossistema completo do Victor
+├── victor/                 → Ecossistema completo do Victor
+│   ├── index.html
+│   ├── scripts.js
+│   ├── style.css
+│   ├── assets/
+│   │   └── logo-tag-advogados.png
+│   └── data/
+│       ├── metrics.json
+│       ├── traffic.json
+│       ├── categories.json
+│       ├── campaigns.json
+│       ├── checklist.json
+│       ├── execution-plan.json
+│       └── monitoring.json
+└── eliaquim/               → Ecossistema completo do Eliaquim
     ├── index.html
     ├── scripts.js
     ├── style.css
     ├── assets/
-    │   └── logo-tag-advogados.png
+    │   └── logo-mastermind.png
     └── data/
         ├── metrics.json
         ├── traffic.json
@@ -39,6 +53,10 @@ Projeto_teste/
 
 ## 🚀 Como Usar
 
+### Página 404
+**URL:** `http://localhost:5500/`  
+Página raiz retorna 404
+
 ### Dashboard Ricardo
 **URL:** `http://localhost:5500/ricardo/`  
 ou abra: `ricardo/index.html`
@@ -47,9 +65,9 @@ ou abra: `ricardo/index.html`
 **URL:** `http://localhost:5500/victor/`  
 ou abra: `victor/index.html`
 
-### Página 404
-**URL:** `http://localhost:5500/`  
-Página raiz com links para ambos os dashboards
+### Dashboard Eliaquim (Vídeo Personalizado)
+**URL:** `http://localhost:5500/eliaquim/`  
+ou abra: `eliaquim/index.html`
 
 ## 📝 Como Adicionar Novo Cliente
 
@@ -71,10 +89,10 @@ Página raiz com links para ambos os dashboards
    - Adaptar todos os JSONs em `[nome-cliente]/data/`
    - Trocar logo em `[nome-cliente]/assets/`
 
-5. **Atualizar Página 404:**
-   - Adicionar link no `index.html` da raiz:
-   ```html
-   <a href="/[nome-cliente]/" class="btn">Dashboard [Nome]</a>
+5. **Acessar Dashboard:**
+   - Acessar diretamente via URL:
+   ```
+   http://localhost:5500/[nome-cliente]/
    ```
 
 **URL final:** `http://localhost:5500/[nome-cliente]/` ✅
@@ -105,17 +123,26 @@ KPIs de monitoramento, ações prioritárias e timeline
 ## 🎯 Clientes Ativos
 
 ### 1. Ricardo - Viabilizando Sua Construção
-- **URL:** `index.html`
-- **Dados:** `data/`
-- **Foco:** Construção civil
+- **URL:** `http://localhost:5500/ricardo/`
+- **Pasta:** `ricardo/`
+- **Foco:** Consultoria financeira para construção civil
 - **Faturamento:** R$ 150k/mês
+- **Ticket Médio:** R$ 200
 
 ### 2. Victor - TAG Advogados
-- **URL:** `victor.html`
-- **Dados:** `data-victor/`
+- **URL:** `http://localhost:5500/victor/`
+- **Pasta:** `victor/`
 - **Foco:** Recuperação de contas Meta/Instagram
 - **Faturamento:** R$ 120k/mês
 - **ROI:** 10-12x
+
+### 3. Eliaquim - Vídeo Personalizado
+- **URL:** `http://localhost:5500/eliaquim/`
+- **Pasta:** `eliaquim/`
+- **Foco:** Produto digital R$ 49,90 - Vídeo personalizado
+- **CPA Atual:** R$ 20
+- **ROAS:** 1,8x (meta: 3x+)
+- **Ticket Médio:** R$ 80
 
 ## 🔄 Atualização de Dados
 
