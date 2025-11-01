@@ -1,0 +1,50 @@
+[
+    {
+        "label": "CPL Atual",
+        "value": 22.5,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "CTR (Link Click)",
+        "value": 4,
+        "type": "percentage",
+        "change": 166.67
+    },
+    {
+        "label": "CPC Atual",
+        "value": 1,
+        "type": "currency",
+        "change": 33.33
+    },
+    {
+        "label": "CPM Atual",
+        "value": 75,
+        "type": "currency",
+        "change": -200
+    },
+    {
+        "label": "Connect Rate (LPV/Clicks)",
+        "value": 77.5,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "LP → Lead",
+        "value": 25,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Lead → Cliente",
+        "value": 3,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Setup Implementação",
+        "value": 1500,
+        "type": "currency",
+        "change": 0
+    }
+]

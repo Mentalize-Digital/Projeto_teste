@@ -1,0 +1,188 @@
+# Material de Apoio — Mentoria **Dr. Cristiano** (v1)
+
+> **Objetivo:** consolidar o que foi falado/ensinado na mentoria, destacar as métricas‑chave e deixar um plano executável com checklists para monitorar e acelerar resultados.
+
+---
+
+## 1) Resumo Executivo (situação atual)
+
+* **Página confusa / posicionamento fraco:** a LP soa como **consultoria** e não como **serviço executado** para médicos. Falta clareza “acima da dobra” sobre **o que é** e **o que o cliente recebe**.
+* **Objetivo de campanha**: parte do tráfego analisado aparenta ser **impulsionamento** (engajamento/seguidores), não **conversão/lead** — **métricas não comparáveis** com captação.
+* **Desempenho de mídia (amostra vista):**
+
+  * **CTR alto** (ex.: ~**4%**), **CPC ~ R$ 1** em campanhas de captação.
+  * **CPM caro** (**R$ 63–87**): precisa **expandir público** e **variar criativos** para buscar **R$ 20–25**.
+  * **Volume de cliques sem conversão proporcional** → **LP não converte**; gargalo principal é a **página**.
+* **Benchmark de funil sugerido:**
+
+  * **Connect Rate (LPV/Clicks): 70–85%**.
+  * **LP → Lead (form/WhatsApp): ~30%** (faixa saudável **25–35%**).
+  * **Lead → Cliente: 2–4%**.
+* **Hipóteses mais fortes:** (1) **mensagem/posicionamento**; (2) **objetivo de campanha** errado em parte das ações; (3) **público estreito** elevando CPM; (4) **falta de medição de qualidade de página** (GA4/Hotjar) para orientar ajustes.
+
+**Direção:** corrigir **mensagem/LP** + usar **objetivo correto (Conversões/Leads)** + **expandir público** e **organizar leitura de métricas**. Só depois pensar em camadas de escala.
+
+---
+
+## 2) O que foi ensinado (com passos práticos)
+
+### 2.1 Objetivo e estrutura de campanhas
+
+* Separar **impulsionamento** (awareness/seguidores) de **captação** (Conversões/Leads).
+* Para captação, usar **Conversões** com **form nativo** (teste) e **LP** (teste A/B).
+* **UTMs** consistentes e **eventos** mapeados (GA4) para comparar cada rota.
+
+### 2.2 KPIs e faixas‑guia (do clique ao contrato)
+
+* **CTR (link click):** bom ≥ **1,5%**; **muito bom 3–4%**.
+* **CPC:** trabalhar **≤ R$ 1,50** como referência inicial.
+* **CPM:** **meta R$ 20–25**; **alerta > R$ 50**.
+* **Connect Rate (LPV/Clicks):** alvo **70–85%**.
+* **LP → Lead:** alvo **30%** (faixa **25–35%**).
+* **Lead → Cliente:** **2–4%**.
+* **Exemplo (500 cliques):** 500 → **400 LPV** (80%) → **120 leads** (30%) → **3–5 clientes** (2–4%).
+
+### 2.3 Página/Posicionamento (acima da dobra)
+
+* **Título direto:** “Agência de crescimento **feita por médico, para médicos**.”
+* **Subtítulo:** “Nós **fazemos por você** — tráfego, páginas e automação — para consultórios que não têm tempo a perder.”
+* **Prova social** (logos, números, depoimento curto).
+* **CTA único** (Agendar diagnóstico / Falar no WhatsApp).
+* **Seções essenciais:** O que entregamos (em 7–14 dias), Como funciona, Casos/prints, Quem somos (médico por trás), FAQ, CTA final.
+
+### 2.4 Produtos/Empacotamento (esteira)
+
+* **Setup de Implementação (R$ 1.500):** link‑in‑bio, GA4, Google Meu Negócio, LP simples, **primeira campanha**; entrada em até **12x**.
+* **Planos de Tráfego (3 níveis):**
+
+  * **Nível 1 (~R$ 2.200):** tráfego + 4 vídeos + 5 estáticos/mês.
+  * **Nível 2 (~R$ 3.997):** **N1 + landing page** e **copy**.
+  * **Nível 3 (~R$ 5.997):** **N2 + automação** e processos.
+* **Observação:** conteúdo orgânico **não obrigatório** nos níveis base (médicos têm pouco tempo). Foque no que **move ponteiro**.
+
+### 2.5 Públicos e criativos
+
+* **Público amplo** com **mensagem que faz triagem** (criativo segmenta pelo ângulo).
+* Variar **ângulos visuais**: dor de tempo, previsibilidade, feito‑para‑médicos, prova social.
+* **Expansão** para derrubar CPM (R$ 20–25).
+* **Teste nativo vs LP**: aquecido (bio/IG) → **form nativo**; frio → **LP direta**.
+
+### 2.6 Medição (GA4 + Hotjar)
+
+* GA4: **Clicks → LPV → Leads** por campanha/UTM; metas/eventos prontos.
+* Hotjar: **scroll, mapa de calor, gravações** para comprovar gargalos.
+
+---
+
+## 3) Métricas‑alvo e alertas (resumo)
+
+* **CTR (link):** ≥ **1,5%** (ok) | **3–4%** (excelente).
+* **CPC:** ≤ **R$ 1,50**.
+* **CPM:** **20–25** (meta) | **> 50** (alerta) | **> 70–90** (ação imediata).
+* **Connect Rate:** **70–85%**.
+* **LP → Lead:** **25–35%** (meta **30%**).
+* **Lead → Cliente:** **2–4%**.
+* **CPL saudável (referência inicial):** até **R$ 20–25** (rever após 7 dias com dados reais).
+
+---
+
+## 4) Plano de Execução
+
+### 0–7 dias (ajustes críticos)
+
+1. **Reescrever LP** (título/subtítulo/CTA/provas).
+2. **Configurar GA4 + Hotjar** (eventos de **LPV** e **Lead**; gravações ativas).
+3. **Campanhas separadas**: Impulsionamento ≠ Conversões.
+4. **Teste A/B**: **LP vs Form nativo**; UTMs distintas.
+5. **Criativos (8–12)** com ângulos diferentes; copy direta para médicos.
+6. **Expansão de público** para reduzir **CPM**.
+
+### 8–21 dias (validação e escala controlada)
+
+1. **Pausar perdedores** (CPL acima da meta ou LP → Lead < 20%).
+2. **Escalar vencedores** (+10–20% no **início do dia**).
+3. **LP tuning** com Hotjar (reforçar seções que seguram atenção).
+4. **Script comercial** alinhado à **esteira de produtos** (inclui **Setup R$ 1.500** como porta de entrada).
+
+### 22–60 dias (previsibilidade e LTV)
+
+1. **Remkt multi‑etapas**: LPV → Lead → No‑show → Proposta.
+2. **Google Brand + Performance Max** enxutas.
+3. **Follow‑up** (2–4 toques) com prova social e casos de uso por especialidade.
+4. **Relatórios semanais** com metas e hipóteses da semana seguinte.
+
+---
+
+## 5) Playbooks (checklists)
+
+### 5.1 LP de serviço (acima da dobra)
+
+* [ ] **Quem somos** (médico → médicos) + promessa de **fazer por você**.
+* [ ] **O que entregamos** (em 7–14 dias).
+* [ ] **Provas** (prints/selos/resultados).
+* [ ] **CTA único** e repetição ao longo da página.
+* [ ] **FAQ** (tempo, preço, como começamos, o que não fazemos).
+
+### 5.2 Anúncio de captação
+
+* [ ] **Hook direto** ao tempo do médico.
+* [ ] **Benefício claro**: previsibilidade e execução sem dor de cabeça.
+* [ ] **Diferença**: feito por médico, para médicos.
+* [ ] **Prova rápida** (número/case).
+* [ ] **CTA** (Agendar diagnóstico / Falar no WhatsApp).
+
+### 5.3 Validação & orçamento
+
+* [ ] **1 criativo por conjunto** (evita canibalização).
+* [ ] **Janela**: até **3× CPL‑meta** ou **7 dias**.
+* [ ] **KO rules**: CPL alto, **CPM > 50**, **LP → Lead < 20%**.
+* [ ] **Winner rules**: **CPL ≤ meta**, **CPM ≤ 25**, **LP → Lead ≥ 30%**.
+* [ ] **Escala**: +10–20% no início do dia; observar **CPM** e **freq.**
+
+---
+
+## 6) Monitoramento
+
+### 6.1 Colunas (salvar predefinição)
+
+**Alcance → Impressões → Frequência → Cliques no link → CTR (link) → CPC → LP Views → Connect Rate (LPV/Clicks) → Leads → CPL → CPM → Conversões finais**
+
+### 6.2 Ritual diário (15–20 min)
+
+1. Ordenar por **CPL** e **CPM**.
+2. **Pausar** perdedores; **realocar verba** em vencedores.
+3. Subir **2 novos criativos/semana** (mínimo).
+4. Conferir **Hotjar** (scroll/saídas) e anotar hipóteses.
+
+### 6.3 Ritual semanal
+
+* Revisão de **benchmarks** vs metas; decisões de **escala** e **novos ângulos**.
+* Atualizar **planilha de aprendizados** (mensagem, público, criativo, LP).
+
+---
+
+## 7) Tarefas por responsável
+
+### Mentorado (time do Dr. Cristiano)
+
+* [ ] Reescrever LP e publicar versão **v2**.
+* [ ] Instalar **GA4** e **Hotjar**; validar eventos.
+* [ ] Estruturar **campanhas separadas** (impulsionamento x conversões).
+* [ ] Subir **teste A/B** (Form nativo vs LP).
+* [ ] Produzir **8–12 criativos** (variação de ângulos).
+* [ ] Planilha de **KPIs diários** e aprendizados.
+
+### Mentor
+
+* [ ] Revisar **copy/LP** (acima da dobra e provas).
+* [ ] Checar **objetivos** de campanha e leitura de métricas.
+* [ ] Direcionar **expansão de público** para reduzir CPM.
+* [ ] Validar **esteira comercial** e playbook de follow‑up.
+
+---
+
+### Notas finais
+
+* Foque primeiro em **clareza de oferta/LP** e **objetivo certo de campanha**.
+* **CPM alto** se combate com **público amplo** + **criativos que filtram**.
+* Com **500 cliques**, os números **precisam** acontecer — se não, **a estrutura está errada** e a página é o primeiro lugar a corrigir.

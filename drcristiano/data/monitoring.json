@@ -1,0 +1,153 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Métricas de Tráfego",
+                "indicadores": [
+                    { "nome": "CTR (link click)", "meta": "≥ 1,5%", "atual": "4%", "status": "excelente" },
+                    { "nome": "CPC", "meta": "≤ R$ 1,50", "atual": "R$ 1,00", "status": "excelente" },
+                    { "nome": "CPM", "meta": "R$ 20-25", "atual": "R$ 75", "status": "critico" },
+                    { "nome": "Connect Rate (LPV/Clicks)", "meta": "70-85%", "atual": "77,5%", "status": "ok" },
+                    { "nome": "LP → Lead", "meta": "25-35%", "atual": "25%", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Métricas de Conversão",
+                "indicadores": [
+                    { "nome": "CPL", "meta": "R$ 20-25", "atual": "R$ 22,50", "status": "ok" },
+                    { "nome": "Lead → Cliente", "meta": "2-4%", "atual": "3%", "status": "ok" },
+                    { "nome": "Setup Implementação", "meta": "R$ 1.500", "atual": "R$ 1.500", "status": "ok" },
+                    { "nome": "Ticket Médio Planos", "meta": "R$ 2.200-5.997", "atual": "R$ 3.500", "status": "ok" }
+                ]
+            },
+            {
+                "categoria": "Objetivos de Campanha",
+                "indicadores": [
+                    { "nome": "Campanhas Separadas", "meta": "100%", "atual": "50%", "status": "critico" },
+                    { "nome": "Objetivo Correto", "meta": "Conversões", "atual": "Impulsionamento", "status": "critico" },
+                    { "nome": "UTMs Consistentes", "meta": "100%", "atual": "30%", "status": "critico" },
+                    { "nome": "Eventos Mapeados", "meta": "GA4 ativo", "atual": "Não configurado", "status": "critico" }
+                ]
+            },
+            {
+                "categoria": "Landing Page",
+                "indicadores": [
+                    { "nome": "Posicionamento", "meta": "Claro", "atual": "Confuso", "status": "critico" },
+                    { "nome": "Mensagem Acima da Dobra", "meta": "Executado para médicos", "atual": "Consultoria", "status": "critico" },
+                    { "nome": "CTA", "meta": "Único e claro", "atual": "Múltiplos CTAs", "status": "alerta" },
+                    { "nome": "Prova Social", "meta": "Visível", "atual": "Fraca", "status": "alerta" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "CPM Alto (R$ 75)",
+                "status": "critico",
+                "gap": "Meta: R$ 20-25 | Atual: R$ 75 | Diferença: +R$ 50-55",
+                "acoes": [
+                    "Expandir público para derrubar CPM",
+                    "Variar ângulos visuais: dor de tempo, previsibilidade, feito-para-médicos, prova social",
+                    "Público amplo com mensagem que faz triagem (criativo segmenta pelo ângulo)",
+                    "Pausar campanhas com CPM > R$ 50",
+                    "Criar 8-12 criativos com ângulos diferentes"
+                ]
+            },
+            {
+                "metrica": "Landing Page Confusa",
+                "status": "critico",
+                "gap": "Meta: LP → Lead 30% | Atual: 25% | Diferença: -5%",
+                "acoes": [
+                    "Reescrever LP: Título direto 'Agência de crescimento feita por médico, para médicos'",
+                    "Subtítulo: 'Nós fazemos por você — tráfego, páginas e automação'",
+                    "Prova social (logos, números, depoimento curto)",
+                    "CTA único (Agendar diagnóstico / Falar no WhatsApp)",
+                    "Seções: O que entregamos (7-14 dias), Como funciona, Casos/prints, Quem somos, FAQ"
+                ]
+            },
+            {
+                "metrica": "Objetivo de Campanha Errado",
+                "status": "critico",
+                "gap": "Meta: 100% Conversões | Atual: 50% Impulsionamento | Diferença: -50%",
+                "acoes": [
+                    "Separar impulsionamento (awareness/seguidores) de captação (Conversões/Leads)",
+                    "Para captação, usar Conversões com form nativo (teste) e LP (teste A/B)",
+                    "UTMs consistentes e eventos mapeados (GA4) para comparar cada rota",
+                    "Pausar campanhas de impulsionamento que não geram leads",
+                    "Focar budget em campanhas de conversão"
+                ]
+            },
+            {
+                "metrica": "Medição Inexistente",
+                "status": "critico",
+                "gap": "Meta: GA4 + Hotjar ativos | Atual: Não configurado | Diferença: 100%",
+                "acoes": [
+                    "Instalar GA4 e configurar eventos de LPV e Lead",
+                    "Instalar Hotjar para gravações, scroll e mapa de calor",
+                    "Configurar UTMs consistentes em todas campanhas",
+                    "Criar dashboards com métricas Clicks → LPV → Leads por campanha/UTM",
+                    "Analisar Hotjar semanalmente para identificar gargalos"
+                ]
+            },
+            {
+                "metrica": "Estrutura de Produtos",
+                "status": "ok",
+                "gap": "Meta: Esteira clara | Atual: Definida | Diferença: 0%",
+                "acoes": [
+                    "Setup de Implementação R$ 1.500 (entrada em até 12x)",
+                    "Plano Nível 1 R$ 2.200: tráfego + 4 vídeos + 5 estáticos/mês",
+                    "Plano Nível 2 R$ 3.997: N1 + landing page e copy",
+                    "Plano Nível 3 R$ 5.997: N2 + automação e processos",
+                    "Conteúdo orgânico não obrigatório (médicos têm pouco tempo)"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "mes": "Dias 0-7 (Ajustes Críticos)",
+                "objetivo": "Corrigir Estrutura",
+                "metas": [
+                    "LP reescrita e publicada (LP → Lead ≥ 30%)",
+                    "GA4 + Hotjar configurados e ativos",
+                    "Campanhas separadas: Impulsionamento ≠ Conversões",
+                    "Teste A/B: LP vs Form nativo com UTMs distintas",
+                    "8-12 criativos ativos com ângulos diferentes",
+                    "CPM reduzido para R$ 50-60"
+                ],
+                "faturamento_projetado": "Base corrigida para escala"
+            },
+            {
+                "mes": "Dias 8-21 (Validação e Escala)",
+                "objetivo": "Otimizar e Escalar",
+                "metas": [
+                    "CPM reduzido para R$ 35-40",
+                    "LP → Lead aumentado para 30%+",
+                    "CPL mantido em R$ 20-25",
+                    "Pausar perdedores; escalar vencedores (+10-20%)",
+                    "Script comercial alinhado à esteira de produtos",
+                    "5-10 vendas de Setup R$ 1.500"
+                ],
+                "faturamento_projetado": "R$ 7.500 - R$ 15.000"
+            },
+            {
+                "mes": "Dias 22-60 (Previsibilidade e LTV)",
+                "objetivo": "Estruturar Funil Completo",
+                "metas": [
+                    "CPM estável em R$ 25-30",
+                    "Remarketing multi-etapas implementado",
+                    "Google Brand + Performance Max ativos",
+                    "Follow-up de 2-4 toques estruturado",
+                    "Relatórios semanais com metas e hipóteses",
+                    "10-20 vendas/mês de planos (R$ 22k-120k/mês)"
+                ],
+                "faturamento_projetado": "R$ 22.000 - R$ 120.000/mês"
+            }
+        ]
+    }
+}

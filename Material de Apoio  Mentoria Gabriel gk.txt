@@ -1,0 +1,222 @@
+# Material de Apoio — Mentoria **Gabriel GK** (v1)
+
+> **Objetivo:** consolidar o que foi falado/ensinado na mentoria, registrar métricas‑alvo e deixar um plano executável com checklists para que você monitore e avance com previsibilidade.
+
+---
+
+## 1) Resumo Executivo (do que alinhamos)
+
+* **Conta de Anúncio:** **1617641702002956**.
+* **Verba diária:** **R$ 500/dia** focada em **captação de leads** e **remarketing**.
+* **Ticket médio:** **R$ 2.000**.
+* **LP/Site:** **prizmamidia.com** — realizar **auditoria completa** e propor **melhorias** (acima da dobra, prova social, CTA único, velocidade).
+* **Time/Recursos:**
+
+  * **Contratar Designer** (faixa **R$ 1.700–3.000**/mês, regime a definir).
+  * **“Prompt de Contratação”** (para agilizar vaga/posts/testes).
+  * **Contatos “galera de milhas”** (Zaquim / Willy) — alinhar indicações.
+* **Comercial:** **Modelo de comissão do Closer** para estruturar previsibilidade.
+* **CRM/Automação:** **ActiveCampaign** (estrutura, tags, scoring, automações) + **Typeform** (captação) + **Clint (conector/CRM)** para distribuir os leads.
+* **Organização:** liberar a **“Máquina”** (mentoria/processo) e **Call com Warley** para alinhar frente de agência.
+
+**Direção geral:** organizar **fundação digital** (LP + Form + AC + CRM), **rodar captação com verba disciplinada**, nutrir e **fechar com closer** sob um **modelo de comissão claro**. Remarketing como segunda camada obrigatória.
+
+---
+
+## 2) O que foi ensinado (com passos práticos)
+
+### 2.1 Estrutura de Campanhas (Meta Ads)
+
+* **Núcleo 1 — Captação (Conversões/Leads):**
+
+  * Teste **rota A: Typeform** (formulário nativo/externo) e **rota B: LP** (prizmamidia.com/landing).
+  * **UTMs** consistentes por criativo (utm_source, utm_medium, utm_campaign, utm_content).
+  * **Público amplo**; o criativo faz a triagem (ângulos: dor de tempo, entrega DFY, prova social, previsibilidade).
+* **Núcleo 2 — Remarketing (7, 30 e 180 dias):**
+
+  * **View Content** → **Lead** → **WhatsApp/Agenda** (sequências separadas).
+  * Criativos de **prova social** e **clareza de oferta** (case, números, antes/depois) + CTA: **Agendar diagnóstico**.
+
+### 2.2 Padrão de Medição (GA4 + AC + CRM)
+
+* **Eventos‑chave:** LP View, Form Start, Form Submit (Lead), WhatsApp Click, Call Booked, Proposal Sent, Closed Won/Lost.
+* **Mapeamento UTM** no Lead (armazenar todos os parâmetros).
+* **ActiveCampaign:** tags por **origem/campanha/etapa**, lead scoring e automações por comportamento.
+* **Clint (conector/CRM):** criar negócio com **campos mapeados** e **funil de vendas** (Novo → Qualificado → Proposta → Fechado Ganhou/Perdido).
+
+### 2.3 Página / LP (acima da dobra)
+
+* **Título direto:** “Crescimento e aquisição **feitos por especialistas**, do planejamento ao tráfego.”
+* **Subtítulo:** “Montamos sua máquina: tráfego, páginas e automação — para você focar no que importa.”
+* **Provas** (logos, números, depoimentos curtos).
+* **CTA único** (Agendar diagnóstico / Falar com especialista).
+* **Seções essenciais:** O que entregamos (7–14 dias), Como funciona, Casos, Quem somos, FAQ, CTA final.
+* **Performance:** imagens otimizadas, **LCP < 2,5 s**.
+
+---
+
+## 3) KPIs e Metas (captação)
+
+* **CTR (link):** bom **≥ 1,5%**; excelente **≥ 3%**.
+* **CPC:** alvo **≤ R$ 1,50**.
+* **CPM:** saudável **R$ 20–30** (alerta **> R$ 50**).
+* **LPV/Click (Connect):** **70–85%**.
+* **LP → Lead:** **25–35%** (alvo **30%**).
+* **CPL meta inicial:**
+
+  * **Rota Typeform:** **≤ R$ 35**.
+  * **Rota LP:** **≤ R$ 50**.
+* **Lead → Oportunidade (agenda):** **20–35%**.
+* **Oportunidade → Cliente (Closer):** **10–25%**.
+
+> Com **R$ 500/dia** e **CPL médio R$ 40**, esperamos **~12–15 leads/dia**. Em 20 dias úteis, **~240–300 leads/mês**. Com **close 10%**, **24–30 vendas** × **R$ 2.000** = **R$ 48–60 mil/mês** em receita bruta potencial (ajuste após 2–3 semanas de dados reais).
+
+---
+
+## 4) Plano de Execução
+
+### 0–7 dias (fundação)
+
+1. **Auditoria do site** prizmamidia.com (acima da dobra/CTA/provas/velocidade) e **LP v2**.
+2. **Typeform** (ou form similar): campos, lógica e consentimentos (vide 5.3).
+3. **ActiveCampaign**: listas/tags, **lead scoring**, automações de **boas‑vindas** e **pré‑agenda**.
+4. **Clint (conector/CRM):** criar **pipeline**, campos e **webhook** de entrada (mapeamento em 5.2).
+5. **Campanhas:** Captação (2 rotas) + RMK (7/30/180).
+6. **Comissão do Closer** documentada e assinada.
+7. **Vaga de Designer** publicada + **teste técnico** preparado.
+8. **Agendar call com Warley** e **disponibilizar contatos de milhas** (Zaquim/Willy).
+
+### 8–21 dias (validação + ajustes)
+
+1. **Pausar perdedores** (CPM > 50, CPL acima da meta, LP→Lead < 20%).
+2. **Escalar vencedores:** +10–20% no **início do dia**.
+3. **RMK criativo** com cases/print‑depoimentos.
+4. **Ajustar LP** via GA4/Hotjar (mapa de calor, scroll, gravações).
+5. **Ritmo de produção**: 6–10 criativos/semana (vídeo curto + estático).
+
+### 22–60 dias (previsibilidade)
+
+1. **Google (Brand + PMax)** enxuto.
+2. **Sequências de e‑mail** (AC): nutrição por caso/objeção + one‑click‑booking.
+3. **Playbook de follow‑up comercial** (2–4 toques por lead).
+4. **Relatório semanal** (metas vs. real, hipóteses para próxima semana).
+
+---
+
+## 5) Playbooks & Modelos
+
+### 5.1 Campanha de Captação (checklist)
+
+* [ ] Objetivo **Conversões/Leads**; **2 rotas** (Typeform vs LP).
+* [ ] 1 criativo por conjunto (evita canibalização).
+* [ ] **UTMs** por criativo.
+* [ ] **Janela**: até **3× CPL‑meta** ou **7 dias**.
+* [ ] **KO rules**: CPM > 50, CTR < 1,2%, LP→Lead < 20%, CPL > meta.
+* [ ] **Winner rules**: CPL ≤ meta, CTR ≥ 1,5%, LP→Lead ≥ 30%.
+
+### 5.2 Integração AC ↔ Typeform ↔ Clint (mapeamento de campos)
+
+* **Campos mínimos:** Nome, E‑mail, WhatsApp, Empresa, Faturamento Faixa, Serviço de Interesse, Cidade/UF, **UTMs** (source/medium/campaign/content), **Página de origem**, **Data/hora**.
+* **Fluxo:** Typeform **→** (webhook/zap) **ActiveCampaign** (cria contato + tags) **→** **Clint/CRM** (cria negócio no funil, etapa “Novo”).
+* **Automação AC (exemplo):**
+
+  * **D0 (imediato):** e‑mail de boas‑vindas + link de **agendamento**.
+  * **D1:** case rápido + CTA de agenda.
+  * **D3:** objeção comum + prova social.
+  * **D7:** lembrete final + conteúdo útil.
+* **Lead Scoring (ponto de partida):**
+
+  * +10 abrir e‑mail; +15 clique; +25 visita na página de proposta; +40 agenda call.
+  * **≥ 60 pontos → tarefa para Closer em “Qualificado”.**
+
+### 5.3 Blueprint do Typeform
+
+* **Perguntas (sugestão):**
+
+  1. Nome completo
+  2. E‑mail
+  3. WhatsApp
+  4. Cidade/UF
+  5. Qual seu principal objetivo agora? (múltipla escolha)
+  6. Faixa de faturamento atual (múltipla)
+  7. Serviço de interesse (tráfego, LP, automação, pacote)
+  8. Urgência para começar (agora/30 dias/sem previsão)
+  9. Como nos encontrou? (orgânico/indicação/anúncio/outro)
+  10. Consentimento LGPD (checkbox)
+* **Mensagens de sucesso:** link para **agendar diagnóstico** e **WhatsApp**.
+
+### 5.4 Comissão do Closer (modelos)
+
+* **Modelo A (simples):** **10%** sobre **receita paga** (à vista + primeiras parcelas).
+* **Modelo B (faixas):**  8% até R$ 20k/mês fechados; **10%** entre R$ 20–50k; **12%** acima de R$ 50k.
+* **Bônus de aceleração:** +**R$ 500** ao bater **R$ 40k** no mês.
+* **Regras:** comissão **só com pagamento compensado**; retrabalho/upgrade **5%** se originado pelo closer.
+* **SLA comercial:** 1º contato em **10 min**; **4 toques**/lead em 72 h; atualização diária no CRM.
+
+### 5.5 Vaga de Designer (job post)
+
+**Título:** Designer Pleno (Paid Social) — Remoto
+
+**Faixa:** **R$ 1.700–3.000/mês** (PJ).
+**Missão:** criar **criativos de alta performance** (vídeo curto/estático) para captação/remarketing.
+**Responsabilidades:**
+
+* 6–10 peças/semana; variações por ângulo; thumbnails e legended.
+* Adequar formatos (9:16, 1:1), organizar arquivos e assets.
+  **Requisitos:** domínio Figma/Adobe/CapCut; portfólio; noções de copy e performance.
+  **Diferenciais:** motion, UGC direction, noções de tráfego.
+  **Como aplicar:** formulário (Typeform) + **teste técnico** (peça 15 s com briefing).
+
+### 5.6 **Prompt** para gerar a vaga/anúncios (copiar e colar na IA)
+
+“Você é um **recrutador de designers de performance**. Gere **3 variações** de anúncio de vaga para **Designer Pleno (Paid Social)**, remoto, faixa **R$ 1.700–3.000**, foco em **criativos para Meta Ads**. Inclua missão, entregáveis semanais (6–10 peças), requisitos (Figma/Adobe/CapCut, portfólio), diferenciais (motion/UGC), e instruções para **teste técnico** (vídeo 15 s com hook nos 3 s). Escreva em tom direto, orientado a dados e com CTA para preencher o Typeform de candidatura.”
+
+---
+
+## 6) Monitoramento & Rotina
+
+### 6.1 Colunas (salvar predefinição)
+
+**Alcance → Impressões → Frequência → Cliques no link → CTR (link) → CPC → LP Views → LP→Lead → Leads → CPL → CPM → WhatsApp Click → Agendamentos → Propostas → Fechamentos**
+
+### 6.2 Ritual diário (15–20 min)
+
+1. Ordenar por **CPL** e **CPM**.
+2. **Pausar** perdedores; **realocar verba** em vencedores.
+3. Subir **2–3 criativos/semana**.
+4. Conferir **pipeline** no CRM (toques de follow‑up).
+5. Registrar aprendizados por **ângulo/creativo**.
+
+### 6.3 Ritual semanal
+
+* Revisão de **metas vs. real** (CPL, taxa de agenda, close).
+* Decisões de **escala** e **novos ângulos**; backlog de criativos.
+* Atualização da **esteira** e casos.
+
+---
+
+## 7) Tarefas por responsável
+
+### Mentorado (time GK)
+
+* [ ] Auditar e publicar **LP v2**.
+* [ ] Subir **Typeform** + integrações (AC/Clint).
+* [ ] Configurar **campanhas** (captação + RMK 7/30/180).
+* [ ] Publicar **vaga** e aplicar **teste técnico**.
+* [ ] Formalizar **comissão do closer**.
+* [ ] Agendar **call com Warley** e enviar **contatos de milhas**.
+
+### Mentor
+
+* [ ] Revisar LP/copy (acima da dobra).
+* [ ] Validar colunas/UTMs/métricas.
+* [ ] Acompanhar **CPL/Agenda/Close** e orientar **escala**.
+* [ ] Revisar **contratação** (portfólios e teste).
+
+---
+
+### Notas finais
+
+* **Disciplina na verba** (R$ 500/dia) com testes claros destrava previsibilidade.
+* **Fundação bem feita** (LP, AC, CRM) reduz custo de aquisição e dá escala.
+* **Closer com SLA e comissão** transforma lead em **receita** — sem isso, mídia vira gasto.

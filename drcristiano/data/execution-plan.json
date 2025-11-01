@@ -1,0 +1,189 @@
+[
+    {
+        "fase": "FASE 1: Ajustes Críticos (0-7 dias)",
+        "prazo": "Semana 1",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Reescrever LP",
+                "responsavel": "Dr. Cristiano + Time",
+                "prazo": "3 dias",
+                "metrica": "LP → Lead ≥ 30%",
+                "subtarefas": [
+                    "Título direto: 'Agência de crescimento feita por médico, para médicos'",
+                    "Subtítulo: 'Nós fazemos por você — tráfego, páginas e automação'",
+                    "Prova social (logos, números, depoimento curto)",
+                    "CTA único (Agendar diagnóstico / Falar no WhatsApp)",
+                    "Seções: O que entregamos (7-14 dias), Como funciona, Casos/prints, Quem somos, FAQ"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Configurar GA4 + Hotjar",
+                "responsavel": "Dr. Cristiano + Time",
+                "prazo": "2 dias",
+                "metrica": "Eventos de LPV e Lead ativos; gravações funcionando",
+                "subtarefas": [
+                    "Instalar GA4 e configurar eventos",
+                    "Configurar evento de LPV (Landing Page View)",
+                    "Configurar evento de Lead (conversão)",
+                    "Instalar Hotjar e ativar gravações",
+                    "Configurar mapas de calor e scroll"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Campanhas separadas",
+                "responsavel": "Dr. Cristiano",
+                "prazo": "2 dias",
+                "metrica": "Impulsionamento ≠ Conversões; UTMs distintas",
+                "subtarefas": [
+                    "Separar campanhas de impulsionamento de captação",
+                    "Usar objetivo Conversões com form nativo (teste)",
+                    "Usar objetivo Conversões com LP (teste A/B)",
+                    "Configurar UTMs consistentes",
+                    "Mapear eventos para comparar cada rota"
+                ]
+            },
+            {
+                "id": "1.4",
+                "titulo": "Criativos e Públicos",
+                "responsavel": "Dr. Cristiano + Design",
+                "prazo": "5 dias",
+                "metrica": "8-12 criativos ativos; CPM ≤ R$ 50",
+                "subtarefas": [
+                    "Produzir 8-12 criativos com ângulos diferentes",
+                    "Ângulos: dor de tempo, previsibilidade, feito-para-médicos, prova social",
+                    "Expandir público para reduzir CPM",
+                    "Público amplo com mensagem que faz triagem",
+                    "Teste nativo vs LP: aquecido (bio/IG) → form nativo; frio → LP direta"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: Validação e Escala Controlada (8-21 dias)",
+        "prazo": "Semana 2-3",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Pausar perdedores",
+                "responsavel": "Dr. Cristiano",
+                "prazo": "Contínuo",
+                "metrica": "CPL ≤ meta; LP → Lead ≥ 20%",
+                "subtarefas": [
+                    "Pausar campanhas com CPL acima da meta",
+                    "Pausar campanhas com LP → Lead < 20%",
+                    "Pausar campanhas com CPM > R$ 50",
+                    "Documentar aprendizados de campanhas pausadas"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Escalar vencedores",
+                "responsavel": "Dr. Cristiano",
+                "prazo": "Contínuo",
+                "metrica": "Crescimento sustentável sem aumento de CPL",
+                "subtarefas": [
+                    "Identificar campanhas com CPL ≤ meta e LP → Lead ≥ 30%",
+                    "Aumentar orçamento +10-20% no início do dia",
+                    "Monitorar CPM e frequência após escala",
+                    "Documentar métricas de campanhas vencedoras"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "LP tuning com Hotjar",
+                "responsavel": "Dr. Cristiano + Design",
+                "prazo": "10 dias",
+                "metrica": "LP → Lead aumentar de 25% para 30%+",
+                "subtarefas": [
+                    "Analisar gravações do Hotjar",
+                    "Identificar pontos de saída na LP",
+                    "Reforçar seções que seguram atenção",
+                    "Testar variações de copy e CTA",
+                    "Implementar melhorias e medir impacto"
+                ]
+            },
+            {
+                "id": "2.4",
+                "titulo": "Script comercial",
+                "responsavel": "Dr. Cristiano + Mentor",
+                "prazo": "7 dias",
+                "metrica": "Script alinhado à esteira de produtos",
+                "subtarefas": [
+                    "Incluir Setup R$ 1.500 como porta de entrada",
+                    "Apresentar 3 níveis de planos de tráfego",
+                    "Criar script de qualificação de leads",
+                    "Treinar abordagem (roleplay)",
+                    "Criar apresentação de vendas"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: Previsibilidade e LTV (22-60 dias)",
+        "prazo": "Semana 4-8",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Remarketing multi-etapas",
+                "responsavel": "Dr. Cristiano + Time",
+                "prazo": "14 dias",
+                "metrica": "Taxa de conversão de remarketing ≥ 10%",
+                "subtarefas": [
+                    "Criar público de LPV (visitou LP mas não converteu)",
+                    "Criar público de Lead (converteu mas não agendou)",
+                    "Criar público de No-show (agendou mas não compareceu)",
+                    "Criar público de Proposta (recebeu proposta mas não fechou)",
+                    "Configurar sequências de remarketing para cada etapa"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Google Brand + Performance Max",
+                "responsavel": "Dr. Cristiano",
+                "prazo": "10 dias",
+                "metrica": "CPA Google ≤ R$ 25",
+                "subtarefas": [
+                    "Criar campanha Google Brand (nome da agência)",
+                    "Criar campanha Performance Max enxuta",
+                    "Configurar conversões no Google Ads",
+                    "Integrar com GA4",
+                    "Monitorar performance e ajustar"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Follow-up estruturado",
+                "responsavel": "Dr. Cristiano + Comercial",
+                "prazo": "14 dias",
+                "metrica": "2-4 toques por lead; conversão ≥ 5%",
+                "subtarefas": [
+                    "Criar sequência de 2-4 toques",
+                    "Incluir prova social em cada toque",
+                    "Criar casos de uso por especialidade",
+                    "Automatizar envio de follow-ups",
+                    "Medir taxa de resposta e conversão"
+                ]
+            },
+            {
+                "id": "3.4",
+                "titulo": "Relatórios semanais",
+                "responsavel": "Dr. Cristiano + Mentor",
+                "prazo": "Contínuo",
+                "metrica": "Relatório semanal com metas e hipóteses",
+                "subtarefas": [
+                    "Criar template de relatório semanal",
+                    "Incluir métricas-chave e alertas",
+                    "Documentar aprendizados da semana",
+                    "Definir hipóteses para próxima semana",
+                    "Compartilhar com time e mentor"
+                ]
+            }
+        ]
+    }
+]
