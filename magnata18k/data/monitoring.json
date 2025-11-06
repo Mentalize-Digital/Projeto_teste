@@ -1,0 +1,263 @@
+{
+    "kpis_mensais": {
+        "titulo": "KPIs Mensais de Monitoramento",
+        "metricas": [
+            {
+                "categoria": "Performance Geral",
+                "indicadores": [
+                    { "nome": "Receita Mensal", "meta": "> R$ 30k", "atual": "R$ 29,6k", "status": "alerta" },
+                    { "nome": "Investimento/Dia", "meta": "R$ 400-450", "atual": "R$ 450", "status": "ok" },
+                    { "nome": "ROAS", "meta": "≥ 3x", "atual": "3,2x", "status": "ok" },
+                    { "nome": "Ticket Médio", "meta": "> R$ 200", "atual": "R$ 185", "status": "alerta" },
+                    { "nome": "Vendas/Mês", "meta": "> 200", "atual": "163", "status": "alerta" }
+                ]
+            },
+            {
+                "categoria": "Conversão e Funil",
+                "indicadores": [
+                    { "nome": "CTR (Link)", "meta": "> 1,5%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "CPM", "meta": "< R$ 50", "atual": "N/A", "status": "pendente" },
+                    { "nome": "ATC (Add to Cart)", "meta": "> 3%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Initiate Checkout", "meta": "> 2%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Conversão WhatsApp", "meta": "> 30%", "atual": "30%", "status": "ok" }
+                ]
+            },
+            {
+                "categoria": "Produtos Âncora",
+                "indicadores": [
+                    { "nome": "Kit R$ 100 (vendas)", "meta": "> 40/mês", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Produto R$ 199 (vendas)", "meta": "> 30/mês", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Produto R$ 179 (vendas)", "meta": "> 30/mês", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Mix de Produtos", "meta": "Balanceado", "atual": "N/A", "status": "pendente" }
+                ]
+            },
+            {
+                "categoria": "Base e Engajamento",
+                "indicadores": [
+                    { "nome": "Seguidores (crescimento)", "meta": "+5%/mês", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Alcance Orgânico", "meta": "Estável/Crescente", "atual": "Em queda", "status": "critico" },
+                    { "nome": "DMs Captados", "meta": "> 50/mês", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Taxa Boas-Vindas (DM)", "meta": "> 80%", "atual": "N/A", "status": "pendente" },
+                    { "nome": "Turbinados Ativos", "meta": "3-5/semana", "atual": "N/A", "status": "pendente" }
+                ]
+            }
+        ]
+    },
+    "acoes_prioritarias": {
+        "titulo": "Ações Prioritárias por Métrica",
+        "acoes": [
+            {
+                "metrica": "Alcance Orgânico em Queda",
+                "status": "critico",
+                "gap": "Meta: Estável/Crescente | Atual: Em queda por rotatividade de público",
+                "acoes": [
+                    "Criar campanha de Engajamento Base imediatamente",
+                    "Segmentar: seguidores/visitantes 180d, EXCLUIR últimos 7d",
+                    "Orçamento simbólico: R$ 20-30/dia contínuo",
+                    "Trocar criativos semanalmente (Reels que performaram)",
+                    "Monitorar: alcance de Stories e interações orgânicas",
+                    "Resultado esperado: recuperar 20-30% de alcance em 2 semanas"
+                ]
+            },
+            {
+                "metrica": "Configuração de Publicidade (Segmentos)",
+                "status": "critico",
+                "gap": "Meta: Segmentos configurados | Atual: Pode não estar completo",
+                "acoes": [
+                    "Ir em 'Todas as ferramentas → Configuração de publicidade'",
+                    "Criar 'Público Engajado': site/checkout (pixel + lista 365d)",
+                    "Criar 'Público Existente': clientes (purchase) 1 ano",
+                    "Validar que Advantage/Andrômeda usa similaridade",
+                    "Testar impacto: campanhas devem performar melhor com segmentos",
+                    "Documentar configuração para auditoria futura"
+                ]
+            },
+            {
+                "metrica": "Remarketing Genérico (Engajados 180d)",
+                "status": "alerta",
+                "gap": "Meta: Públicos cirúrgicos | Atual: Mistura pessoas frias",
+                "acoes": [
+                    "EVITAR: público 'engajados 180d' genérico",
+                    "Criar públicos específicos: viu ≥50-75% vídeos (30d) + DM",
+                    "Público 2: visitou site 7d + DM 45d",
+                    "Público 3: iniciou checkout mas não comprou (7d)",
+                    "Excluir compradores últimos 30d de remarketing",
+                    "Ofertas específicas por público (cupom, urgência, etc)"
+                ]
+            },
+            {
+                "metrica": "Turbinados vs. Vendas Diretas (Balanceamento)",
+                "status": "alerta",
+                "gap": "Meta: 60% base + 40% vendas | Atual: Foco excessivo em vendas",
+                "acoes": [
+                    "NÃO matar turbinados: servem para crescer base e LTV",
+                    "Usar 'Criar anúncio → Turbinar conteúdo do Instagram' (IG-only)",
+                    "Impulsionar só posts que performaram organicamente",
+                    "Segmentação mínima: gênero/idade/local de compradores",
+                    "Usar listas de clientes como sugestão (não RMK direto)",
+                    "Orçamento: R$ 20-30/dia por post, 3-5 posts/semana"
+                ]
+            },
+            {
+                "metrica": "Fluxo DM (Captação Barata de Leads)",
+                "status": "critico",
+                "gap": "Meta: DM automático ativo | Atual: Não implementado",
+                "acoes": [
+                    "Contratar/configurar ManyChat ou similar (API oficial)",
+                    "Criar mensagem de boas-vindas: apresentação + link site",
+                    "Oferta de entrada: 'Primeira compra 10% OFF'",
+                    "Configurar disparo automático para novos seguidores",
+                    "Monitorar taxa de cliques no link do site",
+                    "Resultado esperado: +30-50 leads/mês via DM"
+                ]
+            },
+            {
+                "metrica": "Ticket Médio (R$ 185)",
+                "status": "alerta",
+                "gap": "Meta: > R$ 200 | Atual: R$ 185 | Diferença: -R$ 15",
+                "acoes": [
+                    "Criar combos/pacotes: 3 peças por preço de 2",
+                    "Testar upsell pós-compra: produtos complementares",
+                    "Oferecer frete grátis acima de R$ 250",
+                    "Cross-sell no WhatsApp: 'Combina com...'",
+                    "Destacar produtos R$ 199 e R$ 179 (vs. R$ 100)",
+                    "Criar coleções temáticas (presente masculino)"
+                ]
+            },
+            {
+                "metrica": "Vendas/Mês (163)",
+                "status": "alerta",
+                "gap": "Meta: > 200/mês | Atual: 163 | Diferença: -37 vendas",
+                "acoes": [
+                    "Otimizar campanhas de conversão site (Advantage)",
+                    "Aumentar orçamento em conjuntos com ROAS ≥ 3x",
+                    "Lateralizar criativos vencedores (duplicar conjuntos)",
+                    "Testar novos criativos: 1-2 variações/semana",
+                    "Remarketing cirúrgico: checkout 7d + site 7d",
+                    "WhatsApp: reduzir tempo de resposta para < 5 min"
+                ]
+            },
+            {
+                "metrica": "Sazonalidade (BF/Natal)",
+                "status": "pendente",
+                "gap": "Meta: Preparar 30d antes | Atual: Planejar agora",
+                "acoes": [
+                    "Warm-up: turbinados + engajamento base 2-4 semanas antes",
+                    "Sequência: Teaser → Abertura (365d) → Ofertas → Última chance",
+                    "Preparar criativos temáticos (presentes masculinos)",
+                    "Playbook WhatsApp: gatilhos de presente (feminino → masculino)",
+                    "Cupom exclusivo para seguidores e DM",
+                    "Orçamento progressivo: R$ 400 → R$ 800/dia no pico"
+                ]
+            }
+        ]
+    },
+    "timeline_metas": {
+        "titulo": "Timeline de Metas (90 dias)",
+        "periodos": [
+            {
+                "periodo": "Dias 0-30",
+                "objetivo": "Fundação e Reengajamento",
+                "metas": [
+                    "Pixel/CAPI auditados e funcionando 100%",
+                    "Segmentos de Público configurados (Engajados + Existentes)",
+                    "Campanha de Engajamento Base ativa (recuperar alcance)",
+                    "Fluxo DM implementado (boas-vindas automático)",
+                    "Turbinados IG-only rodando (3-5 posts/semana)",
+                    "Primeiros públicos cirúrgicos de RMK criados",
+                    "ROAS mantido em ≥ 3x",
+                    "Vendas: 160-180/mês"
+                ]
+            },
+            {
+                "periodo": "Dias 31-60",
+                "objetivo": "Otimização e Escala",
+                "metas": [
+                    "Alcance orgânico recuperado (+20-30%)",
+                    "3 campanhas de RMK comportamental ativas",
+                    "Ofertas específicas por público testadas",
+                    "Ticket médio aumentado para R$ 200+",
+                    "Vendas: 180-200/mês",
+                    "Receita: R$ 36-40k/mês",
+                    "Mix site vs. WhatsApp otimizado",
+                    "Top 3 criativos por produto documentados"
+                ]
+            },
+            {
+                "periodo": "Dias 61-90",
+                "objetivo": "Preparação Sazonal e Maturidade",
+                "metas": [
+                    "Warm-up sazonal iniciado (BF/Natal)",
+                    "Base aquecida e engajada",
+                    "Sequência de ofertas sazonais preparada",
+                    "Playbook WhatsApp de presentes finalizado",
+                    "Vendas: 200-250/mês (pré-sazonal)",
+                    "Receita: R$ 40-50k/mês",
+                    "Processos documentados e escaláveis",
+                    "ROAS ≥ 3,5x consistente"
+                ]
+            }
+        ]
+    },
+    "checklist_operacional": {
+        "titulo": "Checklist Operacional",
+        "diario": {
+            "titulo": "Ritual Diário (15-20 min)",
+            "tarefas": [
+                "Revisar spend, CTR/CPM, IC/ATC/Checkout, ROAS por conjunto",
+                "Pausar criativos com baixo índice de qualidade/frequência alta",
+                "Lateralizar o que bate meta; subir 1-2 variações do criativo campeão",
+                "Garantir engajamento base ativo (campanha barata rodando)",
+                "Monitorar DMs: taxa de boas-vindas e cliques para o site",
+                "Verificar conversão WhatsApp: tempo de resposta < 5 min"
+            ]
+        },
+        "semanal": {
+            "titulo": "Ritual Semanal",
+            "tarefas": [
+                "Top 3 criativos por produto (R$100 / R$179 / R$199) e 1 novo teste",
+                "Listas de remarketing (vídeo ≥50%, DM, site 7d) atualizadas",
+                "Turbinados: revisar peças e trocar se orgânico não performou",
+                "DM: acompanhar taxa de boas-vindas e cliques para o site",
+                "Análise de mix de receita: site vs. WhatsApp; produtos campeões",
+                "Documentar aprendizados da semana"
+            ]
+        },
+        "mensal": {
+            "titulo": "Ritual Mensal",
+            "tarefas": [
+                "Mix de receita: site vs. WhatsApp; produtos campeões",
+                "ROAS geral (meta ≥ 3x); crescimento de seguidores/DM",
+                "Análise de LTV: quanto vale um cliente ao longo do tempo",
+                "Revisar: qual turbinado trouxe mais vendas indiretas",
+                "Planejar criativos e ofertas do próximo mês",
+                "Ajustar orçamento baseado em sazonalidade"
+            ]
+        }
+    },
+    "playbooks": {
+        "titulo": "Playbooks Rápidos",
+        "items": [
+            {
+                "nome": "Remarketing Cirúrgico",
+                "descricao": "Viu 50-75% (30d) + DM 45d → criativo de oferta objetiva; CTA para WhatsApp (aproveitar taxa de 30%)"
+            },
+            {
+                "nome": "Seguidores 365d (BF/Natal)",
+                "descricao": "Peça 'só para quem nos segue' + cupom; rota para site com coleção masculina presenteável"
+            },
+            {
+                "nome": "Engajamento Base",
+                "descricao": "Excluir 7d, incluir 180d; orçamento baixo (R$ 20-30/dia); trocar criativos semanalmente"
+            },
+            {
+                "nome": "Turbinados IG-Only",
+                "descricao": "Usar 'Criar anúncio → Turbinar conteúdo'; só IG; posts validados organicamente; segmentação mínima por compradores"
+            },
+            {
+                "nome": "WhatsApp Presente",
+                "descricao": "Gatilho: mulher comprando para homem → script específico; urgência de entrega; sugestão de combos"
+            }
+        ]
+    }
+}

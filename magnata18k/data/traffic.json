@@ -1,0 +1,5 @@
+{
+    "labels": ["Turbinados (Base)", "Conversão Site", "Remarketing", "WhatsApp Direto"],
+    "values": [60, 25, 10, 5],
+    "colors": ["#3498db", "#2ecc71", "#f39c12", "#9b59b6"]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "task": "Auditar Pixel/CAPI (PageView, ViewContent, ATC, InitiateCheckout, Purchase)",
+        "completed": false
+    },
+    {
+        "task": "Exportar listas: checkout 365d e clientes 365d do e-commerce/CRM",
+        "completed": false
+    },
+    {
+        "task": "Configurar Segmentos de Público (Engajados + Existentes)",
+        "completed": false
+    },
+    {
+        "task": "Configurar Turbinados IG-only (posts validados organicamente)",
+        "completed": false
+    },
+    {
+        "task": "Criar Campanha de Engajamento Base (seguidores 180d, excluir 7d)",
+        "completed": false
+    },
+    {
+        "task": "Configurar Fluxo DM (API) - Boas-vindas automático",
+        "completed": false
+    },
+    {
+        "task": "Criar Campanha de Conversão Site (3 conjuntos Advantage)",
+        "completed": false
+    },
+    {
+        "task": "Configurar Remarketing Comportamental (vídeo 50-75% + DM)",
+        "completed": false
+    },
+    {
+        "task": "Preparar públicos cirúrgicos (site 7d + DM 45d)",
+        "completed": false
+    },
+    {
+        "task": "Criar ofertas específicas para seguidores 365d",
+        "completed": false
+    },
+    {
+        "task": "Definir playbook WhatsApp (gatilhos de presente)",
+        "completed": false
+    },
+    {
+        "task": "Configurar monitoramento diário (CTR/CPM/ROAS)",
+        "completed": false
+    }
+]

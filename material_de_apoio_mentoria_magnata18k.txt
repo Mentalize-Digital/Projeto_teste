@@ -1,0 +1,94 @@
+MATERIAL DE APOIO — MENTORIA DE PERFORMANCE (SEMI-JOIAS "MAGNATA 18K")
+
+1) O QUE FOI FALADO E O QUE FOI ENSINADO (RESUMO EXECUTIVO)
+- Negócio & público: Semi-joias banhadas; foco 90% masculino (produto e compradores). Canais: site e WhatsApp; picos sazonais (Dia das Mães, Namorados, Natal).
+- Investimento & estrutura atual: Tráfego para site R$400–450/dia; campanhas de WhatsApp ~R$40/dia (teste). Antes: 60% “turbinados” (crescimento de base) + 40% remarketing para o site; agora foco em campanhas abertas/Advantage com criativos Reels que já performaram.
+- Métricas citadas: Conversão no WhatsApp ~30% com vendedor. Setembro: ~163 vendas faturadas de 211 captadas (≈70% pagas). Ticket médio ~R$185 → receita online aprox. R$29,6k; mídia R$8,6k → retorno ~3x (ROAS ≈3–3,4x). Produtos campeões: kit R$100, produtos a R$199 e R$179.
+- Ensinos-chave:
+  1) Não matar os “turbinados”: servem para crescer base e LTV. Usar o fluxo “Criar anúncio → Turbinar conteúdo do Instagram” (IG-only) para evitar sobretaxa e replicar o comportamento do botão Impulsionar; impulsionar só posts que performaram organicamente.
+  2) Reengajar a audiência: campanhas de engajamento contínuas para seguidores 180d (excluir últimos 7d), baratas, para recuperar alcance orgânico perdido pela alta rotatividade de público.
+  3) Configuração de publicidade (nível de conta): definir Segmentos de Público — Engajado (quem acessa site / inicia checkout) e Existentes (clientes/purchase) para orientar Advantage/Andrômeda por similaridade com compradores.
+  4) Remarketing qualificado: públicos de comportamento (ex.: viu ≥50–75% de vídeos de produto nos 30d e/ou enviou DM; site 7d e/ou DM 45d). Ofertas especiais para seguidores últimos 365d (ex.: cupom BF).
+  5) DM/Direct com API oficial (ManyChat ou similar): boas-vindas automático para novos seguidores com link do site, reforçando captação barata de leads.
+
+2) MÉTRICAS CONSOLIDADAS PARA O BI
+- Ticket médio: ~R$185
+- Vendas/mês (referência): ~160–200
+- Receita online (ex.: set.): ~R$29,6k
+- Mídia (ex.: set.): ~R$8,6k
+- ROAS observado: ~3–3,4x
+- Conversão WhatsApp: ~30%
+- Produtos âncora: R$100 / R$179 / R$199
+KPIs de acompanhamento (diário/semana): spend por campanha, CTR/CPM, IC/ATC/Checkout, ROAS por público, % de receita por site vs. WhatsApp, vendas por produto campeão, incremento de seguidores/DM captados via turbinados.
+
+3) DIAGNÓSTICO (PONTOS CRÍTICOS)
+1) Base orgânica perde alcance sem reengajamento contínuo → queda de visualizações/Stories e custo maior no funil.
+2) Público “engajados 180d” mistura pessoas frias (apenas viram anúncio) → remarketing ineficiente.
+3) Configuração de publicidade pode não estar completa (segmentos Engajado/Existentes).
+4) Reduzir turbinado e focar só em vendas diretas melhora curto prazo, mas enfraquece LTV se a base não for trabalhada.
+
+4) PLANO DE EXECUÇÃO (COM MONITORAMENTO)
+FASE 0 — PREPARAÇÃO (D0–D3)
+- Auditar pixel/CAPI (PageView, ViewContent, ATC, InitiateCheckout, Purchase).
+- Exportar listas: checkout 365d e clientes 365d do e-commerce/CRM; limpar e subir no Meta.
+- Configurar Publicidade (conta) → Segmentos de Público:
+  • Engajados = site/checkout (pixel + listas).
+  • Existentes = clientes (purchase).
+  Objetivo: orientar entrega por similaridade com compradores/checkout.
+
+FASE 1 — CRESCIMENTO DE BASE + REENGAJAMENTO (CONTÍNUO)
+- Turbinados (IG-only, via “Turbinar conteúdo do Instagram”) em posts já validados organicamente (Reels/Posts).
+- Segmentação mínima: gênero/idade/local de quem compra; usar listas de clientes como sugestão (não RMK) para orientar o algoritmo.
+- Campanha de Engajamento Base: seguidores/visitantes 180d, excluir 7d; orçamento simbólico para reativar alcance.
+- Fluxo DM (API): boas-vindas automático a novos seguidores com link do site + oferta de entrada.
+
+FASE 2 — VENDAS DIRETAS NO SITE (D1–D7)
+- Campanha de Conversão (Site) com 3 conjuntos (abertos/Advantage) priorizando produtos âncora R$100 / R$179 / R$199; criativos vencedores (Reels).
+- Orçamento base: manter R$400–450/d; otimizar por criativo (pausar os que consomem e não vendem).
+- Padrões de ação:
+  • CPA ruim → pausar.
+  • CPA ok → duplicar conjunto (lateralizar).
+  • CPA muito bom → aumentar orçamento gradualmente.
+  Meta: ROAS ≥ 3x por conjunto.
+
+FASE 3 — REMARKETING COMPORTAMENTAL (D3–D10)
+- Públicos “cirúrgicos” (evitar “engajados 180d” genérico):
+  • Viu ≥50–75% dos vídeos de produto nos 30d e/ou enviou DM.
+  • Visitou site 7d e/ou enviou DM 45d.
+- Ofertas específicas por público (ex.: “Seguidor 365d → cupom BF 30%”). Direcionar para site ou WhatsApp conforme urgência.
+
+FASE 4 — SAZONAL (BF/NATAL) (D-30 A D+7)
+- Warm-up: turbinados + engajamento base 2–4 semanas antes.
+- Sequência: Teaser → Abertura (seguidores 365d) → Ofertas por categoria (masculinas) → Última chance.
+- Operação WhatsApp: playbook de abordagem, gatilhos de presente (feminino comprando para masculino), cupom exclusivo para DM.
+
+5) CHECKLIST OPERACIONAL (PARA MONITORAR)
+DIÁRIO
+- Revisar spend, CTR/CPM, IC/ATC/Checkout, ROAS por conjunto.
+- Pausar criativos com baixo índice de qualidade/frequência alta.
+- Lateralizar o que bate meta; subir 1–2 variações do criativo campeão.
+- Garantir engajamento base ativo (campanha barata rodando).
+
+SEMANAL
+- Top 3 criativos por produto (R$100 / R$179 / R$199) e 1 novo teste.
+- Listas de remarketing (vídeo ≥50%, DM, site 7d) atualizadas.
+- Turbinados: revisar peças e trocar se orgânico não performou.
+- DM: acompanhar taxa de boas-vindas e cliques para o site.
+
+MENSAL
+- Mix de receita: site vs. WhatsApp; produtos campeões.
+- ROAS geral (meta ≥ 3x); crescimento de seguidores/DM.
+- Aprendizados do mês + plano de criativos do próximo mês.
+
+6) PASSO A PASSO — CONFIGURAÇÃO DE PUBLICIDADE (META)
+1) Ir em “Todas as ferramentas → Configuração de publicidade”.
+2) Em “Segmentos de Público”:
+   - Público Engajado: site/checkout (pixel + lista de iniciadores de checkout 1 ano).
+   - Público Existente: clientes (purchase) 1 ano (somente compradores).
+   Efeito: a entrega começa já puxando similaridade com quem engaja/compra — essencial para Advantage/Andrômeda.
+3) Ao impulsionar: Instagram apenas, conteúdos orgânicos com bom desempenho; fechar gênero/idade/local dos compradores e usar listas como sugestão (não remarketing direto).
+
+7) PLAYBOOKS RÁPIDOS
+- Remarketing “cirúrgico”: “Viu 50–75% (30d) + DM 45d” → criativo de oferta objetiva; CTA para WhatsApp (aproveitar taxa de 30%).
+- Seguidores 365d (BF/Natal): peça “só para quem nos segue” + cupom; rota para site com coleção masculina presenteável.
+- Engajamento Base: excluir 7d, incluir 180d; orçamento baixo (ex.: R$20/dia); trocar criativos semanalmente.

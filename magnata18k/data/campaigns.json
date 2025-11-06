@@ -1,0 +1,19 @@
+{
+    "labels": ["Sem 1", "Sem 2", "Sem 3", "Sem 4"],
+    "datasets": [
+        {
+            "label": "Investimento (R$)",
+            "data": [2800, 3000, 3100, 3150],
+            "borderColor": "#e74c3c",
+            "backgroundColor": "rgba(231, 76, 60, 0.1)",
+            "fill": true
+        },
+        {
+            "label": "Vendas Realizadas",
+            "data": [35, 40, 42, 46],
+            "borderColor": "#2ecc71",
+            "backgroundColor": "rgba(46, 204, 113, 0.1)",
+            "fill": true
+        }
+    ]
+}

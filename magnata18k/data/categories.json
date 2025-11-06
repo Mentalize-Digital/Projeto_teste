@@ -1,0 +1,5 @@
+{
+    "labels": ["Kit R$ 100", "Produto R$ 199", "Produto R$ 179", "Outros"],
+    "values": [100, 199, 179, 150],
+    "colors": ["#3498db", "#2ecc71", "#f1c40f", "#9b59b6"]
+}

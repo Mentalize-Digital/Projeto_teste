@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Receita Mensal",
+        "value": 29600,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Investimento/Dia",
+        "value": 450,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "ROAS Atual",
+        "value": 3.2,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Ticket Médio",
+        "value": 185,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Vendas/Mês",
+        "value": 163,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Conversão WhatsApp",
+        "value": 30,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "Investimento Mensal",
+        "value": 8600,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Taxa de Pagamento",
+        "value": 77,
+        "type": "percentage",
+        "change": 0
+    }
+]
