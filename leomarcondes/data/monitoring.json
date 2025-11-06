@@ -1,0 +1,384 @@
+{
+    "kpis_principais": [
+        {
+            "categoria": "Captação",
+            "indicadores": [
+                {
+                    "nome": "CPL Base (Seguidores → Lead)",
+                    "meta": "R$ 1,00 - R$ 3,00",
+                    "atual": "R$ 1,00",
+                    "formula": "Investimento Mensagem Nativa / Total de Cadastros",
+                    "frequencia": "Diário"
+                },
+                {
+                    "nome": "Total de Cadastros/mês",
+                    "meta": "≥ 2.000",
+                    "atual": "4.000+",
+                    "formula": "Soma de todos os cadastros via SaaS/formulário",
+                    "frequencia": "Diário"
+                },
+                {
+                    "nome": "Taxa de Conversão LP SaaS",
+                    "meta": "≥ 40%",
+                    "atual": "N/A",
+                    "formula": "(Cadastros / Visitantes LP) × 100",
+                    "frequencia": "Diário"
+                },
+                {
+                    "nome": "CPL por Origem",
+                    "meta": "SaaS: R$ 1 | BF/Lives: R$ 20",
+                    "atual": "R$ 1 (SaaS) | R$ 20 (BF)",
+                    "formula": "Investimento Origem / Leads Origem",
+                    "frequencia": "Diário"
+                }
+            ]
+        },
+        {
+            "categoria": "Qualificação",
+            "indicadores": [
+                {
+                    "nome": "% Leads Qualificados (Renda + Dor)",
+                    "meta": "≥ 25%",
+                    "atual": "N/A",
+                    "formula": "(Leads com Renda E Dor / Total Leads) × 100",
+                    "frequencia": "Semanal"
+                },
+                {
+                    "nome": "Precisão Agente de IA",
+                    "meta": "≥ 70%",
+                    "atual": "N/A",
+                    "formula": "(Classificações Corretas / Total Classificações) × 100",
+                    "frequencia": "Semanal"
+                },
+                {
+                    "nome": "Taxa de Conclusão Chatbot",
+                    "meta": "≥ 60%",
+                    "atual": "N/A",
+                    "formula": "(Conversas Completas / Total Iniciadas) × 100",
+                    "frequencia": "Diário"
+                },
+                {
+                    "nome": "SLA 1ª Resposta WhatsApp",
+                    "meta": "< 5 minutos",
+                    "atual": "5 min",
+                    "formula": "Tempo médio entre lead chegar e primeira resposta",
+                    "frequencia": "Diário"
+                }
+            ]
+        },
+        {
+            "categoria": "Comparecimento",
+            "indicadores": [
+                {
+                    "nome": "% Inscritos → Presentes (Zoom/Live)",
+                    "meta": "≥ 35%",
+                    "atual": "35%",
+                    "formula": "(Presentes / Inscritos) × 100",
+                    "frequencia": "Por evento"
+                },
+                {
+                    "nome": "Alcance Anúncios (5→1 dias)",
+                    "meta": "Frequência ≥ 3 impressões/dia",
+                    "atual": "N/A",
+                    "formula": "Impressões / Alcance",
+                    "frequencia": "Por campanha"
+                },
+                {
+                    "nome": "Taxa de Abertura Lembretes",
+                    "meta": "≥ 30% (email) | ≥ 80% (WhatsApp)",
+                    "atual": "N/A",
+                    "formula": "(Aberturas / Enviados) × 100",
+                    "frequencia": "Por evento"
+                },
+                {
+                    "nome": "Engajamento Grupos",
+                    "meta": "≥ 10% de interação",
+                    "atual": "N/A",
+                    "formula": "(Comentários + Reações) / Membros × 100",
+                    "frequencia": "Semanal"
+                }
+            ]
+        },
+        {
+            "categoria": "Conversão",
+            "indicadores": [
+                {
+                    "nome": "Funil MQL → SQL → Venda",
+                    "meta": "Conforme benchmark do setor",
+                    "atual": "N/A",
+                    "formula": "Taxas de conversão entre cada estágio",
+                    "frequencia": "Semanal"
+                },
+                {
+                    "nome": "Taxa de Fechamento Zoom",
+                    "meta": "Conforme histórico",
+                    "atual": "N/A",
+                    "formula": "(Vendas / Presentes Zoom) × 100",
+                    "frequencia": "Por evento"
+                },
+                {
+                    "nome": "Ticket Médio",
+                    "meta": "Conforme produto",
+                    "atual": "N/A",
+                    "formula": "Receita Total / Número de Vendas",
+                    "frequencia": "Mensal"
+                },
+                {
+                    "nome": "CAC/LTV Ratio",
+                    "meta": "LTV ≥ 3× CAC",
+                    "atual": "N/A",
+                    "formula": "Lifetime Value / Custo de Aquisição de Cliente",
+                    "frequencia": "Mensal"
+                }
+            ]
+        },
+        {
+            "categoria": "Retenção & Automação",
+            "indicadores": [
+                {
+                    "nome": "Taxa de Abertura Cadências Email",
+                    "meta": "≥ 25%",
+                    "atual": "N/A",
+                    "formula": "(Aberturas / Enviados) × 100",
+                    "frequencia": "Por cadência"
+                },
+                {
+                    "nome": "Taxa de Clique Cadências Email",
+                    "meta": "≥ 3%",
+                    "atual": "N/A",
+                    "formula": "(Cliques / Enviados) × 100",
+                    "frequencia": "Por cadência"
+                },
+                {
+                    "nome": "Taxa de Opt-out",
+                    "meta": "< 2%",
+                    "atual": "N/A",
+                    "formula": "(Descadastros / Total Base) × 100",
+                    "frequencia": "Mensal"
+                },
+                {
+                    "nome": "Churn Rate",
+                    "meta": "< 5% (assinaturas)",
+                    "atual": "N/A",
+                    "formula": "(Cancelamentos / Total Clientes) × 100",
+                    "frequencia": "Mensal"
+                }
+            ]
+        },
+        {
+            "categoria": "Performance Geral",
+            "indicadores": [
+                {
+                    "nome": "ROAS por Origem",
+                    "meta": "≥ 3:1",
+                    "atual": "N/A",
+                    "formula": "Receita / Investimento por Canal",
+                    "frequencia": "Semanal"
+                },
+                {
+                    "nome": "Investimento Total/mês",
+                    "meta": "R$ 76.000",
+                    "atual": "R$ 58.000",
+                    "formula": "Soma de todos os investimentos em marketing",
+                    "frequencia": "Mensal"
+                },
+                {
+                    "nome": "Volume de Leads/mês",
+                    "meta": "Crescimento de 30%",
+                    "atual": "4.000+",
+                    "formula": "Soma de todos os leads captados",
+                    "frequencia": "Mensal"
+                },
+                {
+                    "nome": "Receita Total",
+                    "meta": "Conforme projeção",
+                    "atual": "N/A",
+                    "formula": "Soma de todas as vendas do período",
+                    "frequencia": "Mensal"
+                }
+            ]
+        }
+    ],
+    "checklists_operacionais": {
+        "diario": [
+            "Verificar novos leads no CRM e garantir tagging correto",
+            "Monitorar SLA de 1ª resposta (< 5 min)",
+            "Acompanhar CPL por origem (SaaS, BF, Zoom)",
+            "Validar disparo de mensagens automáticas (ManyChat, WhatsApp)",
+            "Revisar dashboard de performance (investimento vs. leads)",
+            "Responder mensagens pendentes e atualizar pipeline",
+            "Verificar taxa de conclusão do chatbot de pré-qualificação"
+        ],
+        "semanal": [
+            "Analisar funil MQL → SQL → Venda por origem",
+            "Revisar taxa de qualificação (≥ 25% com renda + dor)",
+            "Avaliar performance de cadências (abertura e clique)",
+            "Testar novos criativos e mensagens (testes A/B)",
+            "Reunião com time comercial: objeções e ajustes de script",
+            "Monitorar ROAS por canal e ajustar orçamentos",
+            "Verificar precisão do agente de IA (≥ 70%)"
+        ],
+        "quinzenal": [
+            "Ciclo de testes A/B: assuntos, CTAs, ordem de steps",
+            "Revisar e otimizar campanhas de anúncios (pausar/escalar)",
+            "Analisar comparecimento em Zooms/Lives (≥ 35%)",
+            "Atualizar playbooks com aprendizados recentes",
+            "Reunião estratégica: definir testes do próximo ciclo",
+            "Avaliar lateralizações de performance (duplicar vencedores)"
+        ],
+        "mensal": [
+            "Relatório completo de todos os KPIs principais",
+            "Análise de CAC/LTV por origem e produto",
+            "Revisar churn rate e taxa de opt-out",
+            "Avaliar ROI geral da operação (Receita / Investimento)",
+            "Planejar calendário de Zooms/Lives do próximo mês",
+            "Reunião de retrospectiva: o que funcionou e o que não funcionou",
+            "Documentar melhores práticas e atualizar biblioteca"
+        ]
+    },
+    "entregaveis_90_dias": [
+        {
+            "entregavel": "Dashboard de Indicadores",
+            "descricao": "Dashboard completo com GA4, TrackLab, CRM integrado",
+            "prazo": "D10",
+            "responsavel": "Leo + BI"
+        },
+        {
+            "entregavel": "Mensagem Automática IG Nativa (ManyChat)",
+            "descricao": "Mensagem de boas-vindas com oferta SaaS e captação",
+            "prazo": "D15",
+            "responsavel": "Leo + Time Automação"
+        },
+        {
+            "entregavel": "CRM com Funis e Tags",
+            "descricao": "CRM configurado com funis Lead → MQL → SQL, tagging por origem",
+            "prazo": "D17",
+            "responsavel": "Leo + Time CRM"
+        },
+        {
+            "entregavel": "Cadências de Email e WhatsApp",
+            "descricao": "5 cadências ativas: Inbound, Reativação, No-Show, Follow-up, Upsell",
+            "prazo": "D21",
+            "responsavel": "Leo + Time Automação"
+        },
+        {
+            "entregavel": "Chatbot de Pré-Qualificação",
+            "descricao": "Chatbot inteligente para coletar dor, renda e urgência",
+            "prazo": "D24",
+            "responsavel": "Leo + Time Automação"
+        },
+        {
+            "entregavel": "Agente de IA para Qualificação",
+            "descricao": "Agente de IA treinado para identificar dor e renda em conversas",
+            "prazo": "D30",
+            "responsavel": "Leo + Time IA"
+        },
+        {
+            "entregavel": "Playbook de Comparecimento (5→1 dias)",
+            "descricao": "Sequência completa de anúncios, lembretes e reforços",
+            "prazo": "D25",
+            "responsavel": "Leo + Time Tráfego"
+        },
+        {
+            "entregavel": "5 Playbooks Operacionais",
+            "descricao": "Playbooks completos: Mensagem Nativa, Comparecimento, Qualificação, Cadências, Pitch",
+            "prazo": "D80",
+            "responsavel": "Leo + Toda Equipe"
+        },
+        {
+            "entregavel": "Treinamento Completo do Time",
+            "descricao": "Time interno treinado e operando autonomamente",
+            "prazo": "D90",
+            "responsavel": "Leo + Gestores"
+        },
+        {
+            "entregavel": "Operação Plug-and-Play",
+            "descricao": "Sistema completo funcionando com autonomia do cliente",
+            "prazo": "D90",
+            "responsavel": "Leo + Cliente"
+        }
+    ],
+    "timeline_metas": [
+        {
+            "periodo": "Dias 0-30",
+            "titulo": "Fundação e Infraestrutura",
+            "cor": "pink",
+            "metas": [
+                "UTMs e rastreamento implementados (GA4 + TrackLab)",
+                "ManyChat com mensagem nativa IG ativa (CPL ≤ R$ 3)",
+                "CRM configurado com funis e tags por origem",
+                "Base começando a crescer (meta: 2.000 cadastros/mês)",
+                "Cadências de email e WhatsApp implementadas",
+                "SLA de 1ª resposta < 5 minutos estabelecido",
+                "Chatbot de pré-qualificação funcionando",
+                "Dashboard de indicadores operacional",
+                "≥ 25% dos leads com renda e dor identificadas",
+                "Primeiros testes de agente de IA iniciados"
+            ]
+        },
+        {
+            "periodo": "Dias 31-60",
+            "titulo": "Otimização e Qualificação",
+            "cor": "blue",
+            "metas": [
+                "Agente de IA com ≥ 70% de precisão na qualificação",
+                "Rotas automáticas por perfil implementadas (Social Selling vs Low Ticket)",
+                "Sequência de comparecimento 5→1 dias testada e otimizada",
+                "Taxa de comparecimento Zoom/Lives ≥ 35%",
+                "Cadências com taxa de abertura ≥ 25% (email) e ≥ 80% (WhatsApp)",
+                "Lateralizações de campanhas vencedoras (CPL reduzido em 20-30%)",
+                "Testes A/B quinzenais gerando melhorias mensuráveis",
+                "Playbooks de comparecimento e pitch finalizados",
+                "ROAS por origem monitorado e otimizado (≥ 3:1)",
+                "Base qualificada crescendo consistentemente"
+            ]
+        },
+        {
+            "periodo": "Dias 61-90",
+            "titulo": "Escala e Autonomia",
+            "cor": "green",
+            "metas": [
+                "Investimento escalado para R$ 76k/mês com ROAS mantido",
+                "Volume de leads crescendo 30%+ vs. mês anterior",
+                "Time interno treinado e operando 100% autonomamente",
+                "5 playbooks completos documentados e implementados",
+                "Processos de comparecimento e conversão escaláveis",
+                "Churn rate < 5% em ofertas de assinatura",
+                "CAC/LTV ratio otimizado (LTV ≥ 3× CAC)",
+                "Alertas críticos configurados e monitorados",
+                "Operação plug-and-play entregue e validada",
+                "Handover completo com documentação e suporte contínuo"
+            ]
+        }
+    ],
+    "alertas_criticos": [
+        {
+            "alerta": "CPL acima de R$ 5 (SaaS)",
+            "acao": "Revisar mensagem nativa, testar novos hooks, ajustar segmentação"
+        },
+        {
+            "alerta": "SLA 1ª resposta > 10 min",
+            "acao": "Verificar alertas de notificação, redistribuir leads, treinar time"
+        },
+        {
+            "alerta": "Taxa de qualificação < 20%",
+            "acao": "Ajustar perguntas do chatbot, revisar script do agente de IA"
+        },
+        {
+            "alerta": "Comparecimento < 25%",
+            "acao": "Aumentar frequência de lembretes, testar novos horários, criar mais urgência"
+        },
+        {
+            "alerta": "Taxa de abertura cadências < 20%",
+            "acao": "Testar novos assuntos, revisar horário de envio, limpar base"
+        },
+        {
+            "alerta": "Churn rate > 7%",
+            "acao": "Entrevistar clientes que cancelaram, ajustar onboarding, melhorar suporte"
+        },
+        {
+            "alerta": "ROAS < 2:1",
+            "acao": "Pausar campanhas não rentáveis, focar em vencedores, revisar funil completo"
+        }
+    ]
+}

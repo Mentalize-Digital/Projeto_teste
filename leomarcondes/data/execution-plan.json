@@ -1,0 +1,441 @@
+[
+    {
+        "fase": "FASE 0: Onboarding & Desenho (D0-D3)",
+        "prazo": "Dias 0-3",
+        "status": "em-andamento",
+        "tarefas": [
+            {
+                "id": "0.1",
+                "titulo": "Kick-off e Briefing Completo",
+                "responsavel": "Leo + Equipe (4-5 pessoas)",
+                "prazo": "1 dia",
+                "metrica": "Briefing documentado + plano aprovado",
+                "subtarefas": [
+                    "Reunião de kick-off com todos os stakeholders",
+                    "Coletar acessos: Meta Ads, CRM, GA4, ManyChat, etc",
+                    "Briefing: copy, tom de voz, ofertas principais",
+                    "Mapeamento de objeções e scripts comerciais atuais",
+                    "Definir owners por frente (Tráfego, CRM, Conteúdo, Comercial)",
+                    "Criar cronograma detalhado dos 90 dias"
+                ]
+            },
+            {
+                "id": "0.2",
+                "titulo": "Mapa de Origens e Domínios",
+                "responsavel": "Leo + Time Técnico",
+                "prazo": "2 dias",
+                "metrica": "Todas as origens mapeadas e documentadas",
+                "subtarefas": [
+                    "Listar todas as campanhas e canais atuais",
+                    "Mapear origens: ORG, campanhas, carrinho, lives",
+                    "Definir nomenclatura de UTMs padronizada",
+                    "Configurar domínios e subdomínios",
+                    "Documentar fluxo de captura por origem",
+                    "Criar planilha de controle de UTMs"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 1: Rastreamento & Dados (D1-D10)",
+        "prazo": "Dias 1-10",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "1.1",
+                "titulo": "Padronização de UTMs",
+                "responsavel": "Leo + Time Técnico",
+                "prazo": "3 dias",
+                "metrica": "100% das campanhas com UTMs padronizadas",
+                "subtarefas": [
+                    "Criar estrutura de UTMs: source, medium, campaign, content",
+                    "Implementar UTMs em todos os links de campanha",
+                    "Adicionar UTMs em bio do Instagram",
+                    "Configurar UTMs em links de e-mail e WhatsApp",
+                    "Validar captura de UTMs no site/landing pages",
+                    "Criar documentação de padrões de UTM"
+                ]
+            },
+            {
+                "id": "1.2",
+                "titulo": "Ativação GA4 e TrackLab",
+                "responsavel": "Leo + Time Técnico",
+                "prazo": "5 dias",
+                "metrica": "Eventos-chave rastreados e validados",
+                "subtarefas": [
+                    "Configurar GA4: propriedade e streams",
+                    "Implementar eventos: page_view, lead, purchase",
+                    "Configurar eventos personalizados (SaaS_signup, Zoom_registration)",
+                    "Integrar TrackLab para rastreamento avançado",
+                    "Validar disparo correto de todos os eventos",
+                    "Criar conversões no Meta Ads a partir dos eventos"
+                ]
+            },
+            {
+                "id": "1.3",
+                "titulo": "Tags de Origem no CRM",
+                "responsavel": "Leo + Time CRM",
+                "prazo": "5 dias",
+                "metrica": "100% dos leads com origem identificada",
+                "subtarefas": [
+                    "Criar campos customizados no CRM (origem, campanha, UTMs)",
+                    "Configurar integração automática de tags",
+                    "Mapear tags por origem: IG, Zoom, SaaS, Carrinho, etc",
+                    "Criar automação de tagging por comportamento",
+                    "Validar captura correta em 50 leads de teste",
+                    "Documentar processo de tagging"
+                ]
+            },
+            {
+                "id": "1.4",
+                "titulo": "Dashboard Inicial de Indicadores",
+                "responsavel": "Leo + BI",
+                "prazo": "7 dias",
+                "metrica": "Dashboard funcional com visão diária",
+                "subtarefas": [
+                    "Definir KPIs principais: spend, leads, CPL, comparecimento",
+                    "Conectar fontes: GA4, TrackLab, CRM, Meta Ads",
+                    "Criar visualizações: por origem, por campanha, por estágio",
+                    "Implementar filtros: período, canal, produto",
+                    "Configurar atualização automática (diária)",
+                    "Treinar time no uso do dashboard"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 2: Base & Mensagem Nativa (D3-D15)",
+        "prazo": "Dias 3-15",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "2.1",
+                "titulo": "Mensagem Automática IG (ManyChat Nativo)",
+                "responsavel": "Leo + Time Automação",
+                "prazo": "5 dias",
+                "metrica": "Mensagem ativa para 100% dos novos seguidores",
+                "subtarefas": [
+                    "Habilitar ManyChat com API nativa do Instagram",
+                    "Criar mensagem de boas-vindas com reciprocidade",
+                    "Oferecer SaaS/benefício gratuito (mini-rastreamento)",
+                    "Criar CTA claro para cadastro (nome, email, telefone)",
+                    "Configurar disparo automático para novos seguidores",
+                    "Testar fluxo completo com 20 contas de teste"
+                ]
+            },
+            {
+                "id": "2.2",
+                "titulo": "Landing Page de Cadastro SaaS",
+                "responsavel": "Leo + Time Conteúdo",
+                "prazo": "7 dias",
+                "metrica": "LP com conversão ≥ 40%",
+                "subtarefas": [
+                    "Criar copy da LP: benefícios do SaaS gratuito",
+                    "Design: formulário simples (nome, email, telefone)",
+                    "Campos opcionais: renda, dor principal",
+                    "Adicionar prova social e depoimentos",
+                    "Implementar thank you page com próximos passos",
+                    "Otimizar para mobile (90% do tráfego IG)"
+                ]
+            },
+            {
+                "id": "2.3",
+                "titulo": "Meta de Captação via SaaS",
+                "responsavel": "Leo + Time Tráfego",
+                "prazo": "10 dias",
+                "metrica": "≥ 2.000 cadastros/mês com CPL ≤ R$ 3",
+                "subtarefas": [
+                    "Ajustar mensagem nativa baseado em testes A/B",
+                    "Aumentar frequência de posts orgânicos para crescer seguidores",
+                    "Criar anúncios de engajamento para crescimento de base",
+                    "Monitorar taxa de conversão da mensagem nativa",
+                    "Analisar: quais mensagens geram mais cadastros",
+                    "Documentar melhores práticas"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 3: CRM & Cadências (D7-D30)",
+        "prazo": "Dias 7-30",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "3.1",
+                "titulo": "Migração/Ajuste de CRM",
+                "responsavel": "Leo + Time CRM",
+                "prazo": "10 dias",
+                "metrica": "CRM configurado e operacional",
+                "subtarefas": [
+                    "Avaliar CRM atual vs. necessidades (ou migrar para 'clientizão')",
+                    "Criar funis: Lead → MQL → SQL → Oportunidade → Cliente",
+                    "Configurar campos customizados (origem, renda, dor, produto)",
+                    "Implementar automação de distribuição de leads",
+                    "Configurar regras de roteamento por qualificação",
+                    "Treinar time comercial no novo CRM"
+                ]
+            },
+            {
+                "id": "3.2",
+                "titulo": "Cadências de E-mail",
+                "responsavel": "Leo + Time Automação",
+                "prazo": "14 dias",
+                "metrica": "5 cadências ativas com taxa de abertura ≥ 25%",
+                "subtarefas": [
+                    "Cadência Inbound: boas-vindas + nutrição + oferta",
+                    "Cadência Reativação: base fria (90-180d sem interação)",
+                    "Cadência No-Show: não compareceu no Zoom",
+                    "Cadência Follow-up: após reunião/proposta",
+                    "Cadência Upsell: clientes atuais com novas ofertas",
+                    "Configurar testes A/B: assunto, CTA, ordem"
+                ]
+            },
+            {
+                "id": "3.3",
+                "titulo": "Cadências de WhatsApp",
+                "responsavel": "Leo + Time Comercial",
+                "prazo": "14 dias",
+                "metrica": "API oficial ativa + SLA 1ª resposta < 5 min",
+                "subtarefas": [
+                    "Configurar API oficial do WhatsApp",
+                    "Criar templates aprovados pelo Meta",
+                    "Cadência Welcome: primeiro contato via WhatsApp",
+                    "Cadência Reminder: antes de Zoom/Live",
+                    "Cadência Follow-up: após evento",
+                    "Configurar disparos automáticos por trigger"
+                ]
+            },
+            {
+                "id": "3.4",
+                "titulo": "Metas de SLA e Pipeline",
+                "responsavel": "Leo + Time Comercial",
+                "prazo": "Contínuo (D7-D30)",
+                "metrica": "SLA < 5 min + ≥ 25% leads qualificados",
+                "subtarefas": [
+                    "Implementar alertas de novo lead (push/Slack/email)",
+                    "Criar playbook de primeira resposta (script)",
+                    "Monitorar tempo de resposta por closer",
+                    "Identificar leads com dor/renda (≥ 25% do total)",
+                    "Criar visão de pipeline por origem e estágio",
+                    "Relatório semanal de performance"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 4: Qualificação & Agentes de IA (D10-D30)",
+        "prazo": "Dias 10-30",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "4.1",
+                "titulo": "Chatbot de Pré-Qualificação",
+                "responsavel": "Leo + Time Automação",
+                "prazo": "14 dias",
+                "metrica": "Chatbot ativo com ≥ 60% de conclusão",
+                "subtarefas": [
+                    "Definir perguntas de qualificação: renda, dor, urgência",
+                    "Criar fluxo conversacional natural (não robótico)",
+                    "Implementar lateralizações: testar diferentes mensagens",
+                    "Configurar respostas baseadas em keywords",
+                    "Integrar com CRM: enviar dados de qualificação",
+                    "Testar com 100 leads reais e ajustar"
+                ]
+            },
+            {
+                "id": "4.2",
+                "titulo": "Agente de IA para Coleta de Dor",
+                "responsavel": "Leo + Time IA",
+                "prazo": "20 dias",
+                "metrica": "Agente identifica dor em ≥ 70% das conversas",
+                "subtarefas": [
+                    "Treinar modelo de IA com conversas anteriores",
+                    "Criar prompts para extrair dor e contexto",
+                    "Implementar classificação de dor (1-10)",
+                    "Configurar extração de renda aproximada",
+                    "Testar precisão com 50 conversas conhecidas",
+                    "Ajustar modelo baseado em feedback"
+                ]
+            },
+            {
+                "id": "4.3",
+                "titulo": "Rotas Automáticas por Qualificação",
+                "responsavel": "Leo + Time CRM",
+                "prazo": "20 dias",
+                "metrica": "≥ 30% dos leads qualificados com rota definida",
+                "subtarefas": [
+                    "Rota 1: Social Selling para alta renda + dor clara",
+                    "Rota 2: Low Ticket/Assinatura para baixa renda",
+                    "Rota 3: Nutrição para sem dor identificada",
+                    "Configurar automação de distribuição por rota",
+                    "Criar playbooks específicos por rota",
+                    "Monitorar taxa de conversão por rota"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 5: Comparecimento & Conversão (D15-D45)",
+        "prazo": "Dias 15-45",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "5.1",
+                "titulo": "Calendário de Zoom/Lives",
+                "responsavel": "Leo + Time Conteúdo",
+                "prazo": "7 dias",
+                "metrica": "Calendário mensal definido e divulgado",
+                "subtarefas": [
+                    "Definir temas e datas (ex.: toda terça e quinta)",
+                    "Criar títulos atraentes com mecanismo único",
+                    "Ex.: 'Guarda Blindada', 'Investigação FBI'",
+                    "Estruturar pitch de vendas para cada tema",
+                    "Preparar bônus e ofertas especiais",
+                    "Criar página de inscrição otimizada"
+                ]
+            },
+            {
+                "id": "5.2",
+                "titulo": "Anúncios de Alcance (5→1 dias)",
+                "responsavel": "Leo + Time Tráfego",
+                "prazo": "10 dias",
+                "metrica": "Sequência ativa com controle de frequência ≥ 3/dia",
+                "subtarefas": [
+                    "D-5: Anúncio de teaser (mecanismo único)",
+                    "D-3: Anúncio com benefícios claros",
+                    "D-1: Anúncio de última chamada + urgência",
+                    "Configurar frequência: ≥ 3 impressões/pessoa/dia",
+                    "Segmentar: base aquecida + lookalike de clientes",
+                    "Orçamento progressivo: 20% → 30% → 50% do total"
+                ]
+            },
+            {
+                "id": "5.3",
+                "titulo": "Grupos Aquecidos (Conteúdo)",
+                "responsavel": "Leo + Time Conteúdo",
+                "prazo": "14 dias",
+                "metrica": "4-6 peças de conteúdo por evento",
+                "subtarefas": [
+                    "Criar vídeos curtos (15-30s) com prova social",
+                    "Criar estáticos com depoimentos e resultados",
+                    "Gravar áudios/vídeos de clientes satisfeitos",
+                    "Publicar em grupos e comunidades relevantes",
+                    "Criar senso de comunidade e pertencimento",
+                    "Monitorar engajamento e interações"
+                ]
+            },
+            {
+                "id": "5.4",
+                "titulo": "Lembretes e Reforços (D-1 e Dia D)",
+                "responsavel": "Leo + Time Automação",
+                "prazo": "Contínuo",
+                "metrica": "Taxa de comparecimento ≥ 35%",
+                "subtarefas": [
+                    "D-1: E-mail de lembrete com link do Zoom",
+                    "D-1: WhatsApp lembrete (18h) com horário",
+                    "2h antes: Push notification/SMS de lembrete",
+                    "30min antes: WhatsApp urgente 'Está começando!'",
+                    "Criar senso de urgência e FOMO",
+                    "Monitorar confirmações e ajustar estratégia"
+                ]
+            },
+            {
+                "id": "5.5",
+                "titulo": "Pitch e Conversão no Zoom",
+                "responsavel": "Leo + Time Comercial",
+                "prazo": "Contínuo",
+                "metrica": "Taxa de fechamento conforme benchmark",
+                "subtarefas": [
+                    "Estruturar apresentação: problema → solução → oferta",
+                    "Criar bônus fortes (ex.: sessões extras, acesso VIP)",
+                    "Definir call-to-action claro e urgente",
+                    "Implementar oferta limitada (vagas/tempo)",
+                    "Follow-up imediato após Zoom (15 min)",
+                    "Documentar objeções e criar respostas padrão"
+                ]
+            }
+        ]
+    },
+    {
+        "fase": "FASE 6: Otimização & Handover (D30-D90)",
+        "prazo": "Dias 30-90",
+        "status": "pendente",
+        "tarefas": [
+            {
+                "id": "6.1",
+                "titulo": "Ciclos Quinzenais de Testes",
+                "responsavel": "Leo + Toda Equipe",
+                "prazo": "Contínuo (60 dias)",
+                "metrica": "2 testes A/B por quinzena",
+                "subtarefas": [
+                    "Testar: assuntos de e-mail, CTAs, ordem de steps",
+                    "Testar: mensagens do chatbot e agente de IA",
+                    "Testar: ofertas e bônus em Zoom/Lives",
+                    "Testar: frequência e timings de disparos",
+                    "Documentar resultados e implementar vencedores",
+                    "Criar biblioteca de melhores práticas"
+                ]
+            },
+            {
+                "id": "6.2",
+                "titulo": "Lateralizações de Performance",
+                "responsavel": "Leo + Time Tráfego",
+                "prazo": "Contínuo (60 dias)",
+                "metrica": "Redução de CPL em 20-30%",
+                "subtarefas": [
+                    "Identificar campanhas/mensagens vencedoras",
+                    "Duplicar estratégias que funcionam",
+                    "Pausar o que não performa",
+                    "Testar novos criativos semanalmente",
+                    "Escalar orçamento em vencedores gradualmente",
+                    "Monitorar ROAS e CAC/LTV por canal"
+                ]
+            },
+            {
+                "id": "6.3",
+                "titulo": "Documentação de Playbooks",
+                "responsavel": "Leo + Toda Equipe",
+                "prazo": "30 dias (D60-D90)",
+                "metrica": "5 playbooks completos e aprovados",
+                "subtarefas": [
+                    "Playbook: Mensagem Nativa IG e captação SaaS",
+                    "Playbook: Sequência de comparecimento (5→1 dias)",
+                    "Playbook: Qualificação e rotas (IA + CRM)",
+                    "Playbook: Cadências e follow-up (email + WhatsApp)",
+                    "Playbook: Pitch Zoom e fechamento",
+                    "Criar vídeos de treinamento (5-10 min cada)"
+                ]
+            },
+            {
+                "id": "6.4",
+                "titulo": "Treinamento Operacional do Time",
+                "responsavel": "Leo + Gestores",
+                "prazo": "21 dias (D70-D90)",
+                "metrica": "Time interno operando 100% autonomamente",
+                "subtarefas": [
+                    "Treinar time de tráfego: campanhas e otimizações",
+                    "Treinar time de CRM: funis, tags e automações",
+                    "Treinar closers: playbooks e scripts",
+                    "Treinar time de conteúdo: criativos e mensagens",
+                    "Realizar simulações e role-plays",
+                    "Entregar certificação de conclusão"
+                ]
+            },
+            {
+                "id": "6.5",
+                "titulo": "Handover e Operação Autônoma",
+                "responsavel": "Leo + Cliente",
+                "prazo": "7 dias (D84-D90)",
+                "metrica": "Operação plug-and-play funcionando",
+                "subtarefas": [
+                    "Reunião de handover: apresentar todos os entregáveis",
+                    "Transferir acessos e propriedades",
+                    "Documentar processos e rituais de acompanhamento",
+                    "Criar checklist de manutenção mensal",
+                    "Definir indicadores de sucesso a longo prazo",
+                    "Estabelecer canal de suporte pós-implementação"
+                ]
+            }
+        ]
+    }
+]

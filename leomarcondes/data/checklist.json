@@ -1,0 +1,50 @@
+[
+    {
+        "task": "Kick-off e briefing completo (copy, tom, ofertas, objeções)",
+        "completed": false
+    },
+    {
+        "task": "Padronizar UTMs e ativar GA4/TrackLab com eventos-chave",
+        "completed": false
+    },
+    {
+        "task": "Configurar tags de origem no CRM e dashboard inicial",
+        "completed": false
+    },
+    {
+        "task": "Habilitar mensagem nativa IG (ManyChat) com SaaS/benefício",
+        "completed": false
+    },
+    {
+        "task": "Migrar/ajustar CRM e criar funis de qualificação",
+        "completed": false
+    },
+    {
+        "task": "Criar cadências de e-mail e WhatsApp (inbound, reativação, follow-up)",
+        "completed": false
+    },
+    {
+        "task": "Implementar chatbot de pré-qualificação com agente de IA",
+        "completed": false
+    },
+    {
+        "task": "Configurar API oficial do WhatsApp para disparos em massa",
+        "completed": false
+    },
+    {
+        "task": "Criar playbook de comparecimento (sequência 5→1 dias)",
+        "completed": false
+    },
+    {
+        "task": "Estruturar anúncios de alcance com controle de frequência",
+        "completed": false
+    },
+    {
+        "task": "Criar grupos aquecidos (vídeo + estático + prova social)",
+        "completed": false
+    },
+    {
+        "task": "Documentar playbooks comerciais e treinar time operacional",
+        "completed": false
+    }
+]

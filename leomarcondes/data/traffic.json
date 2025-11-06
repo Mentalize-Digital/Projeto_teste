@@ -1,0 +1,5 @@
+{
+    "labels": ["Mensagem Nativa IG", "Lives/Zoom", "Captação Direta", "Reativação Base"],
+    "values": [50, 25, 15, 10],
+    "colors": ["#3498db", "#2ecc71", "#f39c12", "#9b59b6"]
+}

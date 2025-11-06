@@ -1,0 +1,50 @@
+[
+    {
+        "label": "Investimento Mensal Atual",
+        "value": 58000,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Meta Investimento/Mês",
+        "value": 76000,
+        "type": "currency",
+        "change": 31
+    },
+    {
+        "label": "CPL Base (SaaS)",
+        "value": 1,
+        "type": "currency",
+        "change": -95
+    },
+    {
+        "label": "CPL Captação BF",
+        "value": 20,
+        "type": "currency",
+        "change": 0
+    },
+    {
+        "label": "Cadastros SaaS",
+        "value": 4000,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Meta Cadastros/Mês",
+        "value": 2000,
+        "type": "number",
+        "change": 0
+    },
+    {
+        "label": "Meta Comparecimento",
+        "value": 35,
+        "type": "percentage",
+        "change": 0
+    },
+    {
+        "label": "SLA 1ª Resposta (min)",
+        "value": 5,
+        "type": "number",
+        "change": 0
+    }
+]

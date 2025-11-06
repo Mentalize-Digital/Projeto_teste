@@ -1,0 +1,77 @@
+MATERIAL DE APOIO — MENTORIA (Implantação de Base, CRM e Automação)
+
+1) RESUMO EXECUTIVO — O QUE FOI FALADO E ENSINADO
+- Reativação e crescimento de base: lives, disparos e ofertas com “mecanismos únicos” (ex.: Guarda Blindada, Investigação FBI), pitch em Zoom e aumento de budget (≈ R$58k/mês → meta R$76k/mês). Em testes, SP ficou caro; ao abrir para Sul/Sudeste o custo melhorou. Foco nos melhores criativos e ganho consistente de base.
+- Mensagem nativa para novos seguidores (ManyChat/Instagram): habilitar a mensagem automática segura com proposta de valor imediata (reciprocidade). Ex.: oferecer um mini-SaaS de rastreamento gratuito para capturar nome/e-mail/telefone. Já foram +4.000 cadastros; custo efetivo ~R$1/lead via base (vs. ~R$20 em captação de BF).
+- Qualificação e funil: cadastro simples (nome, e-mail, telefone; opcional renda/dor). Um agente de IA coleta dores e distribui rotas: social selling para qualificados; low ticket/assinatura para não qualificados.
+- Comparecimento para Zoom/Lives: programação 5→1 dias com campanhas de alcance (controle de frequência) e uso de grupos aquecidos com estáticos + vídeos + provas sociais. Na véspera: tráfego mais forte e lembretes.
+- Estrutura de 90 dias (“acelerador”): implementação completa de rastreamento (UTM/GA4/TrackLab), CRM (migração se preciso), cadências de e-mail e WhatsApp, chatbots de pré-qualificação (testes/lateralizações), playbooks comerciais e dashboard de indicadores — com equipe dedicada (4–5 pessoas).
+- WhatsApp/API oficial e mapeamento: número com API oficial para disparos sem queda, funis por campanha, tags de origem e visão unificada por indicadores (negócios recebidos, motivo de ganho/perda, origem da venda, etc.).
+
+2) MÉTRICAS E REFERÊNCIAS (PARA O BI)
+- Tráfego mensal atual: ~R$58.000 (meta: R$76.000).
+- Captação por mensagem nativa: ~R$1 por lead (com SaaS/benefício); captação em BF: ~R$20.
+- Cadastros no SaaS: 4.000+ (meta crescer com reciprocidade).
+- Comparecimento: sequência 5→1 dias; controle de frequência ≥3/dia por pessoa nos anúncios; grupos com vídeos/áudios/estáticos + prova social.
+- Operação comercial/CRM: tagueamento por origem (campanha/ORG/carrinho), API oficial para disparos em massa, indicadores por closer/campanha.
+KPIs sugeridos: CPL base (seguidores/lead), #leads SaaS, % qualificados (renda/dor), % inscritos→presentes (Zoom), MQL→SQL→Venda, SLA 1ª resposta no WhatsApp, ROAS por origem, abertura/clique nas cadências, opt-out e churn de base.
+
+3) PLANO DE EXECUÇÃO (90 DIAS) — RESPONSÁVEIS, PRAZOS E METAS
+FASE 0 — ONBOARDING & DESENHO (D0–D3)
+- Ações: kick-off; acessos; briefing (copy, tom, ofertas, objeções); mapa de origens; domínios/UTMs.
+- Entregáveis: plano detalhado + cronograma; owners por frente (Tráfego, CRM, Conteúdo, Comercial).
+
+FASE 1 — RASTREAMENTO & DADOS (D1–D10)
+- Ações: padronizar UTMs; ativar GA4/TrackLab; eventos-chave; tags de origem no CRM; dashboard inicial.
+- Meta: 100% das leads/vendas com origem rastreável e visão diária no dashboard.
+
+FASE 2 — BASE & MENSAGEM NATIVA (D3–D15)
+- Ações: habilitar mensagem automática p/ novos seguidores no IG (ManyChat nativo) com reciprocidade (SaaS/benefício) + CTA para cadastro (nome/e-mail/telefone).
+- Meta: lead ≤ R$3 via SaaS e ≥2.000 cadastros no mês 1 (ajustar à capacidade).
+
+FASE 3 — CRM & CADÊNCIAS (D7–D30)
+- Ações: migrar/ajustar CRM (ou “clientizão”); criar funis; automação de distribuição (qualificação); cadências e-mail/WhatsApp (inbound, reativação, no-show, follow-up).
+- Metas: SLA 1ª resposta < 5 min; ≥25% dos leads com dor/renda identificada; pipeline visível por origem.
+
+FASE 4 — QUALIFICAÇÃO & AGENTES DE IA (D10–D30)
+- Ações: chatbot de pré-qualificação (mensagens testadas/lateralizações); agente de IA para coletar dor inicial e definir rotas (social selling alta renda; low ticket/assinatura baixa renda).
+- Meta: ≥30% dos novos leads qualificados (fit definido).
+
+FASE 5 — COMPARECIMENTO & CONVERSÃO (D15–D45)
+- Ações: calendário de Zoom/Lives; anúncios de alcance 5→1 dias (controle de frequência); grupos aquecidos (vídeo+estático+prova social); pitch e bônus fortes nos picos (ex.: BF).
+- Metas: comparecimento ≥35% dos inscritos; taxa de fechamento conforme benchmark do time.
+
+FASE 6 — OTIMIZAÇÃO & HANDOVER (D30–D90)
+- Ações: ciclos quinzenais de testes/lateralizações (cadências, mensagens, agentes, ofertas); playbooks documentados; treinamento operacional do time.
+- Metas: redução de CPL e aumento de LTV; operação “plug-and-play” para o time interno.
+
+4) CHECKLISTS OPERACIONAIS
+DIÁRIO
+- [ ] Painel de spend/ROAS por origem (TrackLab/CRM) acompanhado.
+- [ ] SLA de 1ª resposta no WhatsApp dentro da meta; tarefas por estágio atualizadas.
+- [ ] Aberturas/cliques das cadências do dia; pausas e lateralizações de mensagens/ads com baixo desempenho.
+
+SEMANAL
+- [ ] Coorte de leads do SaaS: custo, % qualificados, avanço no funil.
+- [ ] Teste A/B de mensagem nativa e cadências (assunto, CTA, ordem de steps).
+- [ ] Comparecimento (inscritos→presentes) e ações de reforço (vídeo curto, prova social, reminders).
+
+QUINZENAL
+- [ ] Auditoria de tags de origem e qualidade dos dados (fontes, canais).
+- [ ] Revisão de scripts comerciais e motivos de perda/ganho; ajuste de rotas do agente.
+
+MENSAL
+- [ ] Receita por origem e por play (Zoom, Low, Serviço), CAC/LTV.
+- [ ] Saúde de base (crescimento, opt-out, engajamento) e roadmap de melhorias.
+
+5) ENTREGÁVEIS PRINCIPAIS
+1. Dashboard (GA4/TrackLab + CRM): spend, ROAS, origem, pipeline e comparecimento.
+2. Mensagem nativa IG (ManyChat) + benefício/SaaS com cadastro simples.
+3. Funis de CRM + cadências (e-mail/WhatsApp) com tags e automações.
+4. Chatbot/Agente de IA de pré-qualificação (coleta de dor/renda e rotas).
+5. Playbook de comparecimento (5→1 dias) e roteiro de pitch + bônus.
+
+6) RITOS DE ACOMPANHAMENTO
+- Semanal (30–45 min): métricas-chave, bloqueios e próximos testes.
+- Quinzenal (60 min): revisão de cadências, funis e agentes; priorização de melhorias.
+- Mensal (90 min): coortes, origem de receita, CAC/LTV e planejamento do mês seguinte.
